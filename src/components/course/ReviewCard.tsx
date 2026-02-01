@@ -1,9 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { Compass, ThumbsUp, Calendar, User, GraduationCap } from "lucide-react";
+import { Heart, Calendar, User, GraduationCap } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { useSession } from "next-auth/react";
+import { toast } from "sonner";
 
 // Not renkleri
 const gradeColors: Record<string, string> = {
@@ -52,15 +54,51 @@ export default function ReviewCard({
   isLiked = false,
   onLike,
 }: ReviewCardProps) {
+  const { status } = useSession();
   const [liked, setLiked] = useState(isLiked);
   const [likeCount, setLikeCount] = useState(likes);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleLike = () => {
-    if (onLike) {
-      onLike(id);
+  const handleLike = async () => {
+    if (status !== "authenticated") {
+      toast.error("Beğenmek için giriş yapmalısınız");
+      return;
     }
-    setLiked(!liked);
-    setLikeCount(liked ? likeCount - 1 : likeCount + 1);
+
+    // Optimistic update
+    const newLiked = !liked;
+    const newCount = newLiked ? likeCount + 1 : likeCount - 1;
+    setLiked(newLiked);
+    setLikeCount(newCount);
+    setIsLoading(true);
+
+    try {
+      const response = await fetch(`/api/reviews/${id}/like`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reviewType: "course" }),
+      });
+
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.error || "Beğeni işlemi başarısız");
+      }
+
+      const data = await response.json();
+      setLiked(data.liked);
+      setLikeCount(data.likeCount);
+
+      if (onLike) {
+        onLike(id);
+      }
+    } catch (error) {
+      // Rollback on error
+      setLiked(!newLiked);
+      setLikeCount(newLiked ? newCount - 1 : newCount + 1);
+      toast.error(error instanceof Error ? error.message : "Bir hata oluştu");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const scores = [
@@ -140,12 +178,13 @@ export default function ReviewCard({
           variant="ghost"
           size="sm"
           onClick={handleLike}
+          disabled={isLoading}
           className={cn(
-            "gap-1.5 text-muted-foreground hover:text-primary",
-            liked && "text-primary"
+            "gap-1.5 text-muted-foreground hover:text-red-500",
+            liked && "text-red-500"
           )}
         >
-          <Compass className={cn("h-4 w-4", liked && "fill-primary/20")} />
+          <Heart className={cn("h-4 w-4", liked && "fill-red-500")} />
           <span>{likeCount}</span>
         </Button>
       </div>

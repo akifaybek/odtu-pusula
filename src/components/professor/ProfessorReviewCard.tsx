@@ -1,16 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import { Compass, Calendar, User, BookOpen, ThumbsUp, ThumbsDown } from "lucide-react";
+import { Heart, Calendar, User, BookOpen, ThumbsUp, ThumbsDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
+import { useSession } from "next-auth/react";
+import { toast } from "sonner";
 
 interface ProfessorReviewCardProps {
   id: string;
   username: string | null;
   semester: string;
-  courseCode: string;
-  courseName: string;
+  courseName: string; // course code olarak kullanılacak
   teaching: number;
   grading: number;
   accessibility: number;
@@ -27,7 +28,6 @@ export default function ProfessorReviewCard({
   id,
   username,
   semester,
-  courseCode,
   courseName,
   teaching,
   grading,
@@ -40,15 +40,51 @@ export default function ProfessorReviewCard({
   isLiked = false,
   onLike,
 }: ProfessorReviewCardProps) {
+  const { status } = useSession();
   const [liked, setLiked] = useState(isLiked);
   const [likeCount, setLikeCount] = useState(likes);
+  const [isLoading, setIsLoading] = useState(false);
 
-  const handleLike = () => {
-    if (onLike) {
-      onLike(id);
+  const handleLike = async () => {
+    if (status !== "authenticated") {
+      toast.error("Beğenmek için giriş yapmalısınız");
+      return;
     }
-    setLiked(!liked);
-    setLikeCount(liked ? likeCount - 1 : likeCount + 1);
+
+    // Optimistic update
+    const newLiked = !liked;
+    const newCount = newLiked ? likeCount + 1 : likeCount - 1;
+    setLiked(newLiked);
+    setLikeCount(newCount);
+    setIsLoading(true);
+
+    try {
+      const response = await fetch(`/api/reviews/${id}/like`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ reviewType: "professor" }),
+      });
+
+      if (!response.ok) {
+        const data = await response.json();
+        throw new Error(data.error || "Beğeni işlemi başarısız");
+      }
+
+      const data = await response.json();
+      setLiked(data.liked);
+      setLikeCount(data.likeCount);
+
+      if (onLike) {
+        onLike(id);
+      }
+    } catch (error) {
+      // Rollback on error
+      setLiked(!newLiked);
+      setLikeCount(newLiked ? newCount - 1 : newCount + 1);
+      toast.error(error instanceof Error ? error.message : "Bir hata oluştu");
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const scores = [
@@ -84,7 +120,7 @@ export default function ProfessorReviewCard({
               <span>•</span>
               <span className="flex items-center gap-1">
                 <BookOpen className="h-3 w-3" />
-                {courseCode}
+                {courseName}
               </span>
             </div>
           </div>
@@ -111,12 +147,6 @@ export default function ProfessorReviewCard({
             </>
           )}
         </div>
-      </div>
-
-      {/* Ders bilgisi */}
-      <div className="px-3 py-2 bg-muted/30 rounded-lg mb-4 text-sm">
-        <span className="font-medium text-foreground">{courseCode}</span>
-        <span className="text-muted-foreground"> · {courseName}</span>
       </div>
 
       {/* Mini puan göstergeleri */}
@@ -150,12 +180,13 @@ export default function ProfessorReviewCard({
           variant="ghost"
           size="sm"
           onClick={handleLike}
+          disabled={isLoading}
           className={cn(
-            "gap-1.5 text-muted-foreground hover:text-primary",
-            liked && "text-primary"
+            "gap-1.5 text-muted-foreground hover:text-red-500",
+            liked && "text-red-500"
           )}
         >
-          <Compass className={cn("h-4 w-4", liked && "fill-primary/20")} />
+          <Heart className={cn("h-4 w-4", liked && "fill-red-500")} />
           <span>{likeCount}</span>
         </Button>
       </div>

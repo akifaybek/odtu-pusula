@@ -104,6 +104,7 @@ model User {
   sessions         Session[]
   courseReviews    CourseReview[]
   professorReviews ProfessorReview[]
+  reviewLikes      ReviewLike[]
 
   @@index([departmentId])
   @@index([email])
@@ -239,4 +240,21 @@ model ProfessorReview {
   @@index([courseId])
   @@index([userId])
   @@index([createdAt])
+}
+
+// ============== ReviewLike Model ==============
+
+model ReviewLike {
+  id         String   @id @default(cuid())
+  userId     String
+  reviewId   String
+  reviewType String   // "course" veya "professor"
+  createdAt  DateTime @default(now())
+
+  // Relations
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, reviewId, reviewType])
+  @@index([reviewId, reviewType])
+  @@index([userId])
 }
