@@ -83,9 +83,9 @@ interface CourseDetailProps {
   course: {
     code: string;
     name: string;
-    department: string;
+    department: string | { code: string; name: string };
     credits: number;
-    description?: string;
+    description?: string | null;
   };
   stats: {
     overall: number;

@@ -31,6 +31,10 @@ export const authOptions: NextAuthOptions = {
           throw new Error("Geçersiz email veya şifre");
         }
 
+        if (user.isBanned) {
+          throw new Error("Hesabınız askıya alınmıştır. Destek için iletişime geçin.");
+        }
+
         const isPasswordValid = await bcrypt.compare(
           credentials.password,
           user.password
@@ -45,6 +49,8 @@ export const authOptions: NextAuthOptions = {
           email: user.email,
           name: user.name,
           emailVerified: user.emailVerified,
+          role: user.role,
+          isBanned: user.isBanned,
         };
       },
     }),
@@ -57,17 +63,35 @@ export const authOptions: NextAuthOptions = {
     newUser: "/kayit",
   },
   callbacks: {
-    async jwt({ token, user }) {
+    async jwt({ token, user, trigger }) {
       if (user) {
         token.id = user.id;
         token.emailVerified = user.emailVerified;
+        token.role = user.role;
+        token.isBanned = user.isBanned;
       }
+
+      // Refresh user data on session update
+      if (trigger === "update") {
+        const dbUser = await prisma.user.findUnique({
+          where: { id: token.id },
+          select: { role: true, isBanned: true, emailVerified: true },
+        });
+        if (dbUser) {
+          token.role = dbUser.role;
+          token.isBanned = dbUser.isBanned;
+          token.emailVerified = dbUser.emailVerified;
+        }
+      }
+
       return token;
     },
     async session({ session, token }) {
       if (session.user) {
         session.user.id = token.id as string;
         session.user.emailVerified = token.emailVerified as Date | null;
+        session.user.role = token.role;
+        session.user.isBanned = token.isBanned;
       }
       return session;
     },

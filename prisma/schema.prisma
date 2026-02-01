@@ -13,6 +13,24 @@ datasource db {
 
 // ============== ENUMS ==============
 
+enum Role {
+  USER
+  MODERATOR
+  ADMIN
+}
+
+enum ReviewStatus {
+  PENDING
+  APPROVED
+  REJECTED
+}
+
+enum ReportStatus {
+  PENDING
+  RESOLVED
+  DISMISSED
+}
+
 enum Year {
   PREP      // Hazirlik
   FRESHMAN  // 1. sinif
@@ -93,6 +111,8 @@ model User {
   name          String
   departmentId  String?
   year          Year?
+  role          Role      @default(USER)
+  isBanned      Boolean   @default(false)
   emailVerified DateTime?
   image         String?
   createdAt     DateTime  @default(now())
@@ -105,9 +125,12 @@ model User {
   courseReviews    CourseReview[]
   professorReviews ProfessorReview[]
   reviewLikes      ReviewLike[]
+  reports          Report[]          @relation("ReporterRelation")
+  handledReports   Report[]          @relation("HandlerRelation")
 
   @@index([departmentId])
   @@index([email])
+  @@index([role])
 }
 
 // ============== Department Model ==============
@@ -183,63 +206,69 @@ model CourseProfessor {
 // ============== CourseReview Model ==============
 
 model CourseReview {
-  id               String   @id @default(cuid())
+  id               String       @id @default(cuid())
   userId           String
   courseId         String
-  professorId      String?  // Hangi hocadan aldi
-  semester         String   // 2024-2025 Guz
-  difficultyRating Int      // 1-5 Zorluk
-  workloadRating   Int      // 1-5 Is yuku
-  usefulnessRating Int      // 1-5 Faydalilik
-  overallRating    Int      // 1-5 Genel
-  grade            Grade?   // Alinan not (opsiyonel)
-  comment          String   @db.Text
-  isAnonymous      Boolean  @default(true)
-  likes            Int      @default(0)
-  createdAt        DateTime @default(now())
-  updatedAt        DateTime @updatedAt
+  professorId      String?      // Hangi hocadan aldi
+  semester         String       // 2024-2025 Guz
+  difficultyRating Int          // 1-5 Zorluk
+  workloadRating   Int          // 1-5 Is yuku
+  usefulnessRating Int          // 1-5 Faydalilik
+  overallRating    Int          // 1-5 Genel
+  grade            Grade?       // Alinan not (opsiyonel)
+  comment          String       @db.Text
+  isAnonymous      Boolean      @default(true)
+  status           ReviewStatus @default(APPROVED)
+  likes            Int          @default(0)
+  createdAt        DateTime     @default(now())
+  updatedAt        DateTime     @updatedAt
 
   // Relations
   user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
   course    Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
   professor Professor? @relation(fields: [professorId], references: [id], onDelete: SetNull)
+  reports   Report[]
 
   @@unique([userId, courseId, semester]) // Bir kullanici bir dersi bir donemde bir kez degerlendirebilir
   @@index([courseId])
   @@index([professorId])
   @@index([userId])
   @@index([createdAt])
+  @@index([status])
 }
 
 // ============== ProfessorReview Model ==============
 
 model ProfessorReview {
-  id              String   @id @default(cuid())
+  id              String       @id @default(cuid())
   userId          String
   professorId     String
-  courseId        String?  // Hangi derste aldi
-  semester        String   // 2024-2025 Guz
-  teachingRating  Int      // 1-5 Anlatim kalitesi
-  gradingRating   Int      // 1-5 Notlandirma adaleti
-  accessRating    Int      // 1-5 Ulasabilirlik
-  overallRating   Int      // 1-5 Genel
-  comment         String   @db.Text
-  isAnonymous     Boolean  @default(true)
-  likes           Int      @default(0)
-  wouldTakeAgain  Boolean  // Tekrar alir miydin?
-  createdAt       DateTime @default(now())
-  updatedAt       DateTime @updatedAt
+  courseId        String?      // Hangi derste aldi
+  semester        String       // 2024-2025 Guz
+  teachingRating  Int          // 1-5 Anlatim kalitesi
+  gradingRating   Int          // 1-5 Notlandirma adaleti
+  accessRating    Int          // 1-5 Ulasabilirlik
+  overallRating   Int          // 1-5 Genel
+  comment         String       @db.Text
+  isAnonymous     Boolean      @default(true)
+  status          ReviewStatus @default(APPROVED)
+  likes           Int          @default(0)
+  wouldTakeAgain  Boolean      // Tekrar alir miydin?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
 
   // Relations
   user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
   professor Professor @relation(fields: [professorId], references: [id], onDelete: Cascade)
   course    Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+  reports   Report[]
 
   @@unique([userId, professorId, semester]) // Bir kullanici bir hocayi bir donemde bir kez degerlendirebilir
   @@index([professorId])
   @@index([courseId])
   @@index([userId])
   @@index([createdAt])
+  @@index([status])
 }
 
 // ============== ReviewLike Model ==============
@@ -283,4 +312,33 @@ model EmailVerificationToken {
 
   @@index([email])
   @@index([token])
+}
+
+// ============== Report Model ==============
+
+model Report {
+  id                String       @id @default(cuid())
+  reporterId        String
+  courseReviewId    String?
+  professorReviewId String?
+  reason            String       // spam, hakaret, yanlis_bilgi, diger
+  description       String?      @db.Text
+  status            ReportStatus @default(PENDING)
+  handledBy         String?
+  handledAt         DateTime?
+  adminNote         String?      @db.Text
+  createdAt         DateTime     @default(now())
+  updatedAt         DateTime     @updatedAt
+
+  // Relations
+  reporter        User             @relation("ReporterRelation", fields: [reporterId], references: [id], onDelete: Cascade)
+  handler         User?            @relation("HandlerRelation", fields: [handledBy], references: [id], onDelete: SetNull)
+  courseReview    CourseReview?    @relation(fields: [courseReviewId], references: [id], onDelete: Cascade)
+  professorReview ProfessorReview? @relation(fields: [professorReviewId], references: [id], onDelete: Cascade)
+
+  @@index([reporterId])
+  @@index([courseReviewId])
+  @@index([professorReviewId])
+  @@index([status])
+  @@index([createdAt])
 }

@@ -14,6 +14,7 @@ import {
   Star,
   ChevronDown,
   Bot,
+  Shield,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
@@ -124,6 +125,17 @@ export default function Navbar() {
                     Değerlendirmelerim
                   </Link>
                 </DropdownMenuItem>
+                {(session.user.role === "ADMIN" || session.user.role === "MODERATOR") && (
+                  <>
+                    <DropdownMenuSeparator />
+                    <DropdownMenuItem asChild>
+                      <Link href="/admin" className="cursor-pointer">
+                        <Shield className="mr-2 h-4 w-4" />
+                        Admin Panel
+                      </Link>
+                    </DropdownMenuItem>
+                  </>
+                )}
                 <DropdownMenuSeparator />
                 <DropdownMenuItem
                   className="cursor-pointer text-destructive focus:text-destructive"

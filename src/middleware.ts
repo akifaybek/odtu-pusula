@@ -11,6 +11,18 @@ export default withAuth(
       return NextResponse.redirect(new URL("/anasayfa", req.url));
     }
 
+    // Admin sayfaları için rol kontrolü
+    if (pathname.startsWith("/admin")) {
+      if (!token || (token.role !== "ADMIN" && token.role !== "MODERATOR")) {
+        return NextResponse.redirect(new URL("/anasayfa", req.url));
+      }
+    }
+
+    // Banned kullanıcıları engelle
+    if (token?.isBanned) {
+      return NextResponse.redirect(new URL("/hesap-askida", req.url));
+    }
+
     return NextResponse.next();
   },
   {
@@ -19,7 +31,7 @@ export default withAuth(
         const { pathname } = req.nextUrl;
 
         // Public sayfalar - herkes erişebilir
-        const publicPaths = ["/", "/giris", "/kayit", "/sifremi-unuttum"];
+        const publicPaths = ["/", "/giris", "/kayit", "/sifremi-unuttum", "/hesap-askida"];
         if (publicPaths.some((path) => pathname === path)) {
           return true;
         }
@@ -43,6 +55,8 @@ export const config = {
     "/dersler/:path*",
     "/hocalar/:path*",
     "/profil/:path*",
+    "/admin/:path*",
+    "/asistan/:path*",
     // Auth sayfaları (yönlendirme için)
     "/giris",
     "/kayit",

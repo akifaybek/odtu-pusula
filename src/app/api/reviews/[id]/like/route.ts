@@ -6,10 +6,7 @@ import { z } from "zod";
 
 // Validation schema
 const likeSchema = z.object({
-  reviewType: z.enum(["course", "professor"], {
-    required_error: "Review türü belirtilmelidir",
-    invalid_type_error: "Geçersiz review türü",
-  }),
+  reviewType: z.enum(["course", "professor"]),
 });
 
 // POST /api/reviews/[id]/like - Toggle like
