@@ -24,13 +24,13 @@ import { cn } from "@/lib/utils";
 interface ProfessorReviewFormProps {
   professorId: string;
   professorName: string;
-  courses: Array<{ code: string; name: string }>;
+  courses: Array<{ id: string; code: string; name: string }>;
   onClose: () => void;
   onSubmit: (data: ProfessorReviewData) => Promise<void>;
 }
 
 export interface ProfessorReviewData {
-  courseCode: string;
+  courseId: string;
   semester: string;
   teaching: number;
   grading: number;
@@ -41,14 +41,14 @@ export interface ProfessorReviewData {
   anonymous: boolean;
 }
 
-// Dönem seçenekleri
+// Dönem seçenekleri (veritabanı formatına uygun)
 const semesters = [
-  { value: "2024-25-guz", label: "2024-25 Güz" },
-  { value: "2024-25-bahar", label: "2024-25 Bahar" },
-  { value: "2023-24-guz", label: "2023-24 Güz" },
-  { value: "2023-24-bahar", label: "2023-24 Bahar" },
-  { value: "2022-23-guz", label: "2022-23 Güz" },
-  { value: "2022-23-bahar", label: "2022-23 Bahar" },
+  { value: "2024-2025 Guz", label: "2024-25 Güz" },
+  { value: "2024-2025 Bahar", label: "2024-25 Bahar" },
+  { value: "2023-2024 Guz", label: "2023-24 Güz" },
+  { value: "2023-2024 Bahar", label: "2023-24 Bahar" },
+  { value: "2022-2023 Guz", label: "2022-23 Güz" },
+  { value: "2022-2023 Bahar", label: "2022-23 Bahar" },
 ];
 
 const MIN_COMMENT_LENGTH = 50;
@@ -72,8 +72,8 @@ export default function ProfessorReviewForm({
   const validateForm = (): boolean => {
     const newErrors: Record<string, string> = {};
 
-    if (!formData.courseCode) {
-      newErrors.courseCode = "Ders seçmelisin";
+    if (!formData.courseId) {
+      newErrors.courseId = "Ders seçmelisin";
     }
     if (!formData.semester) {
       newErrors.semester = "Dönem seçmelisin";
@@ -148,29 +148,29 @@ export default function ProfessorReviewForm({
                   <span className="text-primary ml-1">*</span>
                 </Label>
                 <Select
-                  value={formData.courseCode}
+                  value={formData.courseId}
                   onValueChange={(value) =>
-                    setFormData({ ...formData, courseCode: value })
+                    setFormData({ ...formData, courseId: value })
                   }
                 >
                   <SelectTrigger
                     className={cn(
                       "bg-background",
-                      errors.courseCode && "border-destructive"
+                      errors.courseId && "border-destructive"
                     )}
                   >
                     <SelectValue placeholder="Ders seç..." />
                   </SelectTrigger>
                   <SelectContent>
                     {courses.map((course) => (
-                      <SelectItem key={course.code} value={course.code}>
+                      <SelectItem key={course.id} value={course.id}>
                         {course.code} - {course.name}
                       </SelectItem>
                     ))}
                   </SelectContent>
                 </Select>
-                {errors.courseCode && (
-                  <p className="text-xs text-destructive">{errors.courseCode}</p>
+                {errors.courseId && (
+                  <p className="text-xs text-destructive">{errors.courseId}</p>
                 )}
               </div>
 

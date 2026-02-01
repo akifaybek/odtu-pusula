@@ -1,7 +1,7 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { Search, Users, X } from "lucide-react";
+import { useState, useEffect, useCallback } from "react";
+import { Search, Users, X, Loader2 } from "lucide-react";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import {
@@ -34,13 +34,14 @@ const departments = [
   { value: "PSY", label: "Psikoloji" },
 ];
 
-// Ünvanlar
-const titles = [
+// Ünvan seçenekleri
+const titleOptions = [
   { value: "all", label: "Tüm Ünvanlar" },
   { value: "Prof. Dr.", label: "Prof. Dr." },
   { value: "Doç. Dr.", label: "Doç. Dr." },
   { value: "Dr. Öğr. Üyesi", label: "Dr. Öğr. Üyesi" },
-  { value: "Araş. Gör.", label: "Araş. Gör." },
+  { value: "Öğr. Gör.", label: "Öğr. Gör." },
+  { value: "Arş. Gör.", label: "Arş. Gör." },
 ];
 
 // Sıralama seçenekleri
@@ -51,109 +52,40 @@ const sortOptions = [
   { value: "take-again", label: "Tekrar Alırım Oranı" },
 ];
 
-// Mock data
-const mockProfessors = [
-  {
-    id: "prof-1",
-    name: "Ahmet Yılmaz",
-    title: "Prof. Dr.",
-    department: "CENG",
-    rating: 4.5,
-    takeAgainPercent: 85,
-    reviewCount: 156,
-    courses: ["CENG 242", "CENG 351", "CENG 477", "CENG 495"],
-  },
-  {
-    id: "prof-2",
-    name: "Elif Demir",
-    title: "Doç. Dr.",
-    department: "CENG",
-    rating: 4.2,
-    takeAgainPercent: 72,
-    reviewCount: 98,
-    courses: ["CENG 111", "CENG 140", "CENG 242"],
-  },
-  {
-    id: "prof-3",
-    name: "Mehmet Kaya",
-    title: "Prof. Dr.",
-    department: "MATH",
-    rating: 3.8,
-    takeAgainPercent: 58,
-    reviewCount: 234,
-    courses: ["MATH 119", "MATH 120", "MATH 260"],
-  },
-  {
-    id: "prof-4",
-    name: "Zeynep Arslan",
-    title: "Dr. Öğr. Üyesi",
-    department: "PHYS",
-    rating: 4.0,
-    takeAgainPercent: 65,
-    reviewCount: 145,
-    courses: ["PHYS 105", "PHYS 106"],
-  },
-  {
-    id: "prof-5",
-    name: "Can Özkan",
-    title: "Doç. Dr.",
-    department: "EE",
-    rating: 4.3,
-    takeAgainPercent: 78,
-    reviewCount: 112,
-    courses: ["EE 230", "EE 313", "EE 361"],
-  },
-  {
-    id: "prof-6",
-    name: "Ayşe Yıldız",
-    title: "Prof. Dr.",
-    department: "IE",
-    rating: 4.6,
-    takeAgainPercent: 92,
-    reviewCount: 89,
-    courses: ["IE 220", "IE 342"],
-  },
-  {
-    id: "prof-7",
-    name: "Burak Şahin",
-    title: "Araş. Gör.",
-    department: "CENG",
-    rating: 4.1,
-    takeAgainPercent: 68,
-    reviewCount: 45,
-    courses: ["CENG 111"],
-  },
-  {
-    id: "prof-8",
-    name: "Deniz Çelik",
-    title: "Dr. Öğr. Üyesi",
-    department: "CHEM",
-    rating: 3.5,
-    takeAgainPercent: 42,
-    reviewCount: 178,
-    courses: ["CHEM 101", "CHEM 102"],
-  },
-  {
-    id: "prof-9",
-    name: "Fatma Güneş",
-    title: "Prof. Dr.",
-    department: "PSY",
-    rating: 4.7,
-    takeAgainPercent: 95,
-    reviewCount: 67,
-    courses: ["PSY 100", "PSY 201", "PSY 305"],
-  },
-  {
-    id: "prof-10",
-    name: "Emre Tan",
-    title: "Doç. Dr.",
-    department: "ARCH",
-    rating: 3.9,
-    takeAgainPercent: 55,
-    reviewCount: 34,
-    courses: ["ARCH 101", "ARCH 102"],
-  },
-];
+interface Professor {
+  id: string;
+  name: string;
+  title: string;
+  titleEnum: string;
+  department: {
+    id: string;
+    code: string;
+    name: string;
+  };
+  courses: Array<{
+    id: string;
+    code: string;
+    name: string;
+  }>;
+  reviewCount: number;
+  stats: {
+    teaching: number;
+    grading: number;
+    accessibility: number;
+    overall: number;
+    wouldTakeAgainPercent: number;
+  };
+}
+
+interface ProfessorsResponse {
+  professors: Professor[];
+  pagination: {
+    page: number;
+    limit: number;
+    total: number;
+    totalPages: number;
+  };
+}
 
 export default function HocalarPage() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -162,49 +94,61 @@ export default function HocalarPage() {
   const [sortBy, setSortBy] = useState("popular");
   const [showFilters, setShowFilters] = useState(false);
 
-  // Ünvan chip'leri için aktif durumlar
-  const titleChips = ["Prof. Dr.", "Doç. Dr.", "Dr. Öğr. Üyesi", "Araş. Gör."];
+  const [professors, setProfessors] = useState<Professor[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [totalProfessors, setTotalProfessors] = useState(0);
 
-  // Filtreleme ve sıralama
-  const filteredProfessors = useMemo(() => {
-    let result = [...mockProfessors];
+  // Debounced search
+  const [debouncedSearch, setDebouncedSearch] = useState("");
 
-    // Arama filtresi
-    if (searchQuery) {
-      const query = searchQuery.toLowerCase();
-      result = result.filter((prof) =>
-        prof.name.toLowerCase().includes(query)
-      );
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setDebouncedSearch(searchQuery);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [searchQuery]);
+
+  // Ünvan chip'leri
+  const titleChips = ["Prof. Dr.", "Doç. Dr.", "Dr. Öğr. Üyesi", "Arş. Gör."];
+
+  // Fetch professors
+  const fetchProfessors = useCallback(async () => {
+    try {
+      setLoading(true);
+      setError(null);
+
+      const params = new URLSearchParams();
+      if (department !== "all") {
+        params.set("departmentCode", department);
+      }
+      if (title !== "all") {
+        params.set("title", title);
+      }
+      if (debouncedSearch) {
+        params.set("search", debouncedSearch);
+      }
+      params.set("sortBy", sortBy);
+
+      const response = await fetch(`/api/professors?${params.toString()}`);
+
+      if (!response.ok) {
+        throw new Error("Hocalar yüklenirken bir hata oluştu");
+      }
+
+      const data: ProfessorsResponse = await response.json();
+      setProfessors(data.professors);
+      setTotalProfessors(data.pagination.total);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : "Bir hata oluştu");
+    } finally {
+      setLoading(false);
     }
+  }, [department, title, debouncedSearch, sortBy]);
 
-    // Bölüm filtresi
-    if (department !== "all") {
-      result = result.filter((prof) => prof.department === department);
-    }
-
-    // Ünvan filtresi
-    if (title !== "all") {
-      result = result.filter((prof) => prof.title === title);
-    }
-
-    // Sıralama
-    switch (sortBy) {
-      case "popular":
-        result.sort((a, b) => b.reviewCount - a.reviewCount);
-        break;
-      case "rating":
-        result.sort((a, b) => b.rating - a.rating);
-        break;
-      case "name":
-        result.sort((a, b) => a.name.localeCompare(b.name, "tr"));
-        break;
-      case "take-again":
-        result.sort((a, b) => b.takeAgainPercent - a.takeAgainPercent);
-        break;
-    }
-
-    return result;
-  }, [searchQuery, department, title, sortBy]);
+  useEffect(() => {
+    fetchProfessors();
+  }, [fetchProfessors]);
 
   const activeFiltersCount = [
     department !== "all",
@@ -227,7 +171,7 @@ export default function HocalarPage() {
         <div>
           <h1 className="text-2xl font-bold text-foreground">Rehberler</h1>
           <p className="text-sm text-muted-foreground">
-            ODTÜ&apos;nün deneyimli rehberleri hakkında öğrenci yorumları
+            {loading ? "Yükleniyor..." : `${totalProfessors} hoca arasından keşfet`}
           </p>
         </div>
       </div>
@@ -349,37 +293,74 @@ export default function HocalarPage() {
         </div>
       </div>
 
-      {/* Sonuç Sayısı */}
-      <div className="text-sm text-muted-foreground">
-        {filteredProfessors.length} rehber bulundu
-        {(searchQuery || department !== "all" || title !== "all") && (
-          <span className="text-primary"> (filtrelenmiş)</span>
-        )}
-      </div>
-
-      {/* Hoca Kartları Grid */}
-      {filteredProfessors.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
-          {filteredProfessors.map((professor) => (
-            <ProfessorCard key={professor.id} {...professor} />
-          ))}
+      {/* Loading State */}
+      {loading && (
+        <div className="flex flex-col items-center justify-center py-16">
+          <Loader2 className="h-8 w-8 animate-spin text-primary mb-4" />
+          <p className="text-muted-foreground">Hocalar yükleniyor...</p>
         </div>
-      ) : (
-        /* Boş Durum */
+      )}
+
+      {/* Error State */}
+      {error && !loading && (
         <div className="flex flex-col items-center justify-center py-16 text-center">
-          <div className="w-16 h-16 rounded-2xl bg-muted/50 flex items-center justify-center mb-4">
-            <Users className="h-8 w-8 text-muted-foreground" />
+          <div className="w-16 h-16 rounded-2xl bg-destructive/10 flex items-center justify-center mb-4">
+            <X className="h-8 w-8 text-destructive" />
           </div>
           <h3 className="text-lg font-medium text-foreground mb-2">
-            Rehber bulunamadı
+            Bir hata oluştu
           </h3>
-          <p className="text-muted-foreground max-w-sm mb-4">
-            Arama kriterlerinize uygun hoca bulunamadı. Filtreleri değiştirmeyi deneyin.
-          </p>
-          <Button variant="outline" onClick={clearFilters}>
-            Filtreleri Temizle
-          </Button>
+          <p className="text-muted-foreground max-w-sm mb-4">{error}</p>
+          <Button onClick={fetchProfessors}>Tekrar Dene</Button>
         </div>
+      )}
+
+      {/* Sonuç Sayısı */}
+      {!loading && !error && (
+        <>
+          <div className="text-sm text-muted-foreground">
+            {professors.length} rehber bulundu
+            {(searchQuery || department !== "all" || title !== "all") && (
+              <span className="text-primary"> (filtrelenmiş)</span>
+            )}
+          </div>
+
+          {/* Hoca Kartları Grid */}
+          {professors.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
+              {professors.map((professor) => (
+                <ProfessorCard
+                  key={professor.id}
+                  id={professor.id}
+                  name={professor.name}
+                  title={professor.title}
+                  department={professor.department.code}
+                  rating={professor.stats.overall}
+                  takeAgainPercent={professor.stats.wouldTakeAgainPercent}
+                  reviewCount={professor.reviewCount}
+                  courses={professor.courses.map((c) => c.code)}
+                />
+              ))}
+            </div>
+          ) : (
+            /* Boş Durum */
+            <div className="flex flex-col items-center justify-center py-16 text-center">
+              <div className="w-16 h-16 rounded-2xl bg-muted/50 flex items-center justify-center mb-4">
+                <Users className="h-8 w-8 text-muted-foreground" />
+              </div>
+              <h3 className="text-lg font-medium text-foreground mb-2">
+                Rehber bulunamadı
+              </h3>
+              <p className="text-muted-foreground max-w-sm mb-4">
+                Arama kriterlerinize uygun hoca bulunamadı. Filtreleri
+                değiştirmeyi deneyin.
+              </p>
+              <Button variant="outline" onClick={clearFilters}>
+                Filtreleri Temizle
+              </Button>
+            </div>
+          )}
+        </>
       )}
     </div>
   );
