@@ -1,7 +1,9 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
+import crypto from "crypto";
 import { z } from "zod";
 import prisma from "@/lib/prisma";
+import { sendVerificationEmail } from "@/lib/email";
 
 const registerSchema = z.object({
   name: z.string().min(2, "Isim en az 2 karakter olmalidir"),
@@ -71,12 +73,39 @@ export async function POST(request: Request) {
         password: hashedPassword,
         departmentId: dept.id,
         year: year,
+        emailVerified: null, // Email doğrulanmamış
       },
     });
 
+    // Email doğrulama token'ı oluştur
+    const token = crypto.randomBytes(32).toString("hex");
+    const expires = new Date(Date.now() + 24 * 60 * 60 * 1000); // 24 saat
+
+    await prisma.emailVerificationToken.create({
+      data: {
+        email,
+        token,
+        expires,
+      },
+    });
+
+    // Doğrulama emaili gönder
+    const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+    const verificationLink = `${appUrl}/api/auth/verify-email/${token}`;
+
+    const emailResult = await sendVerificationEmail({
+      email,
+      verificationLink,
+    });
+
+    if (!emailResult.success) {
+      console.error("Verification email failed:", emailResult.error);
+      // Email gönderilmese bile kayıt başarılı, kullanıcı sonra tekrar gönderebilir
+    }
+
     return NextResponse.json(
       {
-        message: "Kayit basarili",
+        message: "Kayit basarili. Email adresinizi dogrulayin.",
         user: { id: user.id, name: user.name, email: user.email },
       },
       { status: 201 }

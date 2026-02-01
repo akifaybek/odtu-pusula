@@ -25,6 +25,7 @@ import CourseDetail from "@/components/course/CourseDetail";
 import ReviewCard from "@/components/course/ReviewCard";
 import DifficultyBadge, { getDifficultyFromScore } from "@/components/shared/DifficultyBadge";
 import CourseReviewForm, { CourseReviewData } from "@/components/review/CourseReviewForm";
+import EmailVerificationAlert, { useCanWriteReview } from "@/components/review/EmailVerificationAlert";
 import { cn } from "@/lib/utils";
 
 // Types
@@ -113,6 +114,10 @@ export default function CourseDetailPage() {
   const [semester, setSemester] = useState("all");
   const [activeTab, setActiveTab] = useState<"overview" | "reviews">("overview");
   const [showReviewForm, setShowReviewForm] = useState(false);
+  const [showVerificationAlert, setShowVerificationAlert] = useState(false);
+
+  // Email verification check
+  const { canWrite, reason } = useCanWriteReview();
 
   // Data states
   const [courseData, setCourseData] = useState<CourseDetailResponse | null>(null);
@@ -151,6 +156,21 @@ export default function CourseDetailPage() {
   useEffect(() => {
     fetchCourseData();
   }, [fetchCourseData]);
+
+  // Handle write review button click
+  const handleWriteReviewClick = () => {
+    if (!canWrite) {
+      if (reason === "not_authenticated") {
+        toast.error("Değerlendirme yazmak için giriş yapmalısınız");
+        return;
+      }
+      if (reason === "not_verified") {
+        setShowVerificationAlert(true);
+        return;
+      }
+    }
+    setShowReviewForm(true);
+  };
 
   // Handle review submission
   const handleReviewSubmit = async (data: CourseReviewData) => {
@@ -262,7 +282,7 @@ export default function CourseDetailPage() {
           </div>
 
           <Button
-            onClick={() => setShowReviewForm(true)}
+            onClick={handleWriteReviewClick}
             className="bg-primary hover:bg-primary/90 shadow-lg shadow-primary/20"
           >
             <PenLine className="h-4 w-4 mr-2" />
@@ -391,7 +411,7 @@ export default function CourseDetailPage() {
                 Bu ders için henüz yorum yapılmamış. İlk yorumu sen yap!
               </p>
               <Button
-                onClick={() => setShowReviewForm(true)}
+                onClick={handleWriteReviewClick}
                 className="bg-primary hover:bg-primary/90"
               >
                 <PenLine className="h-4 w-4 mr-2" />
@@ -399,6 +419,18 @@ export default function CourseDetailPage() {
               </Button>
             </div>
           )}
+        </div>
+      )}
+
+      {/* Review Form Modal */}
+      {/* Email Verification Alert Modal */}
+      {showVerificationAlert && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/50 backdrop-blur-sm">
+          <div className="bg-card rounded-2xl shadow-2xl w-full max-w-md p-6">
+            <EmailVerificationAlert
+              onClose={() => setShowVerificationAlert(false)}
+            />
+          </div>
         </div>
       )}
 
