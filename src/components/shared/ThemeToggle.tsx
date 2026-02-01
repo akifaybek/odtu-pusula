@@ -2,18 +2,11 @@
 
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { Moon, Sun, Monitor } from "lucide-react";
+import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { cn } from "@/lib/utils";
 
 export function ThemeToggle() {
-  const { theme, setTheme, resolvedTheme } = useTheme();
+  const { setTheme, resolvedTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
   // Avoid hydration mismatch
@@ -21,49 +14,33 @@ export function ThemeToggle() {
     setMounted(true);
   }, []);
 
+  const toggleTheme = () => {
+    setTheme(resolvedTheme === "dark" ? "light" : "dark");
+  };
+
   if (!mounted) {
     return (
       <Button variant="ghost" size="icon" className="h-9 w-9">
         <Sun className="h-4 w-4" />
+        <span className="sr-only">Tema değiştir</span>
       </Button>
     );
   }
 
   return (
-    <DropdownMenu>
-      <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="h-9 w-9">
-          {resolvedTheme === "dark" ? (
-            <Moon className="h-4 w-4" />
-          ) : (
-            <Sun className="h-4 w-4" />
-          )}
-          <span className="sr-only">Tema değiştir</span>
-        </Button>
-      </DropdownMenuTrigger>
-      <DropdownMenuContent align="end">
-        <DropdownMenuItem
-          onClick={() => setTheme("light")}
-          className={cn(theme === "light" && "bg-muted")}
-        >
-          <Sun className="h-4 w-4 mr-2" />
-          Açık
-        </DropdownMenuItem>
-        <DropdownMenuItem
-          onClick={() => setTheme("dark")}
-          className={cn(theme === "dark" && "bg-muted")}
-        >
-          <Moon className="h-4 w-4 mr-2" />
-          Koyu
-        </DropdownMenuItem>
-        <DropdownMenuItem
-          onClick={() => setTheme("system")}
-          className={cn(theme === "system" && "bg-muted")}
-        >
-          <Monitor className="h-4 w-4 mr-2" />
-          Sistem
-        </DropdownMenuItem>
-      </DropdownMenuContent>
-    </DropdownMenu>
+    <Button
+      variant="ghost"
+      size="icon"
+      className="h-9 w-9"
+      onClick={toggleTheme}
+      aria-label={resolvedTheme === "dark" ? "Açık temaya geç" : "Koyu temaya geç"}
+    >
+      {resolvedTheme === "dark" ? (
+        <Sun className="h-4 w-4" />
+      ) : (
+        <Moon className="h-4 w-4" />
+      )}
+      <span className="sr-only">Tema değiştir</span>
+    </Button>
   );
 }
