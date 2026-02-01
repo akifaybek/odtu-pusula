@@ -1,0 +1,242 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider  = "postgresql"
+  url       = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+// ============== ENUMS ==============
+
+enum Year {
+  PREP      // Hazirlik
+  FRESHMAN  // 1. sinif
+  SOPHOMORE // 2. sinif
+  JUNIOR    // 3. sinif
+  SENIOR    // 4. sinif
+  MASTERS   // Yuksek Lisans
+  PHD       // Doktora
+}
+
+enum Title {
+  PROF_DR       // Prof. Dr.
+  ASSOC_PROF_DR // Doc. Dr.
+  ASST_PROF_DR  // Dr. Ogr. Uyesi
+  LECTURER      // Ogr. Gor.
+  RES_ASST      // Aras. Gor.
+}
+
+enum Grade {
+  AA
+  BA
+  BB
+  CB
+  CC
+  DC
+  DD
+  FD
+  FF
+  NA // Not almadi / Bilinmiyor
+}
+
+// ============== NextAuth.js Models ==============
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+  @@index([userId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ============== User Model ==============
+
+model User {
+  id            String    @id @default(cuid())
+  email         String    @unique
+  password      String
+  name          String
+  departmentId  String?
+  year          Year?
+  emailVerified DateTime?
+  image         String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+
+  // Relations
+  department       Department?       @relation(fields: [departmentId], references: [id])
+  accounts         Account[]
+  sessions         Session[]
+  courseReviews    CourseReview[]
+  professorReviews ProfessorReview[]
+
+  @@index([departmentId])
+  @@index([email])
+}
+
+// ============== Department Model ==============
+
+model Department {
+  id      String @id @default(cuid())
+  code    String @unique // CENG, EE, ME
+  name    String // Bilgisayar Muhendisligi
+  faculty String // Muhendislik Fakultesi
+
+  // Relations
+  users      User[]
+  courses    Course[]
+  professors Professor[]
+
+  @@index([code])
+}
+
+// ============== Course Model ==============
+
+model Course {
+  id           String  @id @default(cuid())
+  code         String  @unique // CENG140, MATH119
+  name         String  // C Programming
+  credits      Int     @default(3)
+  departmentId String
+  description  String? @db.Text
+
+  // Relations
+  department Department          @relation(fields: [departmentId], references: [id])
+  professors CourseProfessor[]
+  reviews    CourseReview[]
+  professorReviews ProfessorReview[]
+
+  @@index([departmentId])
+  @@index([code])
+}
+
+// ============== Professor Model ==============
+
+model Professor {
+  id           String  @id @default(cuid())
+  name         String
+  title        Title
+  departmentId String
+  email        String? @unique
+  image        String?
+
+  // Relations
+  department Department          @relation(fields: [departmentId], references: [id])
+  courses    CourseProfessor[]
+  reviews    ProfessorReview[]
+  courseReviews CourseReview[]
+
+  @@index([departmentId])
+  @@index([name])
+}
+
+// ============== Course-Professor Many-to-Many ==============
+
+model CourseProfessor {
+  courseId    String
+  professorId String
+
+  course    Course    @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  professor Professor @relation(fields: [professorId], references: [id], onDelete: Cascade)
+
+  @@id([courseId, professorId])
+  @@index([courseId])
+  @@index([professorId])
+}
+
+// ============== CourseReview Model ==============
+
+model CourseReview {
+  id               String   @id @default(cuid())
+  userId           String
+  courseId         String
+  professorId      String?  // Hangi hocadan aldi
+  semester         String   // 2024-2025 Guz
+  difficultyRating Int      // 1-5 Zorluk
+  workloadRating   Int      // 1-5 Is yuku
+  usefulnessRating Int      // 1-5 Faydalilik
+  overallRating    Int      // 1-5 Genel
+  grade            Grade?   // Alinan not (opsiyonel)
+  comment          String   @db.Text
+  isAnonymous      Boolean  @default(true)
+  likes            Int      @default(0)
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+
+  // Relations
+  user      User       @relation(fields: [userId], references: [id], onDelete: Cascade)
+  course    Course     @relation(fields: [courseId], references: [id], onDelete: Cascade)
+  professor Professor? @relation(fields: [professorId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, courseId, semester]) // Bir kullanici bir dersi bir donemde bir kez degerlendirebilir
+  @@index([courseId])
+  @@index([professorId])
+  @@index([userId])
+  @@index([createdAt])
+}
+
+// ============== ProfessorReview Model ==============
+
+model ProfessorReview {
+  id              String   @id @default(cuid())
+  userId          String
+  professorId     String
+  courseId        String?  // Hangi derste aldi
+  semester        String   // 2024-2025 Guz
+  teachingRating  Int      // 1-5 Anlatim kalitesi
+  gradingRating   Int      // 1-5 Notlandirma adaleti
+  accessRating    Int      // 1-5 Ulasabilirlik
+  overallRating   Int      // 1-5 Genel
+  comment         String   @db.Text
+  isAnonymous     Boolean  @default(true)
+  likes           Int      @default(0)
+  wouldTakeAgain  Boolean  // Tekrar alir miydin?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  // Relations
+  user      User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+  professor Professor @relation(fields: [professorId], references: [id], onDelete: Cascade)
+  course    Course?   @relation(fields: [courseId], references: [id], onDelete: SetNull)
+
+  @@unique([userId, professorId, semester]) // Bir kullanici bir hocayi bir donemde bir kez degerlendirebilir
+  @@index([professorId])
+  @@index([courseId])
+  @@index([userId])
+  @@index([createdAt])
+}
