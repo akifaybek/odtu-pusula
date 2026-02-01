@@ -32,6 +32,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Logo from "@/components/shared/Logo";
+import GlobalSearch from "@/components/search/GlobalSearch";
 
 const navLinks = [
   { href: "/dersler", label: "Dersler", icon: BookOpen },
@@ -70,6 +71,11 @@ export default function Navbar() {
               </Link>
             ))}
           </nav>
+        </div>
+
+        {/* Search */}
+        <div className="hidden md:block flex-1 max-w-md mx-4">
+          <GlobalSearch />
         </div>
 
         {/* Right Side */}
