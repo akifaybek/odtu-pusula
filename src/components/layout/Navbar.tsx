@@ -33,6 +33,7 @@ import {
 } from "@/components/ui/sheet";
 import Logo from "@/components/shared/Logo";
 import GlobalSearch from "@/components/search/GlobalSearch";
+import { ThemeToggle } from "@/components/shared/ThemeToggle";
 
 const navLinks = [
   { href: "/dersler", label: "Dersler", icon: BookOpen },
@@ -79,7 +80,10 @@ export default function Navbar() {
         </div>
 
         {/* Right Side */}
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2">
+          {/* Theme Toggle */}
+          <ThemeToggle />
+
           {status === "loading" ? (
             <div className="h-8 w-8 rounded-full bg-muted animate-pulse" />
           ) : session ? (

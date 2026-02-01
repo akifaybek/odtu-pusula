@@ -107,37 +107,54 @@
 
 /* Dark mode - şimdilik aynı tutuyoruz ama kullanılmayacak */
 .dark {
-  --background: #faf8f5;
-  --foreground: #1a1a1a;
-  --card: #ffffff;
-  --card-foreground: #1a1a1a;
-  --popover: #ffffff;
-  --popover-foreground: #1a1a1a;
-  --primary: #a41034;
+  /* Arka plan - Koyu gri/siyah */
+  --background: #0f0f0f;
+  --foreground: #fafafa;
+
+  /* Kartlar - Koyu gri */
+  --card: #1a1a1a;
+  --card-foreground: #fafafa;
+  --popover: #1a1a1a;
+  --popover-foreground: #fafafa;
+
+  /* Primary - ODTÜ Bordo (biraz daha açık, dark mode için) */
+  --primary: #c41f4a;
   --primary-foreground: #ffffff;
-  --secondary: #f5f3f0;
-  --secondary-foreground: #1a1a1a;
-  --muted: #f0ebe5;
-  --muted-foreground: #6b6b6b;
-  --accent: #8a0d2c;
+
+  /* Secondary - Koyu gri */
+  --secondary: #262626;
+  --secondary-foreground: #fafafa;
+
+  /* Muted - Orta koyu gri */
+  --muted: #262626;
+  --muted-foreground: #a1a1a1;
+
+  /* Accent - Açık bordo */
+  --accent: #d4355a;
   --accent-foreground: #ffffff;
-  --destructive: #dc2626;
-  --border: #e5e0da;
-  --input: #e5e0da;
-  --ring: #a41034;
-  --chart-1: #a41034;
-  --chart-2: #c4a35a;
-  --chart-3: #2d8a4e;
-  --chart-4: #2563eb;
-  --chart-5: #7c3aed;
-  --sidebar: #ffffff;
-  --sidebar-foreground: #1a1a1a;
-  --sidebar-primary: #a41034;
+
+  /* Diğer */
+  --destructive: #ef4444;
+  --border: #2a2a2a;
+  --input: #2a2a2a;
+  --ring: #c41f4a;
+
+  /* Chart renkleri - Dark mode için daha canlı */
+  --chart-1: #c41f4a;
+  --chart-2: #d4a855;
+  --chart-3: #34d399;
+  --chart-4: #60a5fa;
+  --chart-5: #a78bfa;
+
+  /* Sidebar */
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #fafafa;
+  --sidebar-primary: #c41f4a;
   --sidebar-primary-foreground: #ffffff;
-  --sidebar-accent: #f5f3f0;
-  --sidebar-accent-foreground: #1a1a1a;
-  --sidebar-border: #e5e0da;
-  --sidebar-ring: #a41034;
+  --sidebar-accent: #262626;
+  --sidebar-accent-foreground: #fafafa;
+  --sidebar-border: #2a2a2a;
+  --sidebar-ring: #c41f4a;
 }
 
 @layer base {
@@ -146,13 +163,6 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
-}
-
-/* Force light mode - override system preference */
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: light;
   }
 }
 
@@ -276,6 +286,25 @@
   background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
   background-size: 200% 100%;
   animation: shimmer 2s infinite;
+}
+
+.dark .animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.1), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+.dark .hover-lift:hover {
+  box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.5);
+}
+
+.dark .card-shine::before {
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.1),
+    transparent
+  );
 }
 
 .animate-fade-up {
