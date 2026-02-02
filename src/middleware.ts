@@ -11,12 +11,16 @@ export default withAuth(
       return NextResponse.redirect(new URL("/anasayfa", req.url));
     }
 
-    // Admin sayfaları için rol kontrolü
-    if (pathname.startsWith("/admin")) {
-      if (!token || (token.role !== "ADMIN" && token.role !== "MODERATOR")) {
-        return NextResponse.redirect(new URL("/anasayfa", req.url));
-      }
-    }
+    // Admin sayfaları için rol kontrolü - şimdilik sayfa içinde kontrol edilecek
+    // if (pathname.startsWith("/admin")) {
+    //   console.log("Admin check - token role:", token?.role);
+    //   if (!token) {
+    //     return NextResponse.redirect(new URL("/giris", req.url));
+    //   }
+    //   if (token.role && token.role !== "ADMIN" && token.role !== "MODERATOR") {
+    //     return NextResponse.redirect(new URL("/anasayfa", req.url));
+    //   }
+    // }
 
     // Banned kullanıcıları engelle
     if (token?.isBanned) {

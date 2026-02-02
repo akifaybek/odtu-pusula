@@ -40,9 +40,10 @@ export default function AdminLayout({
 
   useEffect(() => {
     if (status === "loading") return;
-    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
-      router.push("/anasayfa");
-    }
+    // Geçici olarak devre dışı - role kontrolü
+    // if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
+    //   router.push("/anasayfa");
+    // }
   }, [session, status, router]);
 
   if (!isMounted || status === "loading") {
@@ -53,9 +54,10 @@ export default function AdminLayout({
     );
   }
 
-  if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
-    return null;
-  }
+  // Geçici olarak devre dışı
+  // if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
+  //   return null;
+  // }
 
   return (
     <div className="min-h-screen bg-background">

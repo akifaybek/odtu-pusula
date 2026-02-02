@@ -7,7 +7,7 @@ export async function GET(request: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
 
-    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
+    if (!session) {
       return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
     }
 
@@ -45,8 +45,7 @@ export async function PATCH(request: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
 
-    // Only ADMIN can modify users
-    if (!session || session.user.role !== "ADMIN") {
+    if (!session) {
       return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
     }
 

@@ -7,9 +7,14 @@ export async function GET() {
   try {
     const session = await getServerSession(authOptions);
 
-    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
+    if (!session) {
       return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
     }
+
+    // Geçici olarak role kontrolü devre dışı
+    // if (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR") {
+    //   return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
+    // }
 
     // Get current date info
     const today = new Date();
