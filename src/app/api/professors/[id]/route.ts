@@ -1,8 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import { Title } from "@prisma/client";
+import { errorResponse } from "@/lib/api-response";
 
-// Türkçe unvan mapping
 const titleMap: Record<Title, string> = {
   PROF_DR: "Prof. Dr.",
   ASSOC_PROF_DR: "Doç. Dr.",
@@ -11,6 +11,14 @@ const titleMap: Record<Title, string> = {
   RES_ASST: "Arş. Gör.",
 };
 
+const ALLOWED_SORTS = new Set([
+  "newest",
+  "oldest",
+  "most-liked",
+  "highest-rating",
+  "lowest-rating",
+]);
+
 // GET /api/professors/[id] - Hoca detay
 export async function GET(
   request: NextRequest,
@@ -18,18 +26,33 @@ export async function GET(
 ) {
   try {
     const { id } = await params;
+
+    if (!id?.trim()) {
+      return errorResponse(400, "BAD_REQUEST", "Hoca id zorunludur", {
+        endpoint: "/api/professors/[id]",
+      });
+    }
+
     const { searchParams } = new URL(request.url);
-
-    // Pagination for reviews
-    const reviewsPage = parseInt(searchParams.get("reviewsPage") || "1");
-    const reviewsLimit = parseInt(searchParams.get("reviewsLimit") || "10");
+    const parsedPage = parseInt(searchParams.get("reviewsPage") || "1", 10);
+    const parsedLimit = parseInt(searchParams.get("reviewsLimit") || "10", 10);
+    const reviewsPage = Number.isNaN(parsedPage) ? 1 : Math.max(1, parsedPage);
+    const reviewsLimit = Number.isNaN(parsedLimit)
+      ? 10
+      : Math.min(50, Math.max(1, parsedLimit));
     const reviewsSkip = (reviewsPage - 1) * reviewsLimit;
-    const sortBy = searchParams.get("sortBy") || "newest";
 
-    // Hocayı bul
+    const requestedSort = searchParams.get("sortBy") || "newest";
+    const sortBy = ALLOWED_SORTS.has(requestedSort) ? requestedSort : "newest";
+
     const professor = await prisma.professor.findUnique({
       where: { id },
-      include: {
+      select: {
+        id: true,
+        name: true,
+        title: true,
+        email: true,
+        image: true,
         department: {
           select: {
             id: true,
@@ -39,7 +62,7 @@ export async function GET(
           },
         },
         courses: {
-          include: {
+          select: {
             course: {
               select: {
                 id: true,
@@ -50,22 +73,16 @@ export async function GET(
             },
           },
         },
-        _count: {
-          select: {
-            reviews: true,
-          },
-        },
       },
     });
 
     if (!professor) {
-      return NextResponse.json(
-        { error: "Hoca bulunamadı" },
-        { status: 404 }
-      );
+      return errorResponse(404, "NOT_FOUND", "Hoca bulunamadı", {
+        endpoint: "/api/professors/[id]",
+        id,
+      });
     }
 
-    // Tüm reviews için istatistik hesapla
     const allReviews = await prisma.professorReview.findMany({
       where: { professorId: id },
       select: {
@@ -88,16 +105,32 @@ export async function GET(
 
     if (reviewCount > 0) {
       stats = {
-        teaching: Math.round((allReviews.reduce((sum, r) => sum + r.teachingRating, 0) / reviewCount) * 10) / 10,
-        grading: Math.round((allReviews.reduce((sum, r) => sum + r.gradingRating, 0) / reviewCount) * 10) / 10,
-        accessibility: Math.round((allReviews.reduce((sum, r) => sum + r.accessRating, 0) / reviewCount) * 10) / 10,
-        overall: Math.round((allReviews.reduce((sum, r) => sum + r.overallRating, 0) / reviewCount) * 10) / 10,
-        wouldTakeAgainPercent: Math.round((allReviews.filter((r) => r.wouldTakeAgain).length / reviewCount) * 100),
+        teaching:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.teachingRating, 0) / reviewCount) * 10
+          ) / 10,
+        grading:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.gradingRating, 0) / reviewCount) * 10
+          ) / 10,
+        accessibility:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.accessRating, 0) / reviewCount) * 10
+          ) / 10,
+        overall:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.overallRating, 0) / reviewCount) * 10
+          ) / 10,
+        wouldTakeAgainPercent: Math.round(
+          (allReviews.filter((r) => r.wouldTakeAgain).length / reviewCount) * 100
+        ),
       };
     }
 
-    // Sıralama için orderBy
-    let orderBy: object = { createdAt: "desc" };
+    let orderBy: { createdAt?: "asc" | "desc"; likes?: "asc" | "desc"; overallRating?: "asc" | "desc" } = {
+      createdAt: "desc",
+    };
+
     switch (sortBy) {
       case "oldest":
         orderBy = { createdAt: "asc" };
@@ -111,12 +144,25 @@ export async function GET(
       case "lowest-rating":
         orderBy = { overallRating: "asc" };
         break;
+      default:
+        orderBy = { createdAt: "desc" };
     }
 
-    // Paginated reviews
     const reviews = await prisma.professorReview.findMany({
       where: { professorId: id },
-      include: {
+      select: {
+        id: true,
+        semester: true,
+        teachingRating: true,
+        gradingRating: true,
+        accessRating: true,
+        overallRating: true,
+        wouldTakeAgain: true,
+        comment: true,
+        isAnonymous: true,
+        likes: true,
+        createdAt: true,
+        updatedAt: true,
         user: {
           select: {
             id: true,
@@ -136,7 +182,6 @@ export async function GET(
       take: reviewsLimit,
     });
 
-    // Reviews'u formatla
     const formattedReviews = reviews.map((review) => ({
       id: review.id,
       semester: review.semester,
@@ -150,12 +195,13 @@ export async function GET(
       likes: review.likes,
       createdAt: review.createdAt.toISOString(),
       updatedAt: review.updatedAt.toISOString(),
-      user: review.isAnonymous
-        ? null
-        : {
-            id: review.user.id,
-            name: review.user.name,
-          },
+      user:
+        review.isAnonymous || !review.user
+          ? null
+          : {
+              id: review.user.id,
+              name: review.user.name,
+            },
       course: review.course,
     }));
 
@@ -186,9 +232,13 @@ export async function GET(
     });
   } catch (error) {
     console.error("Professor detail GET error:", error);
-    return NextResponse.json(
-      { error: "Hoca bilgileri yüklenirken bir hata oluştu" },
-      { status: 500 }
+    return errorResponse(
+      500,
+      "INTERNAL_ERROR",
+      "Hoca bilgileri yüklenirken bir hata oluştu",
+      {
+        endpoint: "/api/professors/[id]",
+      }
     );
   }
 }

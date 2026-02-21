@@ -1,28 +1,13 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import crypto from "crypto";
-import { z } from "zod";
 import prisma from "@/lib/prisma";
 import { sendVerificationEmail } from "@/lib/email";
-
-const registerSchema = z.object({
-  name: z.string().min(2, "Isim en az 2 karakter olmalidir"),
-  email: z
-    .string()
-    .email("Gecerli bir email adresi giriniz")
-    .refine(
-      (email) => email.endsWith("@metu.edu.tr"),
-      "Sadece @metu.edu.tr mail adresleri kabul edilir"
-    ),
-  password: z
-    .string()
-    .min(6, "Sifre en az 6 karakter olmalidir"),
-  department: z.string().min(1, "Bolum seciniz"),
-  year: z.enum(["PREP", "FRESHMAN", "SOPHOMORE", "JUNIOR", "SENIOR", "MASTERS", "PHD"]),
-});
+import { registerSchema } from "@/lib/validation";
 
 export async function POST(request: Request) {
   try {
+
     const body = await request.json();
 
     // Zod validation

@@ -1,12 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { useSession } from "next-auth/react";
+import { useCallback, useEffect, useState } from "react";
 import {
   Check,
   X,
   Eye,
-  Filter,
   Search,
   MessageSquare,
   User,
@@ -15,7 +13,7 @@ import {
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import {
   Select,
@@ -65,7 +63,6 @@ interface Review {
 }
 
 export default function AdminReviewsPage() {
-  const { data: session } = useSession();
   const [reviews, setReviews] = useState<Review[]>([]);
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState("all");
@@ -74,11 +71,7 @@ export default function AdminReviewsPage() {
   const [selectedReview, setSelectedReview] = useState<Review | null>(null);
   const [actionLoading, setActionLoading] = useState<string | null>(null);
 
-  useEffect(() => {
-    fetchReviews();
-  }, [filter, typeFilter]);
-
-  const fetchReviews = async () => {
+  const fetchReviews = useCallback(async () => {
     try {
       const params = new URLSearchParams();
       if (filter !== "all") params.set("status", filter);
@@ -94,7 +87,11 @@ export default function AdminReviewsPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [filter, typeFilter]);
+
+  useEffect(() => {
+    fetchReviews();
+  }, [fetchReviews]);
 
   const handleAction = async (reviewId: string, type: string, action: "approve" | "reject") => {
     setActionLoading(reviewId);
@@ -111,7 +108,7 @@ export default function AdminReviewsPage() {
       } else {
         toast.error("İşlem başarısız");
       }
-    } catch (error) {
+    } catch {
       toast.error("Bir hata oluştu");
     } finally {
       setActionLoading(null);

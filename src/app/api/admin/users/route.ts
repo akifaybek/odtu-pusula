@@ -1,15 +1,11 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
 import prisma from "@/lib/prisma";
+import { requireAdmin, requireAdminOnly } from "@/lib/admin-auth";
 
 export async function GET(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
-
-    if (!session) {
-      return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
-    }
+    const { error } = await requireAdmin();
+    if (error) return error;
 
     const { searchParams } = new URL(request.url);
     const role = searchParams.get("role");
@@ -43,11 +39,9 @@ export async function GET(request: NextRequest) {
 
 export async function PATCH(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
-
-    if (!session) {
-      return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
-    }
+    // Kullanıcı işlemleri için sadece ADMIN yetkisi gerekli
+    const { session, error } = await requireAdminOnly();
+    if (error) return error;
 
     const { userId, action, role } = await request.json();
 

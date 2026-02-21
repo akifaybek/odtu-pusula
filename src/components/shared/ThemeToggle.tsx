@@ -1,18 +1,15 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 import { Moon, Sun } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "@/contexts/LanguageContext";
 
 export function ThemeToggle() {
   const { setTheme, resolvedTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
+  const { t } = useTranslation();
 
-  // Avoid hydration mismatch
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+  const mounted = resolvedTheme !== undefined;
 
   const toggleTheme = () => {
     setTheme(resolvedTheme === "dark" ? "light" : "dark");
@@ -22,7 +19,7 @@ export function ThemeToggle() {
     return (
       <Button variant="ghost" size="icon" className="h-9 w-9">
         <Sun className="h-4 w-4" />
-        <span className="sr-only">Tema değiştir</span>
+        <span className="sr-only">{t("nav.toggleTheme")}</span>
       </Button>
     );
   }
@@ -33,14 +30,14 @@ export function ThemeToggle() {
       size="icon"
       className="h-9 w-9"
       onClick={toggleTheme}
-      aria-label={resolvedTheme === "dark" ? "Açık temaya geç" : "Koyu temaya geç"}
+      aria-label={resolvedTheme === "dark" ? t("nav.lightTheme") : t("nav.darkTheme")}
     >
       {resolvedTheme === "dark" ? (
         <Sun className="h-4 w-4" />
       ) : (
         <Moon className="h-4 w-4" />
       )}
-      <span className="sr-only">Tema değiştir</span>
+      <span className="sr-only">{t("nav.toggleTheme")}</span>
     </Button>
   );
 }

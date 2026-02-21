@@ -75,49 +75,49 @@ export default function RatingSlider({
 
 // Preset options for common use cases
 export const difficultyOptions: RatingOption[] = [
-  { value: 1, label: "Çocuk oyuncağı", emoji: "😎" },
-  { value: 2, label: "Rahat", emoji: "😊" },
-  { value: 3, label: "Ortalama", emoji: "😐" },
-  { value: 4, label: "Ter döktüm", emoji: "😰" },
-  { value: 5, label: "Hayatta kalma", emoji: "💀" },
+  { value: 1, label: "Çok Kolay", emoji: "😎" },
+  { value: 2, label: "Kolay", emoji: "😊" },
+  { value: 3, label: "Orta", emoji: "😐" },
+  { value: 4, label: "Zor", emoji: "😰" },
+  { value: 5, label: "Çok Zor", emoji: "💀" },
 ];
 
 export const workloadOptions: RatingOption[] = [
-  { value: 1, label: "Neredeyse hiç", emoji: "🎉" },
-  { value: 2, label: "Makul", emoji: "👍" },
-  { value: 3, label: "Normal", emoji: "📚" },
+  { value: 1, label: "Çok Az", emoji: "🎉" },
+  { value: 2, label: "Az", emoji: "👍" },
+  { value: 3, label: "Orta", emoji: "📚" },
   { value: 4, label: "Yoğun", emoji: "📝" },
-  { value: 5, label: "Uyku nedir?", emoji: "😵" },
+  { value: 5, label: "Çok Yoğun", emoji: "😵" },
 ];
 
 export const usefulnessOptions: RatingOption[] = [
-  { value: 1, label: "Hiç", emoji: "👎" },
-  { value: 2, label: "Biraz", emoji: "🤷" },
-  { value: 3, label: "İdare eder", emoji: "👌" },
-  { value: 4, label: "Bayağı", emoji: "👏" },
-  { value: 5, label: "Çok değerli", emoji: "🌟" },
+  { value: 1, label: "Faydasız", emoji: "👎" },
+  { value: 2, label: "Az Faydalı", emoji: "🤷" },
+  { value: 3, label: "Orta", emoji: "👌" },
+  { value: 4, label: "Faydalı", emoji: "👏" },
+  { value: 5, label: "Çok Faydalı", emoji: "🌟" },
 ];
 
 export const teachingOptions: RatingOption[] = [
-  { value: 1, label: "Anlamıyorum", emoji: "😕" },
-  { value: 2, label: "Zor takip", emoji: "😓" },
-  { value: 3, label: "İdare eder", emoji: "🤔" },
-  { value: 4, label: "İyi anlatıyor", emoji: "😊" },
-  { value: 5, label: "Efsane hoca", emoji: "🌟" },
+  { value: 1, label: "Çok Kötü", emoji: "😕" },
+  { value: 2, label: "Kötü", emoji: "😓" },
+  { value: 3, label: "Orta", emoji: "🤔" },
+  { value: 4, label: "İyi", emoji: "😊" },
+  { value: 5, label: "Çok İyi", emoji: "🌟" },
 ];
 
 export const gradingOptions: RatingOption[] = [
-  { value: 1, label: "Çok haksız", emoji: "😤" },
-  { value: 2, label: "Biraz keyfi", emoji: "😒" },
-  { value: 3, label: "İdare eder", emoji: "😐" },
+  { value: 1, label: "Çok Haksız", emoji: "😤" },
+  { value: 2, label: "Haksız", emoji: "😒" },
+  { value: 3, label: "Orta", emoji: "😐" },
   { value: 4, label: "Adil", emoji: "👍" },
-  { value: 5, label: "Çok adil", emoji: "⚖️" },
+  { value: 5, label: "Çok Adil", emoji: "⚖️" },
 ];
 
 export const accessibilityOptions: RatingOption[] = [
   { value: 1, label: "Ulaşılmaz", emoji: "🚫" },
-  { value: 2, label: "Zor bulursun", emoji: "😕" },
-  { value: 3, label: "Normal", emoji: "📧" },
-  { value: 4, label: "Ulaşılabilir", emoji: "👋" },
-  { value: 5, label: "Kapısı açık", emoji: "🚪" },
+  { value: 2, label: "Zor", emoji: "😕" },
+  { value: 3, label: "Orta", emoji: "📧" },
+  { value: 4, label: "Kolay", emoji: "👋" },
+  { value: 5, label: "Çok Kolay", emoji: "🚪" },
 ];

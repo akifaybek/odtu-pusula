@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { ThumbsUp, ThumbsDown, Minus } from "lucide-react";
+import { useTranslation } from "@/contexts/LanguageContext";
 
 type TakeAgainLevel = "recommended" | "mixed" | "not-recommended";
 
@@ -17,32 +18,36 @@ function getTakeAgainLevel(percentage: number): TakeAgainLevel {
   return "not-recommended";
 }
 
-const takeAgainConfig = {
-  recommended: {
-    label: "Tavsiye Ediliyor",
-    color: "text-emerald-500",
-    bg: "bg-emerald-500/10",
-    border: "border-emerald-500/20",
-    progressBg: "bg-emerald-500",
-    icon: ThumbsUp,
-  },
-  mixed: {
-    label: "Kararsız Kitle",
-    color: "text-amber-500",
-    bg: "bg-amber-500/10",
-    border: "border-amber-500/20",
-    progressBg: "bg-amber-500",
-    icon: Minus,
-  },
-  "not-recommended": {
-    label: "Düşün Derim",
-    color: "text-red-500",
-    bg: "bg-red-500/10",
-    border: "border-red-500/20",
-    progressBg: "bg-red-500",
-    icon: ThumbsDown,
-  },
-};
+function useTakeAgainConfig() {
+  const { t } = useTranslation();
+
+  return {
+    recommended: {
+      label: t("professors.recommended"),
+      color: "text-emerald-500",
+      bg: "bg-emerald-500/10",
+      border: "border-emerald-500/20",
+      progressBg: "bg-emerald-500",
+      icon: ThumbsUp,
+    },
+    mixed: {
+      label: t("professors.mixedReviews"),
+      color: "text-amber-500",
+      bg: "bg-amber-500/10",
+      border: "border-amber-500/20",
+      progressBg: "bg-amber-500",
+      icon: Minus,
+    },
+    "not-recommended": {
+      label: t("professors.thinkTwice"),
+      color: "text-red-500",
+      bg: "bg-red-500/10",
+      border: "border-red-500/20",
+      progressBg: "bg-red-500",
+      icon: ThumbsDown,
+    },
+  };
+}
 
 export default function TakeAgainBadge({
   percentage,
@@ -50,6 +55,7 @@ export default function TakeAgainBadge({
   size = "md",
 }: TakeAgainBadgeProps) {
   const level = getTakeAgainLevel(percentage);
+  const takeAgainConfig = useTakeAgainConfig();
   const config = takeAgainConfig[level];
   const Icon = config.icon;
 
@@ -92,13 +98,15 @@ interface TakeAgainProgressProps {
 }
 
 export function TakeAgainProgress({ percentage, showLabel = true }: TakeAgainProgressProps) {
+  const { t } = useTranslation();
   const level = getTakeAgainLevel(percentage);
+  const takeAgainConfig = useTakeAgainConfig();
   const config = takeAgainConfig[level];
 
   return (
     <div className="space-y-1.5">
       <div className="flex items-center justify-between text-xs">
-        <span className="text-muted-foreground">Tekrar Alırım</span>
+        <span className="text-muted-foreground">{t("professors.wouldTakeAgain")}</span>
         <span className={cn("font-semibold", config.color)}>
           %{percentage}
           {showLabel && <span className="font-normal opacity-70"> · {config.label}</span>}
@@ -114,4 +122,4 @@ export function TakeAgainProgress({ percentage, showLabel = true }: TakeAgainPro
   );
 }
 
-export { getTakeAgainLevel, takeAgainConfig };
+export { getTakeAgainLevel, useTakeAgainConfig };

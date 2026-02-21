@@ -3,8 +3,14 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import prisma from "@/lib/prisma";
 import { z } from "zod";
+import { errorResponse } from "@/lib/api-response";
+import {
+  classifyError,
+  classifyThrownError,
+  completeRequestTrace,
+  startRequestTrace,
+} from "@/lib/observability";
 
-// Validation schema
 const likeSchema = z.object({
   reviewType: z.enum(["course", "professor"]),
 });
@@ -14,33 +20,51 @@ export async function POST(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
+  const trace = startRequestTrace(request, "/api/reviews/[id]/like");
+
+  const fail = (status: number, code: "BAD_REQUEST" | "UNAUTHORIZED" | "NOT_FOUND" | "VALIDATION_ERROR" | "RATE_LIMITED" | "INTERNAL_ERROR", message: string, context?: Record<string, unknown>) =>
+    completeRequestTrace(trace, errorResponse(status, code, message, context), {
+      errorClass: classifyError(status),
+    });
+
   try {
     const session = await getServerSession(authOptions);
 
     if (!session?.user?.id) {
-      return NextResponse.json(
-        { error: "Beğenmek için giriş yapmalısınız" },
-        { status: 401 }
-      );
+      return fail(401, "UNAUTHORIZED", "Beğenmek için giriş yapmalısınız", {
+        endpoint: "/api/reviews/[id]/like",
+      });
     }
 
+
     const { id: reviewId } = await params;
-    const body = await request.json();
+    if (!reviewId?.trim()) {
+      return fail(400, "BAD_REQUEST", "Değerlendirme id zorunludur", {
+        endpoint: "/api/reviews/[id]/like",
+      });
+    }
 
-    // Validation
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return fail(400, "BAD_REQUEST", "Geçersiz JSON body", {
+        endpoint: "/api/reviews/[id]/like",
+        reviewId,
+      });
+    }
+
     const validationResult = likeSchema.safeParse(body);
-
     if (!validationResult.success) {
-      return NextResponse.json(
-        { error: validationResult.error.issues[0].message },
-        { status: 400 }
-      );
+      return fail(400, "VALIDATION_ERROR", validationResult.error.issues[0].message, {
+        endpoint: "/api/reviews/[id]/like",
+        reviewId,
+      });
     }
 
     const { reviewType } = validationResult.data;
     const userId = session.user.id;
 
-    // Review'un var olduğunu ve kullanıcının kendi review'u olmadığını kontrol et
     if (reviewType === "course") {
       const review = await prisma.courseReview.findUnique({
         where: { id: reviewId },
@@ -48,17 +72,19 @@ export async function POST(
       });
 
       if (!review) {
-        return NextResponse.json(
-          { error: "Değerlendirme bulunamadı" },
-          { status: 404 }
-        );
+        return fail(404, "NOT_FOUND", "Değerlendirme bulunamadı", {
+          endpoint: "/api/reviews/[id]/like",
+          reviewId,
+          reviewType,
+        });
       }
 
       if (review.userId === userId) {
-        return NextResponse.json(
-          { error: "Kendi değerlendirmenizi beğenemezsiniz" },
-          { status: 400 }
-        );
+        return fail(400, "BAD_REQUEST", "Kendi değerlendirmenizi beğenemezsiniz", {
+          endpoint: "/api/reviews/[id]/like",
+          reviewId,
+          reviewType,
+        });
       }
     } else {
       const review = await prisma.professorReview.findUnique({
@@ -67,21 +93,22 @@ export async function POST(
       });
 
       if (!review) {
-        return NextResponse.json(
-          { error: "Değerlendirme bulunamadı" },
-          { status: 404 }
-        );
+        return fail(404, "NOT_FOUND", "Değerlendirme bulunamadı", {
+          endpoint: "/api/reviews/[id]/like",
+          reviewId,
+          reviewType,
+        });
       }
 
       if (review.userId === userId) {
-        return NextResponse.json(
-          { error: "Kendi değerlendirmenizi beğenemezsiniz" },
-          { status: 400 }
-        );
+        return fail(400, "BAD_REQUEST", "Kendi değerlendirmenizi beğenemezsiniz", {
+          endpoint: "/api/reviews/[id]/like",
+          reviewId,
+          reviewType,
+        });
       }
     }
 
-    // Mevcut like'ı kontrol et
     const existingLike = await prisma.reviewLike.findUnique({
       where: {
         userId_reviewId_reviewType: {
@@ -90,20 +117,18 @@ export async function POST(
           reviewType,
         },
       },
+      select: { id: true },
     });
 
     let liked: boolean;
-    let likeCount: number;
+    let likeCount = 0;
 
     if (existingLike) {
-      // Unlike - like'ı kaldır
       await prisma.$transaction(async (tx) => {
-        // Like'ı sil
         await tx.reviewLike.delete({
           where: { id: existingLike.id },
         });
 
-        // Review'un like sayısını azalt
         if (reviewType === "course") {
           await tx.courseReview.update({
             where: { id: reviewId },
@@ -119,9 +144,7 @@ export async function POST(
 
       liked = false;
     } else {
-      // Like - yeni like ekle
       await prisma.$transaction(async (tx) => {
-        // Like oluştur
         await tx.reviewLike.create({
           data: {
             userId,
@@ -130,7 +153,6 @@ export async function POST(
           },
         });
 
-        // Review'un like sayısını artır
         if (reviewType === "course") {
           await tx.courseReview.update({
             where: { id: reviewId },
@@ -147,7 +169,6 @@ export async function POST(
       liked = true;
     }
 
-    // Güncel like sayısını al
     if (reviewType === "course") {
       const review = await prisma.courseReview.findUnique({
         where: { id: reviewId },
@@ -162,15 +183,23 @@ export async function POST(
       likeCount = review?.likes || 0;
     }
 
-    return NextResponse.json({
-      liked,
-      likeCount,
-    });
-  } catch (error) {
-    console.error("Like POST error:", error);
-    return NextResponse.json(
-      { error: "Beğeni işlemi sırasında bir hata oluştu" },
-      { status: 500 }
+    return completeRequestTrace(
+      trace,
+      NextResponse.json({
+        liked,
+        likeCount,
+      })
     );
+  } catch (error) {
+    const response = errorResponse(500, "INTERNAL_ERROR", "Beğeni işlemi sırasında bir hata oluştu", {
+      endpoint: "/api/reviews/[id]/like",
+      requestId: trace.requestId,
+      correlationId: trace.correlationId,
+    });
+
+    return completeRequestTrace(trace, response, {
+      error,
+      errorClass: classifyThrownError(error),
+    });
   }
 }

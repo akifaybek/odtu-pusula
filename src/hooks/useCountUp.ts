@@ -10,19 +10,18 @@ interface UseCountUpOptions {
 
 export function useCountUp({ end, duration = 2000, startOnView = true }: UseCountUpOptions) {
   const [count, setCount] = useState(0);
-  const [hasStarted, setHasStarted] = useState(false);
+  const [hasStartedInView, setHasStartedInView] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
+  const hasStarted = !startOnView || hasStartedInView;
+
   useEffect(() => {
-    if (!startOnView) {
-      setHasStarted(true);
-      return;
-    }
+    if (!startOnView || hasStartedInView) return;
 
     const observer = new IntersectionObserver(
       (entries) => {
-        if (entries[0].isIntersecting && !hasStarted) {
-          setHasStarted(true);
+        if (entries[0].isIntersecting) {
+          setHasStartedInView(true);
         }
       },
       { threshold: 0.1 }
@@ -33,7 +32,7 @@ export function useCountUp({ end, duration = 2000, startOnView = true }: UseCoun
     }
 
     return () => observer.disconnect();
-  }, [startOnView, hasStarted]);
+  }, [startOnView, hasStartedInView]);
 
   useEffect(() => {
     if (!hasStarted) return;

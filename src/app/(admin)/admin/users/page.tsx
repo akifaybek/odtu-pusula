@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useSession } from "next-auth/react";
 import {
   Search,
@@ -67,11 +67,7 @@ export default function AdminUsersPage() {
   const [newRole, setNewRole] = useState<string>("");
   const [actionLoading, setActionLoading] = useState(false);
 
-  useEffect(() => {
-    fetchUsers();
-  }, [roleFilter]);
-
-  const fetchUsers = async () => {
+  const fetchUsers = useCallback(async () => {
     try {
       const params = new URLSearchParams();
       if (roleFilter !== "all") params.set("role", roleFilter);
@@ -86,7 +82,11 @@ export default function AdminUsersPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [roleFilter]);
+
+  useEffect(() => {
+    fetchUsers();
+  }, [fetchUsers]);
 
   const handleBanToggle = async () => {
     if (!selectedUser) return;
@@ -111,7 +111,7 @@ export default function AdminUsersPage() {
         const error = await res.json();
         toast.error(error.error || "İşlem başarısız");
       }
-    } catch (error) {
+    } catch {
       toast.error("Bir hata oluştu");
     } finally {
       setActionLoading(false);
@@ -143,7 +143,7 @@ export default function AdminUsersPage() {
         const error = await res.json();
         toast.error(error.error || "İşlem başarısız");
       }
-    } catch (error) {
+    } catch {
       toast.error("Bir hata oluştu");
     } finally {
       setActionLoading(false);

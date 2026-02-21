@@ -12,6 +12,7 @@ import {
   X,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { useTranslation } from "@/contexts/LanguageContext";
 
 interface SearchResult {
   courses: Array<{
@@ -31,6 +32,7 @@ interface SearchResult {
 
 export default function GlobalSearch() {
   const router = useRouter();
+  const { t } = useTranslation();
   const [query, setQuery] = useState("");
   const [results, setResults] = useState<SearchResult | null>(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -145,10 +147,10 @@ export default function GlobalSearch() {
     setQuery("");
     if (result.type === "course") {
       const course = result.item as { code: string };
-      router.push(`/dersler/${course.code}`);
+      router.push(`/courses/${course.code}`);
     } else {
       const professor = result.item as { id: string };
-      router.push(`/hocalar/${professor.id}`);
+      router.push(`/professors/${professor.id}`);
     }
   };
 
@@ -169,7 +171,7 @@ export default function GlobalSearch() {
           onChange={(e) => setQuery(e.target.value)}
           onFocus={() => query.length >= 2 && setIsOpen(true)}
           onKeyDown={handleKeyDown}
-          placeholder="Ders veya hoca ara..."
+          placeholder={t("nav.searchPlaceholder")}
           className="w-full h-9 pl-9 pr-16 rounded-lg border border-border/50 bg-muted/50 text-sm placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary/50 transition-all"
         />
         <div className="absolute right-2 top-1/2 -translate-y-1/2 flex items-center gap-1">
@@ -203,7 +205,7 @@ export default function GlobalSearch() {
               {results.courses.length > 0 && (
                 <div>
                   <div className="px-3 py-2 text-xs font-medium text-muted-foreground bg-muted/50">
-                    Dersler
+                    {t("search.courses")}
                   </div>
                   {results.courses.map((course) => {
                     const itemIndex = currentIndex++;
@@ -252,7 +254,7 @@ export default function GlobalSearch() {
               {results.professors.length > 0 && (
                 <div>
                   <div className="px-3 py-2 text-xs font-medium text-muted-foreground bg-muted/50">
-                    Hocalar
+                    {t("search.professors")}
                   </div>
                   {results.professors.map((professor) => {
                     const itemIndex = currentIndex++;
@@ -300,8 +302,8 @@ export default function GlobalSearch() {
           ) : query.length >= 2 && !isLoading ? (
             <div className="px-4 py-8 text-center text-muted-foreground">
               <Search className="h-8 w-8 mx-auto mb-2 opacity-50" />
-              <p className="text-sm">Sonuç bulunamadı</p>
-              <p className="text-xs mt-1">Farklı bir arama terimi deneyin</p>
+              <p className="text-sm">{t("search.noResults")}</p>
+              <p className="text-xs mt-1">{t("search.tryDifferent")}</p>
             </div>
           ) : null}
 
@@ -312,17 +314,17 @@ export default function GlobalSearch() {
                 <kbd className="px-1 py-0.5 rounded border border-border bg-background mr-1">
                   ↑↓
                 </kbd>
-                ile gezin,
+                {t("search.navigate")}
                 <kbd className="px-1 py-0.5 rounded border border-border bg-background mx-1">
                   Enter
                 </kbd>
-                ile seçin
+                {t("search.select")}
               </span>
               <span>
                 <kbd className="px-1 py-0.5 rounded border border-border bg-background">
                   Esc
                 </kbd>
-                kapat
+                {t("search.close")}
               </span>
             </div>
           )}

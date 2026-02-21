@@ -1,0 +1,97 @@
+name: PR Quality Gates
+
+"on":
+  pull_request:
+    branches: [main]
+
+env:
+  NODE_VERSION: "20"
+  DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/odtu_pusula_ci"
+  DIRECT_URL: "postgresql://postgres:postgres@localhost:5432/odtu_pusula_ci"
+  NEXTAUTH_URL: "http://localhost:3000"
+  NEXTAUTH_SECRET: ci-local-secret-32-chars-minimum
+  CI: true
+
+concurrency:
+  group: "pr-quality-${{ github.event.pull_request.number }}"
+  cancel-in-progress: true
+
+jobs:
+  quality-gates:
+    name: quality-gates
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: odtu_pusula_ci
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U postgres -d odtu_pusula_ci"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Wait for Postgres
+        run: |
+          for i in {1..30}; do
+            if nc -z localhost 5432; then
+              echo "Postgres is ready"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "Postgres did not become ready in time"
+          exit 1
+
+      - name: Prisma generate
+        run: npx prisma generate
+
+      - name: Apply migrations (integration test DB)
+        run: npx prisma migrate deploy
+
+      - name: Prepare artifact directory
+        run: mkdir -p artifacts coverage
+
+      - name: Typecheck
+        run: |
+          set -o pipefail
+          npx tsc --noEmit 2>&1 | tee artifacts/typecheck.log
+
+      - name: Lint
+        run: |
+          set -o pipefail
+          npm run lint -- --max-warnings=0 2>&1 | tee artifacts/lint.log
+
+      - name: Unit + Integration tests
+        run: |
+          set -o pipefail
+          npm run test -- --runInBand --coverage 2>&1 | tee artifacts/test.log
+
+      - name: Upload diagnostics (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-quality-artifacts
+          path: |
+            artifacts/**
+            coverage/**
+          retention-days: 14

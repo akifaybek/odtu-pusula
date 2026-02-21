@@ -127,6 +127,7 @@ model User {
   reviewLikes      ReviewLike[]
   reports          Report[]          @relation("ReporterRelation")
   handledReports   Report[]          @relation("HandlerRelation")
+  suggestions      Suggestion[]
 
   @@index([departmentId])
   @@index([email])
@@ -149,15 +150,26 @@ model Department {
   @@index([code])
 }
 
+// ============== Course Type Enum ==============
+
+enum CourseType {
+  REQUIRED      // Zorunlu
+  ELECTIVE      // Secmeli
+  TECH_ELECTIVE // Teknik Secmeli
+  NON_TECH      // Teknik Disi Secmeli
+  FREE_ELECTIVE // Serbest Secmeli
+}
+
 // ============== Course Model ==============
 
 model Course {
-  id           String  @id @default(cuid())
-  code         String  @unique // CENG140, MATH119
-  name         String  // C Programming
-  credits      Int     @default(3)
+  id           String      @id @default(cuid())
+  code         String      @unique // CENG140, MATH119
+  name         String      // C Programming
+  credits      Int         @default(3)
   departmentId String
-  description  String? @db.Text
+  description  String?     @db.Text
+  courseType   CourseType? // Zorunlu, Secmeli, Teknik Secmeli
 
   // Relations
   department Department          @relation(fields: [departmentId], references: [id])
@@ -215,6 +227,7 @@ model CourseReview {
   workloadRating   Int          // 1-5 Is yuku
   usefulnessRating Int          // 1-5 Faydalilik
   overallRating    Int          // 1-5 Genel
+  wouldRecommend   Boolean?     // Bu dersi tavsiye eder misin?
   grade            Grade?       // Alinan not (opsiyonel)
   comment          String       @db.Text
   isAnonymous      Boolean      @default(true)
@@ -341,4 +354,28 @@ model Report {
   @@index([professorReviewId])
   @@index([status])
   @@index([createdAt])
+}
+
+// ============== Suggestion Model ==============
+
+model Suggestion {
+  id             String   @id @default(cuid())
+  type           String   // "course" veya "professor"
+  courseCode     String?
+  courseName     String?
+  professorName  String?
+  department     String?
+  additionalInfo String?  @db.Text
+  contactEmail   String?
+  userId         String?
+  status         String   @default("pending") // pending, approved, rejected
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([status])
+  @@index([createdAt])
+  @@index([type])
 }

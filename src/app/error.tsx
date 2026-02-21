@@ -17,30 +17,37 @@ export default function Error({
   }, [error]);
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background px-6">
-      <div className="text-center max-w-md">
+    <div className="min-h-screen flex items-center justify-center bg-background px-6 pattern-grid">
+      <div className="text-center max-w-lg space-y-8 animate-in fade-in zoom-in duration-500">
         {/* Error Icon */}
-        <div className="mb-8">
-          <AlertTriangle className="h-16 w-16 text-destructive mx-auto" />
+        <div className="relative inline-block">
+          <div className="absolute inset-0 bg-destructive/10 blur-3xl rounded-full" />
+          <div className="relative bg-card p-6 rounded-3xl border border-border/50 shadow-xl">
+            <AlertTriangle className="h-20 w-20 text-destructive animate-pulse" />
+          </div>
         </div>
 
-        {/* Title */}
-        <h1 className="text-3xl font-bold mb-4">Bir Hata Oluştu</h1>
+        <div className="space-y-4">
+          {/* Title */}
+          <h1 className="text-3xl font-extrabold tracking-tight lg:text-4xl">
+            Bir Şeyler Ters Gitti
+          </h1>
 
-        {/* Description */}
-        <p className="text-muted-foreground mb-8">
-          Beklenmeyen bir hata oluştu. Lütfen tekrar deneyin veya ana sayfaya dönün.
-        </p>
+          {/* Description */}
+          <p className="text-lg text-muted-foreground">
+            Beklenmedik bir hata oluştu. Sayfayı yenilemeyi deneyebilir veya ana sayfaya dönebilirsin.
+          </p>
+        </div>
 
         {/* Actions */}
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
-          <Button onClick={reset} className="gap-2">
-            <RefreshCw className="h-4 w-4" />
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button onClick={reset} size="lg" className="gap-2 w-full sm:w-auto text-base rounded-xl h-12 shadow-md">
+            <RefreshCw className="h-5 w-5" />
             Tekrar Dene
           </Button>
           <Link href="/">
-            <Button variant="outline" className="gap-2 w-full sm:w-auto">
-              <Home className="h-4 w-4" />
+            <Button variant="outline" size="lg" className="gap-2 w-full sm:w-auto text-base rounded-xl h-12 border-2">
+              <Home className="h-5 w-5" />
               Ana Sayfa
             </Button>
           </Link>
@@ -48,9 +55,11 @@ export default function Error({
 
         {/* Error digest for debugging */}
         {error.digest && (
-          <p className="mt-8 text-xs text-muted-foreground">
-            Hata kodu: {error.digest}
-          </p>
+          <div className="mt-8 p-4 rounded-lg bg-muted text-left">
+            <p className="text-xs text-muted-foreground font-mono">
+              Hata Kodu: {error.digest}
+            </p>
+          </div>
         )}
       </div>
     </div>

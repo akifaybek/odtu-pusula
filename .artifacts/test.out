@@ -1,0 +1,220 @@
+
+> odtu-pusula@0.1.0 test
+> jest --runInBand --json --outputFile=.artifacts/jest-results.json
+
+FAIL ODTÜ Pusula __tests__/api/reviews.integration.test.ts
+  ● Reviews API Integration (stable core) › creates a course review and enforces unique (user+course+semester)
+
+    PrismaClientInitializationError: 
+    Invalid `prisma.$executeRawUnsafe()` invocation:
+
+
+    Can't reach database server at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`
+
+    Please make sure your database server is running at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`.
+
+      69 |   await withDbRetry(async () => {
+      70 |     // Çok sayıda deleteMany yerine tek TRUNCATE ile daha hızlı ve deterministik reset.
+    > 71 |     await prisma.$executeRawUnsafe(`
+         |     ^
+      72 |       TRUNCATE TABLE
+      73 |         "ReviewLike",
+      74 |         "Report",
+
+      at $n.handleRequestError (node_modules/@prisma/client/runtime/library.js:121:7615)
+      at $n.handleAndLogRequestError (node_modules/@prisma/client/runtime/library.js:121:6623)
+      at $n.request (node_modules/@prisma/client/runtime/library.js:121:6307)
+      at l (node_modules/@prisma/client/runtime/library.js:130:9633)
+      at __tests__/utils/test-helpers.ts:71:5
+      at withDbRetry (__tests__/utils/test-helpers.ts:22:14)
+      at cleanDatabase (__tests__/utils/test-helpers.ts:69:3)
+      at Object.<anonymous> (__tests__/api/reviews.integration.test.ts:15:5)
+
+  ● Reviews API Integration (stable core) › creates a professor review
+
+    PrismaClientInitializationError: 
+    Invalid `prisma.$executeRawUnsafe()` invocation:
+
+
+    Can't reach database server at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`
+
+    Please make sure your database server is running at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`.
+
+      69 |   await withDbRetry(async () => {
+      70 |     // Çok sayıda deleteMany yerine tek TRUNCATE ile daha hızlı ve deterministik reset.
+    > 71 |     await prisma.$executeRawUnsafe(`
+         |     ^
+      72 |       TRUNCATE TABLE
+      73 |         "ReviewLike",
+      74 |         "Report",
+
+      at $n.handleRequestError (node_modules/@prisma/client/runtime/library.js:121:7615)
+      at $n.handleAndLogRequestError (node_modules/@prisma/client/runtime/library.js:121:6623)
+      at $n.request (node_modules/@prisma/client/runtime/library.js:121:6307)
+      at l (node_modules/@prisma/client/runtime/library.js:130:9633)
+      at __tests__/utils/test-helpers.ts:71:5
+      at withDbRetry (__tests__/utils/test-helpers.ts:22:14)
+      at cleanDatabase (__tests__/utils/test-helpers.ts:69:3)
+      at Object.<anonymous> (__tests__/api/reviews.integration.test.ts:15:5)
+
+  ● Reviews API Integration (stable core) › supports like flow and prevents duplicate likes
+
+    PrismaClientInitializationError: 
+    Invalid `prisma.$executeRawUnsafe()` invocation:
+
+
+    Can't reach database server at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`
+
+    Please make sure your database server is running at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`.
+
+      69 |   await withDbRetry(async () => {
+      70 |     // Çok sayıda deleteMany yerine tek TRUNCATE ile daha hızlı ve deterministik reset.
+    > 71 |     await prisma.$executeRawUnsafe(`
+         |     ^
+      72 |       TRUNCATE TABLE
+      73 |         "ReviewLike",
+      74 |         "Report",
+
+      at $n.handleRequestError (node_modules/@prisma/client/runtime/library.js:121:7615)
+      at $n.handleAndLogRequestError (node_modules/@prisma/client/runtime/library.js:121:6623)
+      at $n.request (node_modules/@prisma/client/runtime/library.js:121:6307)
+      at l (node_modules/@prisma/client/runtime/library.js:130:9633)
+      at __tests__/utils/test-helpers.ts:71:5
+      at withDbRetry (__tests__/utils/test-helpers.ts:22:14)
+      at cleanDatabase (__tests__/utils/test-helpers.ts:69:3)
+      at Object.<anonymous> (__tests__/api/reviews.integration.test.ts:15:5)
+
+FAIL ODTÜ Pusula __tests__/api/courses.integration.test.ts
+  ● Courses API Integration (stable core) › lists created courses and supports code search
+
+    PrismaClientInitializationError: 
+    Invalid `prisma.$executeRawUnsafe()` invocation:
+
+
+    Can't reach database server at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`
+
+    Please make sure your database server is running at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`.
+
+      69 |   await withDbRetry(async () => {
+      70 |     // Çok sayıda deleteMany yerine tek TRUNCATE ile daha hızlı ve deterministik reset.
+    > 71 |     await prisma.$executeRawUnsafe(`
+         |     ^
+      72 |       TRUNCATE TABLE
+      73 |         "ReviewLike",
+      74 |         "Report",
+
+      at $n.handleRequestError (node_modules/@prisma/client/runtime/library.js:121:7615)
+      at $n.handleAndLogRequestError (node_modules/@prisma/client/runtime/library.js:121:6623)
+      at $n.request (node_modules/@prisma/client/runtime/library.js:121:6307)
+      at l (node_modules/@prisma/client/runtime/library.js:130:9633)
+      at __tests__/utils/test-helpers.ts:71:5
+      at withDbRetry (__tests__/utils/test-helpers.ts:22:14)
+      at cleanDatabase (__tests__/utils/test-helpers.ts:69:3)
+      at Object.<anonymous> (__tests__/api/courses.integration.test.ts:14:5)
+
+  ● Courses API Integration (stable core) › returns course with approved review statistics
+
+    PrismaClientInitializationError: 
+    Invalid `prisma.$executeRawUnsafe()` invocation:
+
+
+    Can't reach database server at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`
+
+    Please make sure your database server is running at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`.
+
+      69 |   await withDbRetry(async () => {
+      70 |     // Çok sayıda deleteMany yerine tek TRUNCATE ile daha hızlı ve deterministik reset.
+    > 71 |     await prisma.$executeRawUnsafe(`
+         |     ^
+      72 |       TRUNCATE TABLE
+      73 |         "ReviewLike",
+      74 |         "Report",
+
+      at $n.handleRequestError (node_modules/@prisma/client/runtime/library.js:121:7615)
+      at $n.handleAndLogRequestError (node_modules/@prisma/client/runtime/library.js:121:6623)
+      at $n.request (node_modules/@prisma/client/runtime/library.js:121:6307)
+      at l (node_modules/@prisma/client/runtime/library.js:130:9633)
+      at __tests__/utils/test-helpers.ts:71:5
+      at withDbRetry (__tests__/utils/test-helpers.ts:22:14)
+      at cleanDatabase (__tests__/utils/test-helpers.ts:69:3)
+      at Object.<anonymous> (__tests__/api/courses.integration.test.ts:14:5)
+
+  ● Courses API Integration (stable core) › finds course by exact code and returns null for unknown course
+
+    PrismaClientInitializationError: 
+    Invalid `prisma.$executeRawUnsafe()` invocation:
+
+
+    Can't reach database server at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`
+
+    Please make sure your database server is running at `db.xkbhxwxdngjpxlzfcqtr.supabase.co:5432`.
+
+      69 |   await withDbRetry(async () => {
+      70 |     // Çok sayıda deleteMany yerine tek TRUNCATE ile daha hızlı ve deterministik reset.
+    > 71 |     await prisma.$executeRawUnsafe(`
+         |     ^
+      72 |       TRUNCATE TABLE
+      73 |         "ReviewLike",
+      74 |         "Report",
+
+      at $n.handleRequestError (node_modules/@prisma/client/runtime/library.js:121:7615)
+      at $n.handleAndLogRequestError (node_modules/@prisma/client/runtime/library.js:121:6623)
+      at $n.request (node_modules/@prisma/client/runtime/library.js:121:6307)
+      at l (node_modules/@prisma/client/runtime/library.js:130:9633)
+      at __tests__/utils/test-helpers.ts:71:5
+      at withDbRetry (__tests__/utils/test-helpers.ts:22:14)
+      at cleanDatabase (__tests__/utils/test-helpers.ts:69:3)
+      at Object.<anonymous> (__tests__/api/courses.integration.test.ts:14:5)
+
+PASS ODTÜ Pusula __tests__/api/auth.test.ts
+PASS ODTÜ Pusula __tests__/components/DifficultyBadge.test.tsx
+PASS ODTÜ Pusula __tests__/components/ThemeToggle.test.tsx
+PASS ODTÜ Pusula __tests__/components/Logo.test.tsx
+PASS ODTÜ Pusula __tests__/components/UIComponents.test.tsx
+PASS ODTÜ Pusula __tests__/middleware/rate-limit.test.ts
+  ● Console
+
+    console.error
+      Rate limit error: Error: Redis connection failed
+          at Object.<anonymous> (/Users/akif/odtu-pusula/__tests__/middleware/rate-limit.test.ts:152:43)
+          at Promise.finally.completed (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:1557:28)
+          at new Promise (<anonymous>)
+          at callAsyncCircusFn (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:1497:10)
+          at _callCircusTest (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:1007:40)
+          at _runTest (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:947:3)
+          at /Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:849:7
+          at _runTestsForDescribeBlock (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:862:11)
+          at _runTestsForDescribeBlock (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:857:11)
+          at _runTestsForDescribeBlock (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:857:11)
+          at run (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:761:3)
+          at runAndTransformResultsToJestFormat (/Users/akif/odtu-pusula/node_modules/jest-circus/build/jestAdapterInit.js:1918:21)
+          at jestAdapter (/Users/akif/odtu-pusula/node_modules/jest-circus/build/runner.js:101:19)
+          at runTestInternal (/Users/akif/odtu-pusula/node_modules/jest-runner/build/index.js:275:16)
+          at runTest (/Users/akif/odtu-pusula/node_modules/jest-runner/build/index.js:343:7)
+
+      46 |       return;
+      47 |     }
+    > 48 |     originalError.call(console, ...args);
+         |                   ^
+      49 |   };
+      50 | });
+      51 |
+
+      at console.call [as error] (jest.setup.ts:48:19)
+      at error (__tests__/middleware/rate-limit.test.ts:142:17)
+      at Object.handleRateLimitError (__tests__/middleware/rate-limit.test.ts:152:22)
+
+PASS ODTÜ Pusula __tests__/api/admin.test.ts
+PASS ODTÜ Pusula __tests__/utils/validation.test.ts
+PASS ODTÜ Pusula __tests__/middleware/rate-limit-enforcement.integration.test.ts
+PASS ODTÜ Pusula __tests__/api/search.test.ts
+PASS ODTÜ Pusula __tests__/api/courses.test.ts
+PASS ODTÜ Pusula __tests__/routing/url-routing-standard.test.ts
+PASS ODTÜ Pusula __tests__/middleware/rate-limit-architecture.test.ts
+
+Test Suites: 2 failed, 13 passed, 15 total
+Tests:       6 failed, 93 passed, 99 total
+Snapshots:   0 total
+Time:        2.305 s, estimated 3 s
+Ran all test suites.
+Test results written to: .artifacts/jest-results.json

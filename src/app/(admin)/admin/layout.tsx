@@ -2,7 +2,7 @@
 
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
@@ -12,6 +12,9 @@ import {
   Flag,
   ChevronLeft,
   Shield,
+  BookOpen,
+  GraduationCap,
+  Lightbulb,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
@@ -22,6 +25,9 @@ const adminLinks = [
   { href: "/admin/reviews", label: "Değerlendirmeler", icon: MessageSquare },
   { href: "/admin/users", label: "Kullanıcılar", icon: Users },
   { href: "/admin/reports", label: "Raporlar", icon: Flag },
+  { href: "/admin/suggestions", label: "Öneriler", icon: Lightbulb },
+  { href: "/admin/courses", label: "Dersler", icon: BookOpen },
+  { href: "/admin/professors", label: "Hocalar", icon: GraduationCap },
 ];
 
 export default function AdminLayout({
@@ -32,21 +38,16 @@ export default function AdminLayout({
   const { data: session, status } = useSession();
   const router = useRouter();
   const pathname = usePathname();
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
 
   useEffect(() => {
     if (status === "loading") return;
-    // Geçici olarak devre dışı - role kontrolü
-    // if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
-    //   router.push("/anasayfa");
-    // }
+
+    if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
+      router.push("/home");
+    }
   }, [session, status, router]);
 
-  if (!isMounted || status === "loading") {
+  if (status === "loading") {
     return (
       <div className="min-h-screen flex items-center justify-center">
         <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary"></div>
@@ -54,10 +55,9 @@ export default function AdminLayout({
     );
   }
 
-  // Geçici olarak devre dışı
-  // if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
-  //   return null;
-  // }
+  if (!session || (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR")) {
+    return null;
+  }
 
   return (
     <div className="min-h-screen bg-background">
@@ -95,7 +95,7 @@ export default function AdminLayout({
           {/* Footer */}
           <div className="border-t border-border p-4">
             <Button variant="ghost" asChild className="w-full justify-start">
-              <Link href="/anasayfa">
+              <Link href="/home">
                 <ChevronLeft className="mr-2 h-4 w-4" />
                 Siteye Dön
               </Link>

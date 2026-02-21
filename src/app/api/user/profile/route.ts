@@ -4,6 +4,15 @@ import { authOptions } from "@/lib/auth";
 import prisma from "@/lib/prisma";
 import bcrypt from "bcryptjs";
 import { Year } from "@prisma/client";
+import { z } from "zod";
+
+// Delete confirmation schema
+const deleteAccountSchema = z.object({
+  password: z.string().min(1, "Şifre gereklidir"),
+  confirmation: z.literal("DELETE", {
+    message: "Onay metni 'DELETE' olmalıdır",
+  }),
+});
 
 // GET: Kullanıcı profili
 export async function GET() {
@@ -226,7 +235,7 @@ export async function PATCH(request: NextRequest) {
       );
     }
 
-    const hashedPassword = await bcrypt.hash(newPassword, 10);
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
 
     await prisma.user.update({
       where: { id: session.user.id },
@@ -238,6 +247,112 @@ export async function PATCH(request: NextRequest) {
     console.error("Password PATCH error:", error);
     return NextResponse.json(
       { error: "Şifre değiştirilirken hata oluştu" },
+      { status: 500 }
+    );
+  }
+}
+
+// DELETE: Hesap silme (GDPR/KVKK uyumlu)
+export async function DELETE(request: NextRequest) {
+  try {
+    const session = await getServerSession(authOptions);
+
+    if (!session?.user?.id) {
+      return NextResponse.json(
+        { error: "Oturum açmanız gerekiyor" },
+        { status: 401 }
+      );
+    }
+
+    const body = await request.json();
+
+    // Validation
+    const validationResult = deleteAccountSchema.safeParse(body);
+    if (!validationResult.success) {
+      return NextResponse.json(
+        { error: validationResult.error.issues[0].message },
+        { status: 400 }
+      );
+    }
+
+    const { password } = validationResult.data;
+
+    // Kullanıcıyı bul ve şifreyi doğrula
+    const user = await prisma.user.findUnique({
+      where: { id: session.user.id },
+      select: { id: true, password: true, email: true },
+    });
+
+    if (!user) {
+      return NextResponse.json(
+        { error: "Kullanıcı bulunamadı" },
+        { status: 404 }
+      );
+    }
+
+    const isPasswordValid = await bcrypt.compare(password, user.password);
+    if (!isPasswordValid) {
+      return NextResponse.json(
+        { error: "Şifre yanlış" },
+        { status: 400 }
+      );
+    }
+
+    // Transaction ile tüm kullanıcı verilerini sil
+    await prisma.$transaction(async (tx) => {
+      // 1. Review likes'ları sil
+      await tx.reviewLike.deleteMany({
+        where: { userId: user.id },
+      });
+
+      // 2. Course review'ları sil (like count'ları da silinir)
+      await tx.courseReview.deleteMany({
+        where: { userId: user.id },
+      });
+
+      // 3. Professor review'ları sil
+      await tx.professorReview.deleteMany({
+        where: { userId: user.id },
+      });
+
+      // 4. Report'ları sil
+      await tx.report.deleteMany({
+        where: { reporterId: user.id },
+      });
+
+      // 5. Email verification token'ları sil
+      await tx.emailVerificationToken.deleteMany({
+        where: { email: user.email },
+      });
+
+      // 6. Password reset token'ları sil
+      await tx.passwordResetToken.deleteMany({
+        where: { email: user.email },
+      });
+
+      // 7. Session'ları sil (varsa)
+      await tx.session.deleteMany({
+        where: { userId: user.id },
+      });
+
+      // 8. Account'ları sil (OAuth varsa)
+      await tx.account.deleteMany({
+        where: { userId: user.id },
+      });
+
+      // 9. Son olarak kullanıcıyı sil
+      await tx.user.delete({
+        where: { id: user.id },
+      });
+    });
+
+    return NextResponse.json({
+      message: "Hesabınız ve tüm verileriniz başarıyla silindi.",
+    });
+  } catch (error) {
+    console.error("Account DELETE error:", error);
+    return NextResponse.json(
+      { error: "Hesap silinirken hata oluştu" },
       { status: 500 }
     );
   }

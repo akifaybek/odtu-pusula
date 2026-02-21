@@ -1,14 +1,14 @@
 "use client";
 
-import { useState } from "react";
 import { cn } from "@/lib/utils";
-import { BookOpen, Users } from "lucide-react";
+import { BookOpen, Users, Heart } from "lucide-react";
 
 interface ProfileTabsProps {
-  activeTab: "course" | "professor";
-  onTabChange: (tab: "course" | "professor") => void;
+  activeTab: "course" | "professor" | "likes";
+  onTabChange: (tab: "course" | "professor" | "likes") => void;
   courseCount: number;
   professorCount: number;
+  likesCount?: number;
 }
 
 export function ProfileTabs({
@@ -16,6 +16,7 @@ export function ProfileTabs({
   onTabChange,
   courseCount,
   professorCount,
+  likesCount = 0,
 }: ProfileTabsProps) {
   const tabs = [
     {
@@ -29,6 +30,12 @@ export function ProfileTabs({
       label: "Hoca Değerlendirmelerim",
       icon: Users,
       count: professorCount,
+    },
+    {
+      id: "likes" as const,
+      label: "Beğendiklerim",
+      icon: Heart,
+      count: likesCount,
     },
   ];
 

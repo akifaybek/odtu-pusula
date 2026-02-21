@@ -4,8 +4,26 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
 import prisma from "./prisma";
 
+const isProduction = process.env.NODE_ENV === "production";
+const sessionMaxAge = 7 * 24 * 60 * 60;
+
+function isSafeInternalRedirect(url: string, baseUrl: string): boolean {
+  if (url.startsWith("/")) {
+    return true;
+  }
+
+  try {
+    const redirectUrl = new URL(url);
+    const allowedBase = new URL(baseUrl);
+    return redirectUrl.origin === allowedBase.origin;
+  } catch {
+    return false;
+  }
+}
+
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma) as NextAuthOptions["adapter"],
+  secret: process.env.NEXTAUTH_SECRET,
   providers: [
     CredentialsProvider({
       name: "credentials",
@@ -18,7 +36,6 @@ export const authOptions: NextAuthOptions = {
           throw new Error("Email ve şifre gereklidir");
         }
 
-        // @metu.edu.tr kontrolü
         if (!credentials.email.endsWith("@metu.edu.tr")) {
           throw new Error("Sadece @metu.edu.tr mail adresleri ile giriş yapabilirsiniz");
         }
@@ -33,6 +50,10 @@ export const authOptions: NextAuthOptions = {
 
         if (user.isBanned) {
           throw new Error("Hesabınız askıya alınmıştır. Destek için iletişime geçin.");
+        }
+
+        if (!user.emailVerified) {
+          throw new Error("EMAIL_NOT_VERIFIED");
         }
 
         const isPasswordValid = await bcrypt.compare(
@@ -57,12 +78,52 @@ export const authOptions: NextAuthOptions = {
   ],
   session: {
     strategy: "jwt",
+    maxAge: sessionMaxAge,
+    updateAge: 24 * 60 * 60,
+  },
+  jwt: {
+    maxAge: sessionMaxAge,
+  },
+  cookies: {
+    sessionToken: {
+      name: `${isProduction ? "__Host-" : ""}next-auth.session-token`,
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: isProduction,
+      },
+    },
+    callbackUrl: {
+      name: `${isProduction ? "__Secure-" : ""}next-auth.callback-url`,
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: isProduction,
+      },
+    },
+    csrfToken: {
+      name: `${isProduction ? "__Host-" : ""}next-auth.csrf-token`,
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: isProduction,
+      },
+    },
   },
   pages: {
-    signIn: "/giris",
-    newUser: "/kayit",
+    signIn: "/login",
+    newUser: "/register",
   },
   callbacks: {
+    async redirect({ url, baseUrl }) {
+      if (isSafeInternalRedirect(url, baseUrl)) {
+        return url.startsWith("/") ? `${baseUrl}${url}` : url;
+      }
+      return baseUrl;
+    },
     async jwt({ token, user, trigger }) {
       if (user) {
         token.id = user.id;
@@ -71,7 +132,6 @@ export const authOptions: NextAuthOptions = {
         token.isBanned = user.isBanned;
       }
 
-      // Refresh user data on session update
       if (trigger === "update") {
         const dbUser = await prisma.user.findUnique({
           where: { id: token.id },

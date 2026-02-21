@@ -1,0 +1,3499 @@
+
+
+
+
+Design and Theory				
+ARCH203		Digital Media in Architecture I	(3-2)2	4
+ARCH303		Freehand Architectural Drawing	(3-2)4	6
+ARCH324		Thinking (Reading/Writing) on Architecture	(3-0)3	4
+ARCH325		(Depending on the syllabus) Architecture in Situ	(3-0)3	4
+ARCH365		Fine Arts Techniques Workshop (Photography)	(3-2)4	6
+ARCH366		Fine Arts Techniques Workshop	(3-2)4	6
+ARCH403		Advanced Architectural Surveying	(2-8)6	8
+ARCH409		Perspectives in the Conservation And Valorization Of Cultural Heritage	(3-0)3	4
+ARCH415		Fundamentals of Site Planning	(3-0)3	4
+ARCH417		The Limits of Architectural Criticism	(3-0)3	4
+ARCH418		Case Studies in Architectural Criticism	(3-0)3	4
+ARCH434		Vernacular Architecture	(3-0)3	4
+ARCH439		History of Modern Structural Engineering	(3-0)3	4
+ARCH441		Reading Architectural Works I	(3-0)3	4
+ARCH442		Reading Architectural Works II	(3-0)3	4
+ARCH443		Environmental Aesthetics I	(3-0)3	4
+ARCH447		The "place" of Film: Cinematic Spaces, Sites, Settings	(3-0)3	4
+ARCH450		Generative Design in Architecture	(2-2)3	4
+ARCH453		Construction Design Practice	(3-2)4	6
+ARCH462		Computer Aided Drafting and Design	(3-2)4	6
+ARCH463		Introduction to the Theory of Shape Grammars	(3-0)3	4
+ARCH465		Fine Arts Techniques Workshop I	(2-2)3	4
+ARCH466		Fine Arts Techniques Workshop II	(3-2)4	4
+ARCH467		Design Methods	(3-0)3	4
+ARCH470		Digital Design Studio I	(3-6)6	8
+ARCH475		Digital Design Studio II	(3-6)6	8
+ARCH490		Interpretation and Presentation of Heritage Places	(3-0)3	8
+ARCH491		Landscape Research I	(3-0)3	4
+ARCH492		Landscape Research II	(3-0)3	4
+ARCH464		Foodscape Narratives	(2-2)3	4
+ARCH497		Selected Topics in Conservation	(3-0)3	4
+ARCH498		Workshop in Conservation	(2-4)4	4
+				
+				
+With consent of the instructor: (under the Graduate Programs)				
+ARCH505		Advanced Architectural Design Studio I	(3-6)6	8
+ARCH508		Research Analysis and Design in Multilayered Context	(2-4)4	8
+ARCH511		Social and Cultural Themes in Urban Architecture	(3-0)3	4
+ARCH512		Advanced Studies on Urban Architecture	(3-0)3	4
+ARCH517		Principles of Universal Design	(3-0)3	4
+ARCH524		Architecture and Different Modes of Representation	(3-0)4	10
+ARCH526		Politics and Space	(3-0)3	4
+ARCH527		Advanced Topics in Digital Constructivism	(3-0)3	4
+ARCH586		Descriptive and Systematic Approaches to Design	(3-0)3	4
+ARCH585		Computational Design Research Lab	(2-4)4	10
+ARCH591		Theory and History of Landscape Architecture I	(3-0)3	4
+ARCH592		Theory and History of Landscape Architecture II	(3-0)3	4
+AH513		Aesthetics and Criticism I	(3-0)3	4
+AH514		Aesthetics and Criticism II	(3-0)3	4
+AH546		Theories of History I	(3-0)3	4
+AH547		Theories of History II	(3-0)3	4
+AH548		Aesthetics and the Psyche	(3-0)3	4
+CONS511		Theory of Restoration and Conservation I	(3-0)3	4
+CONS512		Theory of Restoration and Conservation II	(3-0)3	4
+				
+History				
+ARCH322		Developments in Modern Art	(3-0)3	4
+ARCH324		Thinking (Reading/Writing) on Architecture	(3-0)3	4
+ARCH325		(Depending on the syllabus) Architecture in Situ	(3-0)3	4
+ARCH407		City in Late Antiquity and Byzantium: Topography and Architecture	(3-0)3	4
+ARCH419		Pre-Classical Architecture of Ancient Anatolia	(3-0)3	4
+ARCH422		Classical Antiquity in Asia Minor	(3-0)3	4
+ARCH423		Domestic Architecture in Antiquity	(3-0)3	4
+ARCH426		House and Daily Life in History	(3-0)3	4
+ARCH427		Studies in Greek Architecture	(3-0)3	4
+ARCH428		Twentieth Century Architecture in Turkey	(3-0)3	4
+ARCH430		Seminar in Contemporary Architecture	(3-0)3	4
+ARCH436		Studies in Roman Architecture	(3-0)3	4
+ARCH440		Masterworks of Medieval Architecture in East and West	(3-0)3	4
+ARCH443		Environmental Aesthetics I	(3-0)3	4
+ARCH444		Environmental Aesthetics II	(3-0)3	4
+ARCH448		Issues and Problems in ‘Modernism’	(3-0)3	4
+ARCH482		Conservation of Archaeological Sites	(3-0)3	4
+ARCH496		Understanding the Ottoman Timber Framed Houses and Their Conservation	(3-0)3	8
+ARCH498		Workshop in Conservation	(2-4)4	4
+				
+With consent of the instructor: (under the Graduate Programs)				
+AH513		Aesthetics and Criticism I	(3-0)3	4
+AH514		Aesthetics and Criticism II	(3-0)3	4
+AH521		Themes on Ancient Domestic Architecture	(3-0)3	4
+AH526		History and Theory of Art and Architectural Styles	(3-0)3	4
+AH533		Ottoman Architecture in the Nineteenth Century	(3-0)3	4
+AH535		Approaches in Greek Architecture	(3-0)3	4
+AH536		Approaches in Roman Architecture	(3-0)3	4
+AH539		Cosmological Thought and Architecture in the Middle East	(3-0)3	4
+AH541		Assimilation of Western Modes in Eighteenth Century Ottoman Architecture	(3-0)3	4
+AH543		Anatolian Seljuk Architecture (11-14th Centuries)	(3-0)3	4
+AH544		Architectural History Research Studio: The Modern Capital City, Ankara	(2-2)3	8
+AH546		Theories of History I	(3-0)3	4
+AH547		Theories of History II	(3-0)3	4
+AH548		Aesthetics and the Psyche	(3-0)3	4
+CONS522		History of Architecture in the Eastern Mediterranean	(3-0)3	4
+				
+Technology				
+ARCH203		Digital Media in Architecture I	(3-2)2	4
+ARCH325		(Depending on the syllabus) Architecture in Situ	(3-0)3	4
+ARCH333		Mathematics in Architecture	(3-0)3	4
+ARCH344		Environment and Man: Cause and Effect	(3-0)3	4
+ARCH361		Integration of Building Systems in Architectural Design for Environmental Control	(3-0)3	4
+ARCH371		Information Architecture	(3-0)3	4
+ARCH438		Design of Steel Structures	(3-0)3	4
+ARCH439		History of Modern Structural Engineering	(3-0)3	4
+ARCH450		Generative Design in Architecture	(3-0)3	4
+ARCH453		Construction Design Practice	(3-2)4	6
+ARCH457		Introduction to Deterioration and Conservation	(3-0)3	4
+ARCH460		Appropriate Technology	(2-2)3	4
+ARCH461		Computer Literacy in Architecture	(3-2)4	6
+ARCH462		Computer Aided Drafting and Design	(3-2)4	6
+ARCH467		Design Methods	(3-0)3	4
+ARCH470		Digital Design Studio I	(3-6)6	8
+ARCH473		Architect’s Market Structure I	(3-0)3	4
+ARCH474		Architect’s Market Structure II	(3-0)3	4
+ARCH475		Digital Design Studio II	(3-6)6	8
+ARCH478		Analysis of Building Envelope Design Through Case Studies	(3-0)3	4
+ARCH479		Acoustical Design of Halls for Musical Performance	(3-0)3	4
+ARCH482		Conservation of Archaeological Sites	(3-0)3	4
+ARCH489		Lighting in Architecture	(3-0)3	4
+ARCH496		Understanding the Ottoman Timber Framed Houses and Their Conservation	(3-0)3	8
+				
+With consent of the instructor: (under the Graduate Programs)				
+BS531		Studies on Architectural Structures	(3-0)3	4
+BS532		Geometrical and Morphological Analysis of Spatial Structures	(3-0)3	4
+BS533		Building Design: Form and Structure	(3-0)3	4
+BS534		Analytical Modeling and Computer Analysis of Structures	(3-0)3	4
+BS536		Studies on Tall Buildings: Design Considerations	(2-2)3	4
+BS552		Performance Assessment of Buildings	(3-0)3	4
+BS574		Composite Materials and Their Applications in Buildings	(3-0)3	4
+BS575		Acoustics in Architecture I	(3-0)3	4
+BS576		Acoustics in Architecture II	(3-0)3	4
+BS725		Folding in Architecture	(3-0)3	8
+
+
+Skip to main content
+ODTÜODTUClassÖBSODTU Mail
+
+
+English
+
+
+ŞEHİR VE BÖLGE PLANLAMA BÖLÜMÜ
+* Ana Sayfa
+* Hakkımızda
+* Kişiler
+* Eğitim
+* Araştırma
+* Haberler & Etkinlikler
+* Kaynaklar
+* Yaz Stajı
+* Aday Öğrenciler
+* İletişim
+Seçmeli Dersler
+Şehir ve Bölge Planlama Lisans
+* Türkiye Yükseköğretim Yeterlilikler Çerçevesi (TYYÇ) Uyumu
+* Program Eğitim Amaçları
+* Program Çıktıları
+* Derslerin ve Stüdyoların Organizasyonu
+* Zorunlu Dersler
+* Seçmeli Dersler
+ 
+
+Son Güncelleme: 11/02/2025 - 18:51
+
+* English 
+
+Şehir ve Bölge Planlama Bölümü Lisans Programı Tarafından Sunulan Seçmeli Derslerin Tanımları
+ 
+2023-2024/ Bahar Dönemi Seçmeli Dersler Modülü
+ 
+CRP323 Housing, Reinvestment and Household Behaviour 3(3-0)
+Reinvestment in existing housing 
+CRP325 Visualization in Spatial Planning and Design 3(2-2)
+This course a
+CRP333 Introduction to Urban Design 3(3-0)
+Urban design has become in
+ 
+CRP336 Urban Sketching 3(1-4)
+Representing ideas visually can be a powerful tool in helping urban planners and d
+ 
+CRP355 Collective Housing Planning and Design 3(1-4)
+The course is for third and fourth year undergraduate students in City and 
+ 
+CRP404 Contemporary Issues in City and Regional Planning 3(3-0)
+The objective of this
+ 
+CRP405 Nature Based Solutions for Cities 3(2-2)
+This course offers an in-de
+ 
+CRP406 Public Space for Inclusion and Diversity 3(2-2)
+Public spaces are key to livable and lively cities as they provide possib
+
+ 
+CRP407 Principles and Approaches of Ecology in Planning 3(3-0)
+To work at any s
+CRP414 Urban Project Management 3(3-0)
+This course basically aims to enable the student to scrutinize a problem, organize its solutio
+ 
+CRP433 Economics of Development and the Economy of Turkey 3(3-0)
+This course aims at introd
+ 
+CRP439  Introduction to Regional Planning 3(3-0)
+This course is one of the few cours
+CRP440 Regional Planning Workshop 3(1-4)
+This course aims to equi
+CRP445 Artificial Intelligence in Urban Planning and Design 3(2-2)
+ 
+CRP446 Climate Responsive Urban Design 3(2-2)
+At the en
+CRP447 Critical Discussionson Planning and Development 3(3-0)
+The course
+ 
+CRP448 Urban and Rural Foodscapes through Time 3(3-0)
+Food is our fuel for exi
+CRP453 Participatory Design and Planning 3(3-0)
+By the end of the course studen
+CRP454 Urban Transport Systems: Planning and Design 3(3-0)
+At t
+ 
+CRP455 Aesthetics and Human Experience in Urban Design 3(3-0)
+By the end of the course students will be able to;
+* Become researchers who will take an active role in conducting an inquiry on ae
+ 
+CRP458 Visual Arts in the Urban Context 3(3-0)
+This is an introductory course that aims to familiarize the students of
+CRP478 Urban Residential Transformation in Türkiye 3(3-0)
+This is an elective course for third and fourth year (Urban Design and Urban Poli
+ 
+CRP479 Implementational Aspects of Urban Planning 3(3-0)
+At the end of the course the student will learn
+* current i
+CRP486 Urban Regeneration: Strategies, Policies, Organization and Design 3(3-0)
+This course aims to help students gain a rapid overview of the enorm
+ 
+CRP488 Institutional Aspects of Urban and Regional Planning 3(3-0)
+The objective of this course is to enable students to develop an understandi
+ 
+CRP495 Urban Political Analysis 3(3-0)
+The terms “urban” and “politics” went hand in hand throughout the history. As Lefebvre puts: “There is politics of space because space is politic
+CRP499 Seminar in Selected Urban Political Issues 3(3-0)
+Seminar course ar
+
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Şehir Bölge Planlama Bölümü
+Şehir Bölge Planlama Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+CRP 111	Introduction to City and Planning	
+3
+
+CRP 212	The City in History II	
+3
+
+CRP 213	The City in History	
+3
+
+CRP 333	Introduction to Urban Design	
+3
+
+CRP 334	Movement and Issues in Urban Space Design	
+3
+
+CRP 407	Principles and Approaches Ecology in Planning	
+3
+
+CRP 414	Urban Project Management	
+3
+
+CRP 418	The Theory of Economics and Special Development	
+3
+
+CRP 433	Economics of Development and the Economy of Turkey	
+3
+
+CRP 450	New Spaces of Growth and Production	
+3
+
+CRP 453	Participatory Design And Planning	
+3
+
+CRP 455	Aesthetics and Human Experience in Urban Design	
+3
+
+CRP 471	Principles of Housing	
+3
+
+CRP 478	Urban Residential Transformation in Turkiye	
+3
+
+CRP 479	Implementational Aspects of Urban Planning	
+3
+
+CRP 486	Urban Regeneration: Strategies, Policies Org. & Design	
+3
+
+CRP 488	Institutional Aspects of Urban and Regional Planning	
+3
+
+CRP 495	Urban Political Analysis	
+3
+
+CRP 499	Seminar in Selected Urban Political Issues	
+3
+
+Last updated
+26/09/2025 - 16:10
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Endüstri Ürünleri Tasarımı Bölümü
+Endüstri Ürünleri Tasarımı Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ID 305	Design Presentation I	
+3
+
+ID 310	Model Making	
+3
+
+ID 313	Interactive Multi-Media Design I	
+3
+
+ID 314	Interactive Multi-Media Design II	
+3
+
+ID 317	Introduction to Visual Media	
+3
+
+ID 371	Digital Art: Designing the Audio-Visual Realm	
+3
+
+ID 403	Collaborative Design I	
+3
+
+ID 417	Video Game Design And Development	
+3
+
+ID 424	Intellectual Property Rights	
+3
+
+ID 427	Automobile Design and Designers in the 20th Century	
+3
+
+ID 455	Product Management For User Experience	
+3
+
+ID 489	Design and Cinema	
+3
+
+Last updated
+26/09/2025 - 16:14
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Fizik Bölümü
+Fizik Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+PHYS 260	Physics of Sports and Games	
+3
+
+PHYS 360	Science in History	
+3
+
+Last updated
+27/01/2026 - 16:01
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Sosyoloji Bölümü
+Sosyoloji Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+SOC 100	Principles of Sociology	
+3
+
+SOC 131	Introduction to Anthropology I	
+3
+
+SOC 132	Introduction to Anthropology II	
+3
+
+SOC 306	Economic Sociology	
+3
+
+SOC 425	State and Society in Turkey	
+3
+
+SOC 426	Sociology of The European Union	
+3
+
+SOC 434	Corporate Organized and Crimes	
+3
+
+SOC 435	Conventional Crimes	
+3
+
+SOC 440	Sociology of Knowledge	
+3
+
+SOC 448	Nations and States	
+3
+
+SOC 485	Third World Politics	
+3
+
+Last updated
+26/09/2025 - 16:25
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Psikoloji Bölümü
+Psikoloji Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+PSY 100	General Psychology	
+3
+
+PSY 101	Introduction to Psychology I	
+4
+
+PSY 102	Introduction to Psychology II	
+4
+
+PSY 150	Understanding Social Behavior	
+3
+
+PSY 221	Developmental Psychology I	
+4
+
+PSY 222	Developmental Psychology II	
+4
+
+PSY 240	Coping with Stress	
+3
+
+PSY 251	Social Psychology I	
+4
+
+PSY 252	Social Psychology II	
+4
+
+PSY 281	Experimental Psychology I: Learning	
+4
+
+PSY 284	Experimental Psychology II: Cognition	
+3
+
+PSY 321	Cognitive Development	
+3
+
+PSY 335	Industrial Psyhology	
+4
+
+PSY 336	Organizational Psychology	
+3
+
+PSY 340	Theories of Personality	
+4
+
+PSY 342	Psychopathology	
+4
+
+PSY 385	Introduction to Cognitive Science	
+3
+
+PSY 422	Applied Developmental Psychology	
+3
+
+PSY 424	Applied Developmental Psychology	
+3
+
+PSY 443	Community Psychology	
+3
+
+PSY 452	Psychology of Gender	
+3
+
+PSY 453	Political Psychology	
+3
+
+PSY 454	Social Psychological View of Media	
+3
+
+PSY 482	Memory	
+3
+
+PSY 1010	General Psychology	
+3
+
+PSY 1410	Understanding Social Behavior	
+3
+
+PSY 3505	Addiction: Psychonalytic Approach	
+3
+
+Last updated
+26/09/2025 - 16:26
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Matematik Bölümü
+Matematik Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+MATH 303	History of Mathematical Concepts I	
+3
+
+MATH 304	Hıstory of Mathematical Concepts II	
+3
+
+Last updated
+26/09/2025 - 16:26
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Tarih Bölümü
+Tarih Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+HIST 111	History of Turks I	
+3
+
+HIST 112	History of Turks II	
+3
+
+HIST 217	Byzantine History I	
+3
+
+HIST 218	Byzantine History II	
+3
+
+HIST 219	Balkan History I	
+3
+
+HIST 220	Balkan History II	
+3
+
+HIST 228	History of Religion in Asia	
+3
+
+HIST 229	Early Anatolian Civilizations	
+3
+
+HIST 241	Anatolian Civilizations in Antiquity I	
+3
+
+HIST 251	Historical Readings in Greek I	
+3
+
+HIST 252	Historical Readings in Greek II	
+3
+
+HIST 301	Ottoman History III	
+3
+
+HIST 303	European History III	
+3
+
+HIST 305	Advanced Ottoman Paleography & Diplomatics I	
+4
+
+HIST 306	Advanced Ottoman Paleography & Diplomatics II	
+4
+
+HIST 311	The Beginnings: From Palaeolithic to Neolithic Societies of the Levant	
+3
+
+HIST 317	Socio-Political Thought of Late Ottoman Era I	
+3
+
+HIST 341	American Civilisation: Themes and Issues I	
+3
+
+HIST 342	American Civilisation: Themes and Issues II	
+3
+
+HIST 343	Recent American History Since 1945	
+3
+
+HIST 345	History of the Turkish Press	
+3
+
+HIST 353	Lingua Latina Historiarum I	
+3
+
+HIST 354	Lingua Latina Historiarum II	
+3
+
+HIST 360	Ottoman Labor History (19 Th Century)	
+3
+
+HIST 406	Ottoman Socio-Economic History	
+3
+
+HIST 409	History of Islam	
+3
+
+HIST 417	Russian History I	
+3
+
+HIST 418	Russian History II	
+3
+
+HIST 419	Undergraduate Historical Research	
+3
+
+HIST 420	Themes In The Early Modern Period	
+3
+
+HIST 427	American Cultural History I	
+3
+
+HIST 428	American Cultural History II	
+3
+
+HIST 434	Major Issues in the History of Contemporary Turkey	
+3
+
+HIST 437	Ottoman Women in Historical Perspective (1500-1922 C.)	
+3
+
+HIST 438	History and Culture of The Seljugs of Rum	
+3
+
+HIST 443	History of The Ussr-I	
+3
+
+HIST 444	History of The Ussr-II	
+3
+
+HIST 474	History of Aviation	
+3
+
+HIST 490	Exploring Environmental History	
+3
+
+HIST 513	Social&Econ. History of The Middle East, 1800-1920	
+3
+
+HIST 531	Emergence of Ottoman Modernization	
+3
+
+HIST 532	Emergence of Ottoman Modernization	
+3
+
+HIST 546	Nationalism in The Balkans Until The First World War	
+3
+
+HIST 547	Readings in American Culture	
+3
+
+HIST 556	The Caucasus: History and Politics	
+3
+
+HIST 557	Women in Turket with a Historical Perspective (from the 19th to the Early 20th Century)	
+3
+
+HIST 563	Emergence and Evolution of Armenian Quesiton	
+3
+
+HIST 568	History of India	
+3
+
+HIST 570	Ottoman Urban History	
+3
+
+HIST 577	History of the Late Ottoman Empire, 1878-1922	
+3
+
+HIST 578	The Making of Contemporary Turkey	
+3
+
+Last updated
+29/09/2025 - 14:41
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Felsefe
+Felsefe
+COURSE CODE	COURSE NAME	CREDITS
+PHIL 101	Introduction to Philosophy	
+3
+
+PHIL 104	Traditional Logic	
+4
+
+PHIL 106	Theory of Knowledge I	
+4
+
+PHIL 108	Introduction to Philosophy II	
+3
+
+PHIL 110	Introduction to Philosophical Concepts	
+3
+
+PHIL 111	Introduction of Philosophical Concepts	
+3
+
+PHIL 112	Introduction to Contemporary Civilization II	
+3
+
+PHIL 115	Introduction to the History of Philosophy	
+3
+
+PHIL 145	History of Ancient Philosophy I	
+3
+
+PHIL 146	History of Ancient Philosophy II	
+3
+
+PHIL 201	Ethics I	
+4
+
+PHIL 202	Aesthetics	
+4
+
+PHIL 203	Modern Logic I	
+3
+
+PHIL 204	Theory of Knowledge I	
+3
+
+PHIL 205	Basic Philosophy of Science	
+4
+
+PHIL 206	Philosophy of Natural Science	
+4
+
+PHIL 208	Environmental Ethics	
+3
+
+PHIL 209	Ethics in Engineering	
+3
+
+PHIL 210	Philosophy of Value	
+3
+
+PHIL 211	Philosophy of Emotions	
+3
+
+PHIL 212	Philosophy and Literature	
+3
+
+PHIL 214	Philosophy and Evolution	
+3
+
+PHIL 215	Philosophical Practice	
+3
+
+PHIL 216	Philosophy of Love	
+3
+
+PHIL 217	Ethical Analysis and Application	
+3
+
+PHIL 235	Introduction to Deductive Logic	
+3
+
+PHIL 241	Philosophical Texts I	
+3
+
+PHIL 242	Philosophical Texts II	
+3
+
+PHIL 245	Medieval Philosophy	
+4
+
+PHIL 248	Medieval and Renaissance Philosophy	
+4
+
+PHIL 251	Ethical Awareness	
+3
+
+PHIL 282	History of Science	
+4
+
+PHIL 291	History of Science I	
+3
+
+PHIL 292	History of Science II	
+3
+
+PHIL 301	Modern Logic II	
+4
+
+PHIL 302	Systematic Philosophy	
+4
+
+PHIL 304	Etgics II	
+4
+
+PHIL 305	Philosophy of Sex and Gender	
+3
+
+PHIL 324	Logic and Philosophy of Decision Making	
+3
+
+PHIL 341	History of 17th & 18th Century Philosophy I	
+3
+
+PHIL 342	History of 17th & 18th Century Philosophy 	
+3
+
+PHIL 343	Philosophy of Plato	
+3
+
+PHIL 344	Philosophy of Aristotle	
+4
+
+PHIL 345	Philisophical Texts III	
+3
+
+PHIL 346	Philisophical Texts IV	
+4
+
+PHIL 348	Existential Philosophy	
+3
+
+PHIL 350	Rhetoric and Argumentation in Philosophy	
+3
+
+PHIL 351	Applied Ethics	
+3
+
+PHIL 353	Philosophy of Marx	
+3
+
+PHIL 360	Conceptual and Philological Analysis of Ancient Greek Texts	
+3
+
+PHIL 365	Feminist Philosophy	
+3
+
+PHIL 381	Scientific Methad I	
+3
+
+PHIL 382	Scientific Methad II	
+3
+
+PHIL 383	History of Science II	
+4
+
+PHIL 390	Rationality Theories of Science	
+3
+
+PHIL 391	Philosophical Foundations of Physics	
+3
+
+PHIL 392	History and Methodology of Geometry	
+3
+
+PHIL 393	Basic History of Science I	
+3
+
+PHIL 394	Basic History of Science II	
+3
+
+PHIL 395	History of Biology	
+3
+
+PHIL 397	History of Physics	
+3
+
+PHIL 402	Philosophy of Logic and Mathematics	
+3
+
+PHIL 404	Philosophy of State and Society	
+4
+
+PHIL 405	Philosophy of Language	
+4
+
+PHIL 407	Philosophy of Mind I	
+3
+
+PHIL 408	Philosophy of Mind II	
+3
+
+PHIL 411	Continental Rationalism	
+3
+
+PHIL 412	British Empiricism	
+3
+
+PHIL 415	Philosophy of Art	
+3
+
+PHIL 419	Problems of Contemporary Phil. I	
+3
+
+PHIL 420	Problems of Contemporary Phil. II	
+3
+
+PHIL 421	Philosophy of Kant	
+4
+
+PHIL 422	Philosophy of Hegel	
+4
+
+PHIL 423	The Philosophy of Morality and Beyond	
+3
+
+PHIL 424	Moral Philosophy of Kant	
+3
+
+PHIL 430	Work and Business Ethics	
+3
+
+PHIL 441	Contemporary Philosophy I	
+3
+
+PHIL 442	Contemporary Philosophy II	
+4
+
+PHIL 443	Islamic Philosophy	
+3
+
+PHIL 444	19th Century Philosophy	
+4
+
+PHIL 451	Problems of Metaphysics	
+3
+
+PHIL 481	History of Science III	
+4
+
+PHIL 495	Philosophy of Technology and Technoethics	
+3
+
+Last updated
+26/09/2025 - 17:05
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Siyaset Bilimi ve Kamu Yönetimi Bölümü
+Siyaset Bilimi ve Kamu Yönetimi Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ADM 1121	Introduction to Politics I	
+3
+
+ADM 1324	History Of Civilizations	
+3
+
+ADM 2121	History of Political Thought I	
+3
+
+ADM 3101	Approaches to State Society Relations	
+3
+
+ADM 4112	Russia and Eurassian Affairs	
+3
+
+ADM 4135	Immigration Policies in Europe	
+3
+
+ADM 4150	Moderity and the Idea of Freedom	
+3
+
+ADM 4155	Locating Europe in a Globalised World	 
+ADM 4177	E-Government and Public Aministration	
+3
+
+ADM 4185	European Identity and Turkish Westernization	
+3
+
+ADM 4204	Comparative Public Administration	
+3
+
+ADM 4223	Local Government	
+3
+
+ADM 4287	Regional Policy and Governance	
+3
+
+ADM 4306	Social Security in International Perspective	
+3
+
+ADM 4344	Labour Market Issues in Turkey	
+3
+
+ADM 4418	European Convention on Human Rights System and Turkey	
+3
+
+Last updated
+19/06/2025 - 15:03
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Siyaset Bilimi ve Kamu Yönetimi Bölümü
+Siyaset Bilimi ve Kamu Yönetimi Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ADM 1121	Introduction to Politics I	
+3
+
+ADM 1324	History Of Civilizations	
+3
+
+ADM 2121	History of Political Thought I	
+3
+
+ADM 3101	Approaches to State Society Relations	
+3
+
+ADM 4112	Russia and Eurassian Affairs	
+3
+
+ADM 4135	Immigration Policies in Europe	
+3
+
+ADM 4150	Moderity and the Idea of Freedom	
+3
+
+ADM 4155	Locating Europe in a Globalised World	 
+ADM 4177	E-Government and Public Aministration	
+3
+
+ADM 4185	European Identity and Turkish Westernization	
+3
+
+ADM 4204	Comparative Public Administration	
+3
+
+ADM 4223	Local Government	
+3
+
+ADM 4287	Regional Policy and Governance	
+3
+
+ADM 4306	Social Security in International Perspective	
+3
+
+ADM 4344	Labour Market Issues in Turkey	
+3
+
+ADM 4418	European Convention on Human Rights System and Turkey	
+3
+
+Last updated
+19/06/2025 - 15:03
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  İktisat Bölümü
+İktisat Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ECON 201	Microeconomic Theory I	
+4
+
+ECON 202	Macroecenomic Theory I	
+4
+
+ECON 203	Microeconomic Theory II	
+4
+
+ECON 210	Principles of Echonomics	
+3
+
+ECON 211	Principles of Echonomics I	
+3
+
+ECON 212	Principles of Echonomics II	
+3
+
+ECON 301	Introduction to Econometrics I	
+4
+
+ECON 311	Monetary Theory and Policy	
+3
+
+ECON 312	Fiscal Policy and Public Finance	
+3
+
+ECON 353	Introduction to International Economics I	
+3
+
+ECON 354	Introduction to International Economics II	
+3
+
+ECON 361	History of Economics Analysis I	
+3
+
+ECON 362	History of Economics Analysis II	
+3
+
+ECON 411	Economics of Network and The Internet	
+3
+
+ECON 425	Environmental Economics	
+3
+
+ECON 426	Economics of Natural Resources	
+3
+
+ECON 439	Topics in Macroeconomics	
+3
+
+ECON 448	Technology and Industrial Dynamics	
+3
+
+ECON 449	Macroeconomics of Technological Change	
+3
+
+ECON 451	Industrial Economics	
+3
+
+ECON 452	Agricultural Trade Policies	
+3
+
+ECON 457	Turkish Fiscal System	
+3
+
+ECON 459	Turkish Banking System	
+3
+
+ECON 460	Structure of Turkish Economy	
+3
+
+ECON 465	Development Economics	
+3
+
+ECON 466	Economics of Growth	
+3
+
+ECON 481	Agricultural Economics	
+3
+
+ECON 483	Applied Econometrics I	
+3
+
+ECON 489	European Union and Turkey	
+3
+
+ECON 490	International Economic Institution	
+3
+
+ECON 498	Issues in Labour Economics	
+3
+
+Last updated
+26/09/2025 - 17:09
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  İşletme Bölümü
+İşletme Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+BA 0401	Fundamentals of Entrepreneurship	
+3
+
+BA 0402	Fundamentals of Negotiation for Non-Management Majors	
+3
+
+BA 0409	Sectoral Applications For Ssustainable Development	
+3
+
+BA 1101	Fundamentals of Businesss	
+3
+
+BA 1201	Principles of Behavioral Sciences	
+3
+
+BA 2101	Managerial Skills Laboratory I	
+3
+
+BA 2203	Organizations	
+3
+
+BA 2204	Human Resources Management	
+3
+
+BA 2701	Principles of Marketing	
+3
+
+BA 2803	Finance for Entrepreneurs	
+3
+
+BA 3702	Introduction to Marketing	
+3
+
+BA 4111	Managing Technology and Innovation	
+3
+
+BA 4115	Business Ethics	
+3
+
+BA 4120	Analysis of Turkish-EU Relations	
+3
+
+BA 4123	Turkish Tax System I	
+3
+
+BA 4124	Turkish Tax Law	
+3
+
+BA 4137	Entrepreneurship	
+3
+
+BA 4146	Applied Innovation Based Entrepreneurship	
+3
+
+BA 4148	Interdisciplinary Problem Solving	
+3
+
+BA 4216	Cross-Cultural Studies in Organizations	
+3
+
+BA 4217	Cases in Human Appraisal & Management	
+3
+
+BA 4222	Negotiation Process	
+3
+
+BA 4227	Creativity and Innovation in Organizations	
+3
+
+BA 4411	Auditing	
+3
+
+BA 4616	Services Management	
+3
+
+BA 4618	Project Management	
+3
+
+BA 4713	Promotion Management	
+3
+
+BA 4714	Consumer Behavior	
+3
+
+BA 4715	Advertising Practice	
+3
+
+BA 4718	International Marketing	
+3
+
+BA 4821	Bank Management	
+3
+
+Last updated
+26/09/2025 - 17:15
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Uluslararası İlişkiler Bölümü
+Uluslararası İlişkiler Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+IR 101	World History I	
+3
+
+IR 102	World History II	
+3
+
+IR 104	Comparative History of Civilizations	
+3
+
+IR 218	Transition From Ottoman Empire to Turkish Republic	
+3
+
+IR 221	Commun. in International Relations I	
+3
+
+IR 222	Commun. in International Relations I	
+3
+
+IR 223	Introduction to Peace And Conflict Studies	
+3
+
+IR 231	Introduction to Unternational Politics I	
+3
+
+IR 232	Introduction to Unternational Politics II	
+3
+
+IR 234	Introduction to Foreign Policy Analysis	
+3
+
+IR 235	Introduction to International Political Economy	
+3
+
+IR 256	Political Economy of Globalisation	
+3
+
+IR 304	Social History of The Cold War	
+3
+
+IR 305	Public International Law I	
+3
+
+IR 306	Public International Law II	
+3
+
+IR 316	Politics of International Economics Relations	
+3
+
+IR 317	Politics in the Balkans	
+3
+
+IR 326	International Organizations	
+3
+
+IR 341	Non-State Actors in World Politics	
+3
+
+IR 407	Middle East in World Affairs	
+3
+
+IR 411	American Foreign Policy	
+3
+
+IR 444	Issues and Politics in Central Asia	
+3
+
+IR 454	Ottoman Diplomacy and The European System	
+3
+
+IR 464	Sociology of International Relations	
+3
+
+Last updated
+26/09/2025 - 17:17
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Ortaöğretim Fen ve Matematik Alanları Eğitimi Bölümü
+Ortaöğretim Fen ve Matematik Alanları Eğitimi Bölümü
+Eğitimi Böl
+COURSE CODE	COURSE NAME	CREDITS
+SSME 485	Research Methods for Prospective Teachers	
+3
+
+MSE 474	Education and Awareness for Sustainability	
+3
+
+MSE 475	Climate Change Education for Sustainability 	
+3
+
+MSE 486	Problem Solving in Mathematics	
+3
+
+Last updated
+26/09/2025 - 16:02
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Beden Eğitimi ve Spor Bölümü
+Beden Eğitimi ve Spor Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+PES 326	Leadership and Event Management	
+3
+
+PES 335	Fitness Assesment Techniques	
+3
+
+PES 399	Interactive First Aid	
+3
+
+PES 402	Administration and Managment of P.S.E	
+3
+
+PES 415	History and Philosophy of P.E.S	
+3
+
+PES 440	Lifespan Human Movement	
+3
+
+PES 1701	Gymnastics	
+3
+
+PES 2270	Volunteering	
+3
+
+PES 2905	Golf	
+3
+
+PES 2906	Pool and Billiards	
+3
+
+PES 2921	Basketball	
+3
+
+PES 2923	Handball	
+3
+
+PES 3172	Motor Learning	
+3
+
+PES 3584	Physical Activity and Public Health	
+3
+
+PES 3630	History of Physical Education and Sport	
+3
+
+PES 3640	Philosophy of Physical Education and Sport	
+3
+
+PES 3740	Eductional Games	
+3
+
+Last updated
+26/09/2025 - 17:21
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Eğitim Bilimleri Bölümü
+Eğitim Bilimleri Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+EDS 200	Introduction to Education	
+3
+
+EDS 220	Educational Psychology	
+3
+
+EDS 240	Educational Sociology	
+3
+
+EDS 255	Educational Philosophy	
+3
+
+EDS 301	Organiational Behavior	
+3
+
+EDS 304	Classroom Management	
+3
+
+EDS 416	Turkish Educational System	
+3
+
+EDS 424	Guidance	
+3
+
+Last updated
+26/09/2025 - 17:22
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ARAP 201	Beginning Arabic I	
+4
+
+ARAP 202	Beginning Arabic II	
+4
+
+ARAP 203	Intermadiate Arabic I	
+4
+
+ARAP 204	Intermadiate Arabic II	
+4
+
+Last updated
+28/09/2025 - 13:22
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+FREN 201	Beginning French I	
+4
+
+FREN 202	Beginning French II	
+4
+
+FREN 203	Intermadiate French I	
+4
+
+FREN 204	Intermadiate French II	
+4
+
+FREN 205	Advanced French I	
+3
+
+FREN 207	French - Turkish Translation	
+4
+
+Last updated
+28/09/2025 - 13:22
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+GERM 201	Basic German I	
+4
+
+GERM 202	Basic German II	
+4
+
+GERM 203	Intermadiate German I	
+4
+
+GERM 204	Intermadiate German II	
+4
+
+GERM 205	Advanced German II	
+4
+
+GERM 206	Advanced German II	
+4
+
+GERM 207	German	
+4
+
+GERM 208	German	
+4
+
+Last updated
+28/09/2025 - 13:21
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+JA 201	Beginning Japanese I	
+4
+
+JA 202	Beginning Japanese II	
+4
+
+JA 203	Intermadiate Japanese I	
+4
+
+JA 204	Intermadiate Japanese II	
+4
+
+Last updated
+28/09/2025 - 13:21
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ITAL 201	Basic Italian I	
+4
+
+ITAL 202	Basic Italian II	
+4
+
+ITAL 203	Intermadiate Italian I	
+4
+
+ITAL 204	Intermadiate Italian II	
+4
+
+ITAL 205	Italian 205 B1.2	
+4
+
+Last updated
+28/09/2025 - 13:20
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+RUS 201	Basic Russian I	
+4
+
+RUS 202	Basic Russian II	
+4
+
+RUS 203	Intermadiate Russian I	
+4
+
+RUS 204	Intermadiate Russian II	
+4
+
+RUS 205	Advanced Russian	
+3
+
+Last updated
+28/09/2025 - 13:20
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+SPAN 201	Basic Spanish I	
+4
+
+SPAN 202	Basic Spanish II	
+4
+
+SPAN 203	Intermadiate Spanish I	
+4
+
+SPAN 204	Intermadiate Spanish II	
+4
+
+Last updated
+28/09/2025 - 13:19
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+GRE 201	Basic Greek I	
+4
+
+GRE 202	Basic Greek II	
+4
+
+Last updated
+28/09/2025 - 13:19Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+CHN 201	Basic Chinese I	
+4
+
+CHN 202	Basic Chinese II	
+4
+
+CHN 203	Intermadiate Chinese I	
+ 
+
+CHN 204	Chinesee 204	
+4
+
+Last updated
+28/09/2025 - 13:18
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+PERS 201	Persian Language I	
+ 
+
+PERS 202	Persian Language II	
+ 
+
+PERS 203	Persian Language III	
+ 
+
+PERS 204	Persian Language IV	
+ 
+
+Last updated
+28/09/2025 - 13:17
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Modern Diller Bölümü
+Modern Diller Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ENG 201	English - Turkish Translation	
+3
+
+ENG 202	English - Turkish Translation	
+3
+
+ENG 213	Creative Non-Fiction	
+3
+
+ENG 214	Advanced Text Analysis	
+3
+
+ENG 215	World Thinkers	
+3
+
+ENG 216	Poetry and Music	
+3
+
+ENG 217	Literary Texts	
+3
+
+ENG 219	English Through Film Seminars	
+3
+
+ENG 310	Fundamentals of Turkish Higher Education	
+3
+
+ENG 311	Advanced Communication Skills	
+3
+
+ENG 312	Spoken English	
+3
+
+ENG 314	Skills for Undergraduate Research Experince	
+3
+
+Last updated
+28/09/2025 - 13:16
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Türk Dili Bölümü
+Türk Dili Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+TURK 301	Advanced Turkish I	
+4
+
+TURK 302	Advanced Turkish II	
+4
+
+TURK 311	Effective and Correct Use of Turkish and Correct Pronunciation	
+ 
+
+TURK 312	Effective and Correct Use of Turkish and Correct Pronunciation II	
+ 
+
+TURK 313	Selective Writers From Turkish and World Literature	
+3
+
+TURK 314	Creative Writing	
+3
+
+TURK 317	Selective Writers From Turkish and World Literature II	
+3
+
+TURK 318	Turkish Sign Language	
+3
+
+TURK 319	Story Editing and Fiction	
+3
+
+TURK 320	Literature and Cinema	
+3
+
+TURK 321	Poetry Analysis	
+3
+
+TURK 322	Poetry Analysis II	
+3
+
+TURK 324	Sociological Readings in Literature	
+3
+
+Last updated
+26/09/2025 - 17:23
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Müzik ve Güzel Sanatlar Bölümü
+Müzik ve Güzel Sanatlar Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+THEA 101	International News	
+3
+
+THEA 102	International News	
+3
+
+THEA 111	Painting	
+3
+
+THEA 112	Painting	
+3
+
+THEA 113	Drawing	
+3
+
+THEA 115	Mythology and Iconogapfy	
+3
+
+THEA 116	Culturel Layers	
+3
+
+THEA 118	Experimental Studio and Visual Thinking	
+3
+
+THEA 119	Science Communication	
+3
+
+THEA 121	Glass Art	
+3
+
+THEA 122	Glass Art	
+3
+
+THEA 125	Drama	
+3
+
+THEA 131	Sculpture	
+3
+
+THEA 132	Sculpture	
+3
+
+THEA 141	Ceramics	
+3
+
+THEA 142	Ceramics	
+3
+
+THEA 151	Introduction to Video Production	
+3
+
+THEA 152	Introduction to Video Production	
+3
+
+THEA 161	Theatre	
+3
+
+THEA 162	Theatre	
+3
+
+THEA 171	Reality and Cinema	
+3
+
+THEA 172	Cinema and Reality	
+3
+
+THEA 181	Museums and Masterpieces	
+3
+
+THEA 182	Museums and Masterpieces	
+3
+
+THEA 201	History of Theatre	
+3
+
+THEA 202	History of Theatre	
+3
+
+THEA 211	Painting	
+3
+
+THEA 212	Painting	
+3
+
+THEA 215	History of Art and Exhibition in Turkey	
+3
+
+THEA 221	Glass Art	
+3
+
+THEA 222	Glass Art	
+3
+
+THEA 231	Sculpture	
+3
+
+THEA 232	Sculpture	
+3
+
+THEA 241	Ceramics	
+3
+
+THEA 242	Ceramics	
+3
+
+THEA 251	Introduction to Video Production	
+3
+
+THEA 252	Introduction to Video Production	
+3
+
+THEA 261	Theatre	
+3
+
+THEA 262	Theatre	
+3
+
+THEA 271	Cinema and Reality	
+3
+
+THEA 272	Cinema and Reality	
+3
+
+THEA 281	Film Analysis	
+3
+
+THEA 282	Film Analysis	
+3
+
+THEA 291	Genres in the Arts	
+3
+
+THEA 292	Genres in the Arts	
+3
+
+THEA 301	Media Economics	
+3
+
+THEA 302	Media Economics	
+3
+
+THEA 311	Painting	
+3
+
+THEA 312	Painting	
+3
+
+THEA 321	Glass Art	
+3
+
+THEA 322	Glass Art	
+3
+
+THEA 331	Sculpture	
+3
+
+THEA 332	Sculpture	
+3
+
+THEA 341	Ceramics	
+3
+
+THEA 342	Ceramics	
+3
+
+THEA 351	Introduction to Video Production	
+3
+
+THEA 352	Introduction to Video Production	
+3
+
+THEA 361	Theatre	
+3
+
+THEA 362	Theatre	
+3
+
+THEA 371	Cinema and Reality	
+3
+
+THEA 372	Cinema and Reality	
+3
+
+THEA 401	History of Arts Summer School	
+3
+
+THEA 402	Modernism and Postmodernism in Art	
+3
+
+THEA 411	Painting	
+3
+
+THEA 412	Painting	
+3
+
+THEA 421	Glass Art	
+3
+
+THEA 422	Glass Art	
+3
+
+THEA 431	Sculpture	
+3
+
+THEA 432	Sculpture	
+3
+
+THEA 441	Ceramics	
+3
+
+THEA 442	Ceramics	
+3
+
+THEA 451	Introduction to Video Production	
+3
+
+THEA 452	Introduction to Video Production	
+3
+
+THEA 461	Theatre	
+3
+
+THEA 462	Theatre	
+3
+
+THEA 471	Cinema and Reality	
+3
+
+THEA 472	Cinema and Reality	
+3
+
+THEA 498	Specials Topics in Arts I	
+3
+
+THEA 499	Specials Topics in Arts	
+3
+
+Last updated
+28/09/2025 - 13:14
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Müzik ve Güzel Sanatlar Bölümü
+Müzik ve Güzel Sanatlar Bölümü
+Eğitimi Böl
+COURSE CODE	COURSE NAME	CREDITS
+SLTP 111	Topics in Art	
+3
+
+SLTP 112	Topics in Art	
+3
+
+Last updated
+28/09/2025 - 13:07
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Müzik ve Güzel Sanatlar Bölümü
+Müzik ve Güzel Sanatlar Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+MUS 101	Classical Turkish Music	
+3
+
+MUS 102	Classical Turkish Music	
+3
+
+MUS 111	University Chorus	
+3
+
+MUS 112	University Chorus	
+3
+
+MUS 121	Voice	
+3
+
+MUS 122	Voice	
+3
+
+MUS 141	History of Instrument	
+3
+
+MUS 142	History of Instrument	
+3
+
+MUS 151	Jazz Orchestra	
+3
+
+MUS 152	Jazz Orchestra	
+3
+
+MUS 161	Performing Jazz	
+3
+
+MUS 162	Performing Jazz	
+3
+
+MUS 171	Drum	
+3
+
+MUS 172	Drum	
+3
+
+MUS 181	Bass Guitar	
+3
+
+MUS 182	Bass Guitar	
+3
+
+MUS 191	Solfeggio	
+3
+
+MUS 192	Contemporary Jazz Sociology	
+3
+
+MUS 201	Classical Turkish Music	
+3
+
+MUS 202	Classical Turkish Music	
+3
+
+MUS 211	University Chorus	
+3
+
+MUS 212	University Chorus	
+3
+
+MUS 221	Voice	
+3
+
+MUS 222	Voice	
+3
+
+MUS 242	Art and Science Culture I	
+3
+
+MUS 251	Jazz Orchestra	
+3
+
+MUS 252	Jazz Orchestra	
+3
+
+MUS 261	Performing Jazz	
+3
+
+MUS 262	Performing Jazz	
+3
+
+MUS 271	Drum	
+3
+
+MUS 272	Drum	
+3
+
+MUS 281	Bass Guitar	
+3
+
+MUS 282	Bass Guitar	
+3
+
+MUS 301	Classical Turkish Music	
+3
+
+MUS 302	Classical Turkish Music	
+3
+
+MUS 311	University Chorus	
+3
+
+MUS 312	University Chorus	
+3
+
+MUS 321	Voice	
+3
+
+MUS 322	Voice	
+3
+
+MUS 341	Music Appreciation	
+3
+
+MUS 342	Music Appreciation	
+3
+
+MUS 351	Jazz Orchestra	
+3
+
+MUS 352	Jazz Orchestra	
+3
+
+MUS 361	Performing Jazz	
+3
+
+MUS 362	Performing Jazz	
+3
+
+MUS 371	Drum	
+3
+
+MUS 372	Drum	
+3
+
+MUS 381	Bass Guitar	
+3
+
+MUS 382	Bass Guitar	
+3
+
+MUS 401	Classical Turkish Music	
+3
+
+MUS 402	Classical Turkish Music	
+3
+
+MUS 411	University Chorus	
+3
+
+MUS 412	University Chorus	
+3
+
+MUS 421	Voice	
+3
+
+MUS 422	Voice	
+3
+
+MUS 451	Jazz Orchestra	
+3
+
+MUS 452	Jazz Orchestra	
+3
+
+MUS 461	Performing Jazz	
+3
+
+MUS 462	Performing Jazz	
+3
+
+MUS 464	Tango Musicality	
+3
+
+MUS 465	Flamenco Art	
+4
+
+MUS 471	Drum	
+3
+
+MUS 472	Drum	
+3
+
+MUS 481	Bass Guitar	
+3
+
+MUS 482	Bass Guitar	
+3
+
+Last updated
+28/09/2025 - 13:06
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Müzik ve Güzel Sanatlar Bölümü
+Müzik ve Güzel Sanatlar Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+INST 101	Piano	
+3
+
+INST 102	Piano	
+3
+
+INST 111	Flute	
+3
+
+INST 112	Flute	
+3
+
+INST 121	Violin	
+3
+
+INST 122	Violin	
+3
+
+INST 131	Viola	
+3
+
+INST 132	Viola	
+3
+
+INST 141	Violoncello	
+3
+
+INST 142	Violoncello	
+3
+
+INST 151	Classical Guitar	
+3
+
+INST 152	Classical Guitar	
+3
+
+INST 161	Saxophone-Clarinet	
+3
+
+INST 162	Saxophone-Clarinet	
+3
+
+INST 171	Trompet	
+3
+
+INST 172	Trompet	
+3
+
+INST 181	Trombone	
+3
+
+INST 182	Trombone	
+3
+
+INST 191	Ney	
+3
+
+INST 201	Piano	
+3
+
+INST 202	Piano	
+3
+
+INST 211	Flute	
+3
+
+INST 212	Flute	
+3
+
+INST 221	Violin	
+3
+
+INST 222	Violin	
+3
+
+INST 231	Viola	
+3
+
+INST 232	Viola	
+3
+
+INST 241	Violoncello	
+3
+
+INST 242	Violoncello	
+3
+
+INST 251	Classical Guitar	
+3
+
+INST 252	Classical Guitar	
+3
+
+INST 261	Saxophone-Clarinet	
+3
+
+INST 262	Saxophone-Clarinet	
+3
+
+INST 271	Trompet	
+3
+
+INST 272	Trompet	
+3
+
+INST 281	Trombone	
+3
+
+INST 282	Trombone	
+3
+
+INST 301	Piano	
+3
+
+INST 302	Piano	
+3
+
+INST 311	Flute	
+3
+
+INST 312	Flute	
+3
+
+INST 321	Violin	
+3
+
+INST 322	Violin	
+3
+
+INST 331	Viola	
+3
+
+INST 332	Viola	
+3
+
+INST 341	Violoncello	
+3
+
+INST 342	Violoncello	
+3
+
+INST 351	Classical Guitar	
+3
+
+INST 352	Classical Guitar	
+3
+
+INST 361	Saxophone-Clarinet	
+3
+
+INST 362	Saxophone-Clarinet	
+3
+
+INST 371	Trompet	
+3
+
+INST 372	Trompet	
+3
+
+INST 381	Trombone	
+3
+
+INST 382	Trombone	
+3
+
+INST 401	Piano	
+3
+
+INST 402	Piano	
+3
+
+INST 411	Flute	
+3
+
+INST 412	Flute	
+3
+
+INST 421	Violin	
+3
+
+INST 422	Violin	
+3
+
+INST 431	Viola	
+3
+
+INST 432	Viola	
+3
+
+INST 441	Violoncello	
+3
+
+INST 442	Violoncello	
+3
+
+INST 451	Classical Guitar	
+3
+
+INST 452	Classical Guitar	
+3
+
+INST 461	Saxophone-Clarinet	
+3
+
+INST 462	Saxophone-Clarinet	
+3
+
+INST 471	Trompet	
+3
+
+INST 472	Trompet	
+3
+
+INST 481	Trombone	
+3
+
+INST 482	Trombone	
+3
+
+Last updated
+28/09/2025 - 13:02
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Meslek Yüksek Okulu (MYO)
+Meslek Yüksek Okulu (MYO)
+COURSE CODE	COURSE NAME	CREDITS
+TKPR 223	MTH223 Fundamentals of Innovation and Entrepreneurship 	
+4
+
+TKPR 226	History of Technology	
+3
+
+Last updated
+06/10/2025 - 13:47
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Bilim ve Teknoloji Politikası Çalışmaları
+Bilim ve Teknoloji Politikası Çalışmaları
+COURSE CODE	COURSE NAME	CREDITS
+STPS 400	Science, Technology and Society	
+3
+
+STPS 552	Globalization and Technology Management	
+3
+
+Last updated
+28/09/2025 - 12:56
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Skip to main content
+İkincil menü
+ODTÜ
+English
+Home
+Mühendislik Fakültesi
+Ana gezinti menüsü
+Ana Sayfa
+Dekanlık
+Bölümler
+Eğitim
+Araştırma
+İletişim
+EngDay
+Öğrenciler
+Mezunlar
+Formlar
+Home  Arkeometri Bölümü
+Arkeometri Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ARM 531	General Archaeology	
+3
+
+ARME 540	Conserv. & Restoration Archaeol. Objects	
+3
+
+ARME 563	Cultural Evolution I	
+3
+
+ARME 708	Conservation Science in Archaeometry	
+3
+
+Last updated
+28/09/2025 - 12:56
+
+Footer menu 1 TR
+ODTU
+Footer menu 2 TR
+OIDB
+Footer menu 3 TR
+BIDB
+Social menu
+Üniversiteler Mahallesi, Dumlupınar Bulvarı No:1, 06800 Çankaya/Ankara
+
+© Orta Doğu Teknik Üniversitesi. CC-IG 2025. Tüm hakları saklıdır.
+
+Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+CEIT 360	Introduction To Visual Design/Basic Elements of Vis. Des.	
+3
+
+Last updated
+26/09/2025 - 17:19Arkeometri Bölümü
+COURSE CODE	COURSE NAME	CREDITS
+ARM 531	General Archaeology	
+3
+
+ARME 540	Conserv. & Restoration Archaeol. Objects	
+3
+
+ARME 563	Cultural Evolution I	
+3
+
+ARME 708	Conservation Science in Archaeometry	
+3
+
+isans Programı
+Birinci Dönem
+MATH 111 Matematiğin Temelleri
+MATH 113 Kalkülüs I
+MATH 123 Sayılar Teorisine Giriş
+PHYS 111 Temel Fizik I
+ENG 101 Akademik İngilizce I
+IS 100 Bilgi Sistemleri Uygulamalarına Giriş
+İkinci Dönem
+MATH 112 Sonlu Matematik
+MATH 114 Kalkülüs II
+MATH 124 Analitik Geometri ve Doğrusal Cebire Giriş
+PHYS 112 Temel Fizik II
+ENG 102 Akademik İngilizce II
+Üçüncü Dönem
+MATH 213 Kalkülüs III
+MATH 261 Doğrusal Cebir I
+MATH 267 Soyut Cebir I
+CENG 240 Python ile Programlama
+HIST 2201 Atatürk İlkeleri ve İnkılâp Tarihi I
+Dördüncü Dönem
+MATH 214 Matematiksel Analiz
+MATH 262 Doğrusal Cebir II
+MATH 268 Soyut Cebir II
+ENG 211 Sözlü Sunum Teknikleri (İngilizce)
+HIST 2202 Atatürk İlkeleri ve İnkılâp Tarihi II
+--- --- Seçmeli Ders (Bölüm Dışı)
+Beşinci Dönem
+MATH 313 Metrik Uzaylar
+MATH 343 Adi Diferansiyel Denklemler
+MATH 353 Kompleks Analiz
+TURK 303 Türkçe I
+--- --- Seçmeli Ders (Bölüm İçi)
+Altıncı Dönem
+MATH 358 Kısmi Diferansiyel Denklemler
+MATH 371 Diferansiyel Geometri
+TURK 304 Türkçe II
+--- --- Seçmeli Ders (Bölüm İçi)
+--- --- Serbest Seçmeli Ders
+Yedinci Dönem
+--- --- Seçmeli Ders (Bölüm İçi)
+--- --- Seçmeli Ders (Bölüm Dışı)
+--- --- Serbest Seçmeli Ders
+Sekizinci Dönem
+--- --- Seçmeli Ders (Bölüm İçi)
+--- --- Serbest Seçmeli Ders
+--- --- Serbest Seçmeli Ders
+Bölüm içi Seçmeli Dersleri
+NOT: Bölüm içi seçmeli derslerini tamamlayan
+öğrencilerimiz aşağıda verilen yine matematik
+derslerinden serbest seçmeli olarak ders alabilirler.
+MATH 301 Olasılık Teorisine Giriş,
+MATH 303 Matematik Tarihi I
+MATH 304 Matematik Tarihi II
+MATH 319 Lebesgue Integrali
+MATH 320 Kümeler Teorisi
+MATH 332 Stokastik süreçlerin teorik yönleri
+MATH 341 Çizge Teorisi
+MATH 344 Evrensel Cebirlere Giriş
+MATH 350 Diferansiyel Denklemler II
+MATH 355 Operasyonel Kalkülüs
+MATH 365 Sayılar Teorisine Giriş I
+MATH 366 Sayılar Teorisine Giriş II
+MATH 368 Cisim Genişletmeleri ve Galois Teorisi,
+MATH 373 Geometri I
+MATH 374 Geometri II
+MATH 375 Periyodik Dağılımlar ve Fourier Serileri
+MATH 381 Nümerik Analiz I
+MATH 382 Nümerilk Analiz II
+MATH 385 Uygulamalı Matematiğin Özel Fonksiyonları I
+MATH 386 Uygulamalı Matematiğin Özel Fonksiyonları II
+MATH 387 Nesne Tabanlı İleri Programlama,
+MATH 388 Data Yapıları,
+MATH 390 Bilgisayar Cebiri
+MATH 395 Sembolik Programlama Dilleri,
+MATH 396 Yapay Zeka ve Uygulamaları,
+MATH 400 Temel Dağılım Teorisi,
+MATH 401 Olasılık Teorisi,
+MATH 402 Optimizasyona Giriş
+MATH 403 Matematiğin Temelleri,
+MATH 404 Vektör Latislerine Giriş ve Uygulamaları
+MATH 405 Kombinatorik
+MATH 406 Matematiksel Mantık ve Model Teorisine Giriş
+MATH 407 Oyun Teorisine Giriş
+MATH 410 Matematiksel Modelleme Yöntemleri ve
+ Bilimsel Hesaplama
+MATH 420 Temel Noktasal Küme Topolojisi
+MATH 422 Temel Geometrik Topoloji
+MATH 441 Mekanik I
+MATH 442 Mekanik II
+MATH 444 Evrensel Cebirde Başlıklar
+MATH 450 Kompleks Düzlemde Potansiyel Teori
+MATH 452 Fonksiyon Analize Giriş
+MATH 453 Kompleks Analize Giriş Math 454 Geometrik
+ Kompleks Analiz
+MATH 456 Fourier Analizi ve Dalgacıklar
+MATH 457 Manifoldlar Üzerinde Kalkülüs
+MATH 461 Halkalar ve Modüller
+MATH 463 Grup Teorisine Giriş
+MATH 464 Temsiller Teorisine Giriş
+MATH 466 Gruplar ve Geometri
+MATH 470 Dosya Yapıları
+MATH 471 Hiperbolik Geometri
+MATH 473 İdealler, Varyeteler ve Algoritmalar
+MATH 474 Hesaplamalı Cebirsel Geometriye Giriş
+MATH 476 Cebirsel Eğriler
+MATH 478 Kriptolojinin Matematiksel Yönleri
+MATH 480 Diferansiyel Denklemler için Numerik
+ Yöntemler
+MATH 484 Algoritmaların Karmaşıklığı
+MATH 486 Veri tabanı Sistemlerinin Temelleri
+MATH 487 Uygulamalı Matematik I
+MATH 488 Uygulamalı Matematik I
+MATH 489 Dinamik Sistemler
+MATH 490 Fark Denklemleri
+MATH 492 Nümerik Optimizasyon
+MATH 493 Matematiğin Felsefesi
+MATH 494 Matematiksel Yazılımların Dizaynı
+MATH 496 Danışman Denetiminde Bağımsız
+ Çalışma ve Araştırma M

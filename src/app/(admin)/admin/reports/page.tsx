@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import {
   Search,
   Flag,
@@ -16,13 +16,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Textarea } from "@/components/ui/textarea";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
+
 import {
   Dialog,
   DialogContent,
@@ -84,11 +78,7 @@ export default function AdminReportsPage() {
   const [adminNote, setAdminNote] = useState("");
   const [actionLoading, setActionLoading] = useState(false);
 
-  useEffect(() => {
-    fetchReports();
-  }, [statusFilter]);
-
-  const fetchReports = async () => {
+  const fetchReports = useCallback(async () => {
     try {
       const params = new URLSearchParams();
       if (statusFilter !== "all") params.set("status", statusFilter);
@@ -103,7 +93,11 @@ export default function AdminReportsPage() {
     } finally {
       setLoading(false);
     }
-  };
+  }, [statusFilter]);
+
+  useEffect(() => {
+    fetchReports();
+  }, [fetchReports]);
 
   const handleAction = async (action: "resolve" | "dismiss") => {
     if (!selectedReport) return;
@@ -133,7 +127,7 @@ export default function AdminReportsPage() {
       } else {
         toast.error("İşlem başarısız");
       }
-    } catch (error) {
+    } catch {
       toast.error("Bir hata oluştu");
     } finally {
       setActionLoading(false);
@@ -211,27 +205,42 @@ export default function AdminReportsPage() {
       {/* Filters */}
       <Card>
         <CardContent className="pt-6">
-          <div className="flex flex-col sm:flex-row gap-4">
-            <div className="relative flex-1">
+          <div className="flex flex-col gap-6">
+            <div className="flex border-b">
+              {["PENDING", "RESOLVED", "DISMISSED", "all"].map((status) => {
+                const labels: Record<string, string> = {
+                  PENDING: "Bekleyenler",
+                  RESOLVED: "Çözülenler",
+                  DISMISSED: "Reddedilenler",
+                  all: "Tümü",
+                };
+
+                const isActive = statusFilter === status;
+
+                return (
+                  <button
+                    key={status}
+                    onClick={() => setStatusFilter(status)}
+                    className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${isActive
+                      ? "border-primary text-primary"
+                      : "border-transparent text-muted-foreground hover:text-foreground hover:border-muted"
+                      }`}
+                  >
+                    {labels[status]}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="relative">
               <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" />
               <Input
-                placeholder="Ara..."
+                placeholder="Raporlarda ara (Kullanıcı, E-posta, İçerik)..."
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
-                className="pl-10"
+                className="pl-10 max-w-md"
               />
             </div>
-            <Select value={statusFilter} onValueChange={setStatusFilter}>
-              <SelectTrigger className="w-[180px]">
-                <SelectValue placeholder="Durum" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="all">Tüm Durumlar</SelectItem>
-                <SelectItem value="PENDING">Beklemede</SelectItem>
-                <SelectItem value="RESOLVED">Çözüldü</SelectItem>
-                <SelectItem value="DISMISSED">Reddedildi</SelectItem>
-              </SelectContent>
-            </Select>
           </div>
         </CardContent>
       </Card>
@@ -468,8 +477,8 @@ export default function AdminReportsPage() {
             </DialogTitle>
             <DialogDescription>
               {actionType === "resolve"
-                ? "Bu raporu çözüldü olarak işaretleyeceksiniz. İsterseniz bir not ekleyebilirsiniz."
-                : "Bu raporu reddedeceksiniz. İsterseniz bir not ekleyebilirsiniz."}
+                ? "Bu raporu çözüldü işaretlediğinizde, **ilgili yorum otomatik olarak GİZLENECEKTİR** (Rejected). Bu işlem geri alınamaz."
+                : "Bu raporu reddedeceksiniz. İçerik yayında kalmaya devam edecektir."}
             </DialogDescription>
           </DialogHeader>
           <Textarea
@@ -498,8 +507,8 @@ export default function AdminReportsPage() {
               {actionLoading
                 ? "İşleniyor..."
                 : actionType === "resolve"
-                ? "Çöz"
-                : "Reddet"}
+                  ? "Çöz"
+                  : "Reddet"}
             </Button>
           </DialogFooter>
         </DialogContent>

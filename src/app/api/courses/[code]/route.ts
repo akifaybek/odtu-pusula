@@ -1,5 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
+import { errorResponse } from "@/lib/api-response";
+
+const ALLOWED_SORTS = new Set([
+  "newest",
+  "oldest",
+  "most-liked",
+  "highest-rating",
+  "lowest-rating",
+]);
 
 // GET /api/courses/[code] - Ders detay
 export async function GET(
@@ -8,18 +17,29 @@ export async function GET(
 ) {
   try {
     const { code } = await params;
-    const { searchParams } = new URL(request.url);
 
-    // Pagination for reviews
-    const reviewsPage = parseInt(searchParams.get("reviewsPage") || "1");
-    const reviewsLimit = parseInt(searchParams.get("reviewsLimit") || "10");
+    if (!code?.trim()) {
+      return errorResponse(400, "BAD_REQUEST", "Ders kodu zorunludur", {
+        endpoint: "/api/courses/[code]",
+      });
+    }
+
+    const { searchParams } = new URL(request.url);
+    const parsedPage = parseInt(searchParams.get("reviewsPage") || "1", 10);
+    const parsedLimit = parseInt(searchParams.get("reviewsLimit") || "10", 10);
+    const reviewsPage = Number.isNaN(parsedPage) ? 1 : Math.max(1, parsedPage);
+    const reviewsLimit = Number.isNaN(parsedLimit)
+      ? 10
+      : Math.min(50, Math.max(1, parsedLimit));
     const reviewsSkip = (reviewsPage - 1) * reviewsLimit;
-    const sortBy = searchParams.get("sortBy") || "newest"; // newest, oldest, most-liked, highest-rating, lowest-rating
+
+    const requestedSort = searchParams.get("sortBy") || "newest";
+    const sortBy = ALLOWED_SORTS.has(requestedSort) ? requestedSort : "newest";
 
     // Ders kodunu normalize et (CENG-331 -> CENG331)
     const normalizedCode = code.replace(/-/g, "").toUpperCase();
 
-    // Dersi bul
+    // Dersi bul (sadece gerekli alanlar)
     const course = await prisma.course.findFirst({
       where: {
         OR: [
@@ -28,7 +48,13 @@ export async function GET(
           { code: { contains: normalizedCode, mode: "insensitive" } },
         ],
       },
-      include: {
+      select: {
+        id: true,
+        code: true,
+        name: true,
+        credits: true,
+        description: true,
+        courseType: true,
         department: {
           select: {
             id: true,
@@ -38,7 +64,7 @@ export async function GET(
           },
         },
         professors: {
-          include: {
+          select: {
             professor: {
               select: {
                 id: true,
@@ -48,19 +74,14 @@ export async function GET(
             },
           },
         },
-        _count: {
-          select: {
-            reviews: true,
-          },
-        },
       },
     });
 
     if (!course) {
-      return NextResponse.json(
-        { error: "Ders bulunamadı" },
-        { status: 404 }
-      );
+      return errorResponse(404, "NOT_FOUND", "Ders bulunamadı", {
+        endpoint: "/api/courses/[code]",
+        code,
+      });
     }
 
     // Tüm reviews için istatistik hesapla
@@ -71,6 +92,8 @@ export async function GET(
         workloadRating: true,
         usefulnessRating: true,
         overallRating: true,
+        wouldRecommend: true,
+        grade: true,
       },
     });
 
@@ -80,19 +103,48 @@ export async function GET(
       workload: 0,
       usefulness: 0,
       overall: 0,
+      recommendPercent: 0,
     };
 
+    const gradeDistribution: Record<string, number> = {};
+    allReviews.forEach((r) => {
+      if (r.grade) {
+        gradeDistribution[r.grade] = (gradeDistribution[r.grade] || 0) + 1;
+      }
+    });
+
     if (reviewCount > 0) {
+      const recommendCount = allReviews.filter((r) => r.wouldRecommend === true).length;
+      const totalRecommendResponses = allReviews.filter((r) => r.wouldRecommend !== null).length;
+
       stats = {
-        difficulty: Math.round((allReviews.reduce((sum, r) => sum + r.difficultyRating, 0) / reviewCount) * 10) / 10,
-        workload: Math.round((allReviews.reduce((sum, r) => sum + r.workloadRating, 0) / reviewCount) * 10) / 10,
-        usefulness: Math.round((allReviews.reduce((sum, r) => sum + r.usefulnessRating, 0) / reviewCount) * 10) / 10,
-        overall: Math.round((allReviews.reduce((sum, r) => sum + r.overallRating, 0) / reviewCount) * 10) / 10,
+        difficulty:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.difficultyRating, 0) / reviewCount) * 10
+          ) / 10,
+        workload:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.workloadRating, 0) / reviewCount) * 10
+          ) / 10,
+        usefulness:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.usefulnessRating, 0) / reviewCount) * 10
+          ) / 10,
+        overall:
+          Math.round(
+            (allReviews.reduce((sum, r) => sum + r.overallRating, 0) / reviewCount) * 10
+          ) / 10,
+        recommendPercent:
+          totalRecommendResponses > 0
+            ? Math.round((recommendCount / totalRecommendResponses) * 100)
+            : 0,
       };
     }
 
-    // Sıralama için orderBy
-    let orderBy: object = { createdAt: "desc" };
+    let orderBy: { createdAt?: "asc" | "desc"; likes?: "asc" | "desc"; overallRating?: "asc" | "desc" } = {
+      createdAt: "desc",
+    };
+
     switch (sortBy) {
       case "oldest":
         orderBy = { createdAt: "asc" };
@@ -106,12 +158,26 @@ export async function GET(
       case "lowest-rating":
         orderBy = { overallRating: "asc" };
         break;
+      default:
+        orderBy = { createdAt: "desc" };
     }
 
-    // Paginated reviews
     const reviews = await prisma.courseReview.findMany({
       where: { courseId: course.id },
-      include: {
+      select: {
+        id: true,
+        semester: true,
+        difficultyRating: true,
+        workloadRating: true,
+        usefulnessRating: true,
+        overallRating: true,
+        wouldRecommend: true,
+        grade: true,
+        comment: true,
+        isAnonymous: true,
+        likes: true,
+        createdAt: true,
+        updatedAt: true,
         user: {
           select: {
             id: true,
@@ -131,7 +197,6 @@ export async function GET(
       take: reviewsLimit,
     });
 
-    // Reviews'u formatla (anonim kullanıcı bilgilerini gizle)
     const formattedReviews = reviews.map((review) => ({
       id: review.id,
       semester: review.semester,
@@ -139,41 +204,52 @@ export async function GET(
       workloadRating: review.workloadRating,
       usefulnessRating: review.usefulnessRating,
       overallRating: review.overallRating,
+      wouldRecommend: review.wouldRecommend,
       grade: review.grade,
       comment: review.comment,
       isAnonymous: review.isAnonymous,
       likes: review.likes,
       createdAt: review.createdAt.toISOString(),
       updatedAt: review.updatedAt.toISOString(),
-      user: review.isAnonymous
-        ? null
-        : {
-            id: review.user.id,
-            name: review.user.name,
-          },
+      user:
+        review.isAnonymous || !review.user
+          ? null
+          : {
+              id: review.user.id,
+              name: review.user.name,
+            },
       professor: review.professor,
     }));
 
-    // Hocaların rating'lerini hesapla
-    const professorsWithStats = await Promise.all(
-      course.professors.map(async (cp) => {
-        const profReviews = await prisma.professorReview.findMany({
-          where: { professorId: cp.professor.id },
-          select: { overallRating: true },
-        });
+    const professorIds = course.professors.map((cp) => cp.professor.id);
+    const professorRatings =
+      professorIds.length > 0
+        ? await prisma.professorReview.groupBy({
+            by: ["professorId"],
+            where: { professorId: { in: professorIds } },
+            _avg: { overallRating: true },
+            _count: { _all: true },
+          })
+        : [];
 
-        const profReviewCount = profReviews.length;
-        const avgRating = profReviewCount > 0
-          ? Math.round((profReviews.reduce((sum, r) => sum + r.overallRating, 0) / profReviewCount) * 10) / 10
-          : 0;
-
-        return {
-          ...cp.professor,
-          rating: avgRating,
-          reviewCount: profReviewCount,
-        };
-      })
+    const ratingMap = new Map(
+      professorRatings.map((row) => [
+        row.professorId,
+        {
+          rating: row._avg.overallRating ? Math.round(row._avg.overallRating * 10) / 10 : 0,
+          reviewCount: row._count._all,
+        },
+      ])
     );
+
+    const professorsWithStats = course.professors.map((cp) => {
+      const rating = ratingMap.get(cp.professor.id);
+      return {
+        ...cp.professor,
+        rating: rating?.rating ?? 0,
+        reviewCount: rating?.reviewCount ?? 0,
+      };
+    });
 
     return NextResponse.json({
       course: {
@@ -182,12 +258,14 @@ export async function GET(
         name: course.name,
         credits: course.credits,
         description: course.description,
+        courseType: course.courseType,
         department: course.department,
       },
       stats: {
         ...stats,
         reviewCount,
       },
+      gradeDistribution,
       professors: professorsWithStats,
       reviews: {
         data: formattedReviews,
@@ -201,9 +279,13 @@ export async function GET(
     });
   } catch (error) {
     console.error("Course detail GET error:", error);
-    return NextResponse.json(
-      { error: "Ders bilgileri yüklenirken bir hata oluştu" },
-      { status: 500 }
+    return errorResponse(
+      500,
+      "INTERNAL_ERROR",
+      "Ders bilgileri yüklenirken bir hata oluştu",
+      {
+        endpoint: "/api/courses/[code]",
+      }
     );
   }
 }

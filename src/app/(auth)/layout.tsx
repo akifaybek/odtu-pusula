@@ -37,7 +37,7 @@ export default function AuthLayout({
 
       {/* Footer */}
       <p className="mt-8 text-sm text-gray-400 relative z-10">
-        &copy; {new Date().getFullYear()} ODTÜ Pusula. Tüm hakları saklıdır.
+        &copy; {new Date().getFullYear()} ODTU Pusula. All rights reserved.
       </p>
     </div>
   );

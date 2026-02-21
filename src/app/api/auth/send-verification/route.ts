@@ -1,77 +1,73 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getServerSession } from "next-auth";
 import prisma from "@/lib/prisma";
 import { sendVerificationEmail } from "@/lib/email";
 import crypto from "crypto";
-import { authOptions } from "@/lib/auth";
-
-// Rate limiting - basit in-memory store (production'da Redis kullanılmalı)
-const rateLimitStore = new Map<string, { count: number; resetAt: number }>();
-const RATE_LIMIT_MAX = 3;
-const RATE_LIMIT_WINDOW = 60 * 60 * 1000; // 1 saat
-
-function checkRateLimit(email: string): boolean {
-  const now = Date.now();
-  const record = rateLimitStore.get(email);
-
-  if (!record || now > record.resetAt) {
-    rateLimitStore.set(email, { count: 1, resetAt: now + RATE_LIMIT_WINDOW });
-    return true;
-  }
-
-  if (record.count >= RATE_LIMIT_MAX) {
-    return false;
-  }
-
-  record.count++;
-  return true;
-}
+import { buildRateLimitHeaders, checkRateLimitByPolicy, getClientIp } from "@/lib/rate-limit";
 
 // POST /api/auth/send-verification
 export async function POST(request: NextRequest) {
   try {
-    const session = await getServerSession(authOptions);
+    const ip = getClientIp(request);
+    const body = await request.json();
+    const { email } = body;
 
-    if (!session?.user?.email) {
+    if (!email || typeof email !== "string") {
       return NextResponse.json(
-        { error: "Giriş yapmanız gerekiyor" },
-        { status: 401 }
+        { error: "Email gereklidir" },
+        { status: 400 }
       );
     }
 
-    const email = session.user.email;
+    // Normalize email
+    const normalizedEmail = email.toLowerCase().trim();
+
+    // Validate email format
+    if (!normalizedEmail.endsWith("@metu.edu.tr")) {
+      return NextResponse.json(
+        { error: "Sadece @metu.edu.tr email adresleri kabul edilmektedir" },
+        { status: 400 }
+      );
+    }
+
+    // Rate limiting - hem IP hem email bazında
+    const rateLimitResult = await checkRateLimitByPolicy(
+      "email",
+      `send-verification:${ip}:${normalizedEmail}`
+    );
+
+    if (!rateLimitResult.success) {
+      return NextResponse.json(
+        { error: "Çok fazla deneme yaptınız. Lütfen daha sonra tekrar deneyin." },
+        {
+          status: 429,
+          headers: buildRateLimitHeaders(rateLimitResult),
+        }
+      );
+    }
+
+    // Kullanıcıyı kontrol et
+    const user = await prisma.user.findUnique({
+      where: { email: normalizedEmail },
+    });
+
+    if (!user) {
+      // Güvenlik için aynı mesajı döndür
+      return NextResponse.json({
+        message: "Eğer bu email kayıtlıysa, doğrulama linki gönderildi.",
+      });
+    }
 
     // Zaten doğrulanmış mı?
-    if (session.user.emailVerified) {
+    if (user.emailVerified) {
       return NextResponse.json(
         { error: "Email adresiniz zaten doğrulanmış" },
         { status: 400 }
       );
     }
 
-    // Rate limiting
-    if (!checkRateLimit(email)) {
-      return NextResponse.json(
-        { error: "Çok fazla deneme yaptınız. 1 saat sonra tekrar deneyin." },
-        { status: 429 }
-      );
-    }
-
-    // Kullanıcıyı kontrol et
-    const user = await prisma.user.findUnique({
-      where: { email },
-    });
-
-    if (!user) {
-      return NextResponse.json(
-        { error: "Kullanıcı bulunamadı" },
-        { status: 404 }
-      );
-    }
-
     // Önceki token'ları sil
     await prisma.emailVerificationToken.deleteMany({
-      where: { email },
+      where: { email: normalizedEmail },
     });
 
     // Yeni token oluştur
@@ -81,7 +77,7 @@ export async function POST(request: NextRequest) {
     // Token'ı kaydet
     await prisma.emailVerificationToken.create({
       data: {
-        email,
+        email: normalizedEmail,
         token,
         expires,
       },
@@ -93,7 +89,7 @@ export async function POST(request: NextRequest) {
 
     // Email gönder
     const emailResult = await sendVerificationEmail({
-      email,
+      email: normalizedEmail,
       verificationLink,
     });
 

@@ -1,6 +1,6 @@
 "use client";
 
-import { AlertCircle, Mail, Loader2, RefreshCw } from "lucide-react";
+import { AlertCircle, Mail, Loader2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
@@ -47,7 +47,7 @@ export default function EmailVerificationAlert({
       <div className="p-4 bg-muted/50 rounded-xl text-center">
         <p className="text-muted-foreground">
           Değerlendirme yazmak için{" "}
-          <a href="/giris" className="text-primary hover:underline">
+          <a href="/login" className="text-primary hover:underline">
             giriş yapın
           </a>
           .

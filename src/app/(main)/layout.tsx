@@ -1,6 +1,7 @@
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import EmailVerificationBanner from "@/components/layout/EmailVerificationBanner";
+import FloatingSuggestButton from "@/components/shared/FloatingSuggestButton";
 
 export default function MainLayout({
   children,
@@ -17,6 +18,7 @@ export default function MainLayout({
         </div>
       </main>
       <Footer />
+      <FloatingSuggestButton />
     </div>
   );
 }

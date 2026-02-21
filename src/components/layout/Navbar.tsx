@@ -13,7 +13,6 @@ import {
   User,
   Star,
   ChevronDown,
-  Bot,
   Shield,
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -35,17 +34,20 @@ import {
 import Logo from "@/components/shared/Logo";
 import GlobalSearch from "@/components/search/GlobalSearch";
 import { ThemeToggle } from "@/components/shared/ThemeToggle";
-
-const navLinks = [
-  { href: "/dersler", label: "Dersler", icon: BookOpen },
-  { href: "/hocalar", label: "Hocalar", icon: Users },
-  { href: "/asistan", label: "Asistan", icon: Bot },
-];
+import { LanguageSwitcher } from "@/components/shared/LanguageSwitcher";
+import { useTranslation } from "@/contexts/LanguageContext";
 
 export default function Navbar() {
   const pathname = usePathname();
   const { data: session, status } = useSession();
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const { t } = useTranslation();
+
+  const navLinks = [
+    { href: "/courses", label: t("common.courses"), icon: BookOpen },
+    { href: "/professors", label: t("common.professors"), icon: Users },
+
+  ];
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(href + "/");
 
@@ -62,11 +64,10 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                  isActive(link.href)
-                    ? "bg-primary/10 text-primary"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                }`}
+                className={`flex items-center gap-2 px-4 py-2 rounded-lg text-sm font-medium transition-colors ${isActive(link.href)
+                  ? "bg-primary/10 text-primary"
+                  : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                  }`}
               >
                 <link.icon className="h-4 w-4" />
                 {link.label}
@@ -81,7 +82,10 @@ export default function Navbar() {
         </div>
 
         {/* Right Side */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1">
+          {/* Language Switcher */}
+          <LanguageSwitcher />
+
           {/* Theme Toggle */}
           <ThemeToggle />
 
@@ -114,15 +118,15 @@ export default function Navbar() {
                 </div>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem asChild>
-                  <Link href="/profil" className="cursor-pointer">
+                  <Link href="/profile" className="cursor-pointer">
                     <User className="mr-2 h-4 w-4" />
-                    Profilim
+                    {t("common.myProfile")}
                   </Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link href="/profil/degerlendirmelerim" className="cursor-pointer">
+                  <Link href="/profile/reviews" className="cursor-pointer">
                     <Star className="mr-2 h-4 w-4" />
-                    Değerlendirmelerim
+                    {t("common.myReviews")}
                   </Link>
                 </DropdownMenuItem>
                 {(session.user.role === "ADMIN" || session.user.role === "MODERATOR") && (
@@ -131,7 +135,7 @@ export default function Navbar() {
                     <DropdownMenuItem asChild>
                       <Link href="/admin" className="cursor-pointer">
                         <Shield className="mr-2 h-4 w-4" />
-                        Admin Panel
+                        {t("common.adminPanel")}
                       </Link>
                     </DropdownMenuItem>
                   </>
@@ -142,17 +146,17 @@ export default function Navbar() {
                   onClick={() => signOut({ callbackUrl: "/" })}
                 >
                   <LogOut className="mr-2 h-4 w-4" />
-                  Çıkış Yap
+                  {t("common.signOut")}
                 </DropdownMenuItem>
               </DropdownMenuContent>
             </DropdownMenu>
           ) : (
             <div className="hidden sm:flex items-center gap-2">
               <Button variant="ghost" asChild>
-                <Link href="/giris">Giriş Yap</Link>
+                <Link href="/login">{t("common.signIn")}</Link>
               </Button>
               <Button asChild className="bg-primary hover:bg-primary/90">
-                <Link href="/kayit">Kayıt Ol</Link>
+                <Link href="/register">{t("common.signUp")}</Link>
               </Button>
             </div>
           )}
@@ -180,11 +184,10 @@ export default function Navbar() {
                     key={link.href}
                     href={link.href}
                     onClick={() => setMobileMenuOpen(false)}
-                    className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${
-                      isActive(link.href)
-                        ? "bg-primary/10 text-primary"
-                        : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                    }`}
+                    className={`flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium transition-colors ${isActive(link.href)
+                      ? "bg-primary/10 text-primary"
+                      : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                      }`}
                   >
                     <link.icon className="h-5 w-5" />
                     {link.label}
@@ -194,20 +197,20 @@ export default function Navbar() {
                 {session ? (
                   <>
                     <Link
-                      href="/profil"
+                      href="/profile"
                       onClick={() => setMobileMenuOpen(false)}
                       className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted"
                     >
                       <User className="h-5 w-5" />
-                      Profilim
+                      {t("common.myProfile")}
                     </Link>
                     <Link
-                      href="/profil/degerlendirmelerim"
+                      href="/profile/reviews"
                       onClick={() => setMobileMenuOpen(false)}
                       className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-muted-foreground hover:text-foreground hover:bg-muted"
                     >
                       <Star className="h-5 w-5" />
-                      Değerlendirmelerim
+                      {t("common.myReviews")}
                     </Link>
                     <button
                       onClick={() => {
@@ -217,19 +220,19 @@ export default function Navbar() {
                       className="flex items-center gap-3 px-4 py-3 rounded-lg text-sm font-medium text-destructive hover:bg-destructive/10 w-full text-left"
                     >
                       <LogOut className="h-5 w-5" />
-                      Çıkış Yap
+                      {t("common.signOut")}
                     </button>
                   </>
                 ) : (
                   <div className="flex flex-col gap-2 px-4">
                     <Button asChild variant="outline" className="w-full">
-                      <Link href="/giris" onClick={() => setMobileMenuOpen(false)}>
-                        Giriş Yap
+                      <Link href="/login" onClick={() => setMobileMenuOpen(false)}>
+                        {t("common.signIn")}
                       </Link>
                     </Button>
                     <Button asChild className="w-full bg-primary hover:bg-primary/90">
-                      <Link href="/kayit" onClick={() => setMobileMenuOpen(false)}>
-                        Kayıt Ol
+                      <Link href="/register" onClick={() => setMobileMenuOpen(false)}>
+                        {t("common.signUp")}
                       </Link>
                     </Button>
                   </div>

@@ -1,0 +1,5131 @@
+# ODTÜ Akademisyen Listesi
+# Bu dosyaya tüm akademisyenleri yapıştırın
+# Resimler, boşluklar, karışık formatlar olabilir - ben ayıklarım
+# Sadece yazıları yapıştırın, aşağıdaki satırı silin ve yapıştırmaya başlayın:
+
+--- 
+
+Orta Doğu Teknik Üniversitesi
+Akademik Veri Yönetim Sistemi
+ Araştırmacı Girişi  English
+
+Ünvan
+
+
+Araştırma Görevlisi
+782
+
+Öğretim Görevlisi
+766
+
+Prof. Dr.
+526
+
+Doç. Dr.
+198
+
+Dr. Öğr. Üyesi
+162
+daha fazla
+Fakülte
+
+
+Mühendislik Fakültesi
+695
+
+Fen Edebiyat Fakültesi
+452
+
+Yabancı Diller Yüksek Okulu
+306
+
+Mimarlık Fakültesi
+206
+
+İktisadi ve İdari Bilimler Fakültesi
+170
+daha fazla
+Bölüm
+Ana Bilim Dalı
+WoS Araştırma Alanları
+
+Sosyal Bilimler (Soc)
+120
+
+Temel Bilimler (Sci)
+106
+
+Mühendislik Bilişim ve Teknoloji (Eng)
+79
+
+Sanat ve Beşeri Bilimler (Ahci)
+29
+
+Yaşam Bilimleri (Life)
+29
+
+Tarım ve Çevre Bilimleri (Age)
+17
+
+Klinik Tıp (Med)
+2
+daha fazla
+Scopus Araştırma Alanları
+
+Fizik Bilimleri
+554
+
+Sosyal Bilimler ve Beşeri Bilimler
+351
+
+Yaşam Bilimleri
+74
+
+Multidisipliner
+22
+
+Sağlık Bilimleri
+15
+daha fazla
+Avesis Araştırma Alanları
+
+Mühendislik ve Teknoloji
+616
+
+Sosyal ve Beşeri Bilimler
+519
+
+Temel Bilimler
+279
+
+Sağlık Bilimleri
+18
+
+Tarımsal Bilimler
+10
+daha fazla
+Proje
+Fikri Mülkiyet
+Yabancı Dil
+Eğitim Aldığı Ülke
+Uyruk
+2502 kayıt 86ms içerisinde bulundu.
+kayıt göster
+Tüm filtreyi temizle
+
+Prof. Dr. ABDULAHAT MUHİTTİN CEM SOMEL, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. ABDULLAH ÖZTÜRK, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. ABDULLAH ULAŞ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ABDULLAH AYDIN ALATAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. ABDULLAH CENDEL KARAMAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. ADEM KALINLI, Rektörlük, Rektörlük
+
+Prof. Dr. AFŞAR SARANLI, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. AFŞİN SARITAŞ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. AHMET BİNGÜL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. AHMET COŞAR, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. AHMET İNAM, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. AHMET OK, Sosyal Bilimler Enstitüsü, Eğitim Bilimleri Bölümü
+
+Prof. Dr. AHMET TÜRER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. AHMET YAKUT, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. AHMET YOZGATLIGİL, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. AHMET CEVDET YALÇINER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AHMET ERKAN KIDEYŞ, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Prof. Dr. AHMET HALİS AKDER, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. AHMET İRFAN SEVEN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. AHMET NURİ YURDUSEV, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. AHMET OĞUZ AKYÜZ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. AKIN AKDAĞ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. AKİF ARGUN AKDOĞAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. ALEV BAYINDIRLI, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. ALİ CENGİZKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ALİ ÇIRPAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. ALİ KALKANLI, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ALİ CEMAL GÜCÜ, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Prof. Dr. ALİ DEVİN SEZER, Uygulamalı Matematik Enstitüsü, Finansal Matematik Anabilim Dalı
+
+Prof. Dr. ALİ İHSAN AROL, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Prof. Dr. ALİ İHSAN ÜNAY, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ALİ MELİH YANMAZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ALİ MURAT GÜLER, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. ALİ MURAT TANYER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. ALİ NEZİH GÜVEN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ALİ ÖZGÜR YILMAZ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. ALİ TUĞRUL TANKUT, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ALİ ULAŞ ÖZGÜR KİŞİSEL, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. ALİ UZAY PEKER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. ALMILA GÜVENÇ YAZICIOĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ALP CANER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ALPAN BEK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. ALPTEKİN TEMİZEL, Enformatik Enstitüsü, Modelleme ve Simülasyon Anabilim Dalı
+
+Prof. Dr. ALTAN BAYKAL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. ALTAN KAYRAN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. ALTAN KOÇYİĞİT, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Prof. Dr. ALTUĞ ÖZPİNECİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. ANLI ATAÖV DEMİRKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ARCAN FEHMİ DERİCİOĞLU, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. ARET KARADEMİR, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Prof. Dr. ARZU SORGUÇ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. ASUMAN GÜNAL TÜRKMENOĞLU, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. AYÇA ERGUN ÖZBOLAT, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Prof. Dr. AYDA ERAYDIN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AYDAN BALAMİR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AYDAN MÜŞERREF ERKMEN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AYHAN SOL, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Prof. Dr. AYHAN KÜRŞAT ERBAŞ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. AYLİN TOPAL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. AYSEL ATİMTAY, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AYŞE AYATA, Sosyal Bilimler Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AYŞE PAMİR DİETRİCH, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. AYŞE BELGİN ÖZKAYA, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. AYŞE BURCU ALTAN SAKARYA, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. AYŞE CEYLAN TOKLUOĞLU, Sosyal Bilimler Enstitüsü, Sosyoloji Bölümü
+
+Prof. Dr. AYŞE ÇİĞDEM ERÇELEBİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. AYŞE ELİF ERSON BENSAN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. AYŞE GÜL GÖZEN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. AYŞE GÜLİZ BİLGİN ALTINÖZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. AYŞE İDİL AYBARS, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Prof. Dr. AYŞE NUR SAKTANBER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. AYŞE SEVTAP KESTEL, Uygulamalı Matematik Enstitüsü, Aktüerya Bilimleri Anabilim Dalı
+
+Prof. Dr. AYŞEGÜL AKSOY, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Prof. Dr. AYŞEGÜL ASKAN GÜNDOĞAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. AYŞEGÜL AYDINGÜN, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Prof. Dr. AYŞEGÜL DALOĞLU, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. AYŞEN AKKAYA, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. AYŞEN ERGİN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. AYŞEN SAVAŞ SARGIN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. AYŞEN TEZCANER, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Prof. Dr. AYŞEN YILMAZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. AYŞEN YILMAZ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. BAHADIR SADIK BAKIR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. BAHAR GEDİKLİ BİLGİN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. BAHAR ÖZ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. BAHAR ŞENER PEDGLEY, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Prof. Dr. BAHTİYAR ÖZGÜR SARIOĞLU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. BAKİ ZAFER ÜNVER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. BANU GÜNEL KILIÇ, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Prof. Dr. BARIŞ BAYRAM, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. BARIŞ BİNİCİ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. BARIŞ SALİHOĞLU, Deniz Bilimleri Enstitüsü, Deniz Bilim (Osinografi) Anabilim Dalı
+
+Prof. Dr. BARIŞ SÜRÜCÜ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. BAŞAK ZEYNEP ALPAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. BAYRAM TEKİN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. BEHÇET MURAT EYÜBOĞLU, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. BEHİÇ MERT, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. BEHİYE UBUZ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. BENGİ ÖNER ÖZKAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. BERNA BURÇAK BAŞBUĞ ERKAN, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. BETTİNA ANDREA FACH SALİHOĞLU, Deniz Bilimleri Enstitüsü, Deniz Bilim (Osinografi) Anabilim Dalı
+
+Prof. Dr. BETÜL DEMİRDÖĞEN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. BİLAL KIRKICI, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. BİLGEHAN ÖGEL, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. BURCU AKATA KURÇ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. BUYURMAN BAYKAL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. BÜLENT İÇGEN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Prof. Dr. BÜLENT EMRE PLATİN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. BÜLENT GÜLTEKİN AKINOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. CAN ÖZEN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. CANAN BOZKAYA, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. CANAN ÖZGEN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. CANAN TOKER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. CANER DURUCAN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. CELAL KARPUZ, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Prof. Dr. CELAL ABDİ GÜZER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. CEM İYİGÜN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. CEM TOPKAYA, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. CEMAL CAN BİLGİN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. CEMİL HAKAN GÜR, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. CEMİLE NİL UZUN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. CENGİZ BEŞİKCİ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. CENKER GÖKER, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. CENNET ENGİN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. CEREN ÖZTEKİN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. CEVDET KAYNAK, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. CEYLAN YOZGATLIGİL, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. CİHANGİR TANYELİ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. CÜNEYT CAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. CÜNEYT SERT, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ÇAĞDAŞ DEVRİM SON, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. ÇAĞLA DOĞAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Prof. Dr. ÇETİN HOŞTEN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ÇETİN YILMAZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ÇİĞDEM ATAKUMAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. ÇİLER HATİPOĞLU, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. DAVİD GRÜNBERG, Sosyal Bilimler Enstitüsü, Felsefe Bölümü
+
+Prof. Dr. DEMİR ALTINER, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. DEMİRKAN ÇÖKER, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. DENİZ CANEL, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. DENİZ ÜNER, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. DENİZ ZEYREK BOZŞAHİN, Enformatik Enstitüsü, Bilişsel Bilimler Anabilim Dalı
+
+Prof. Dr. DENİZ BURCU ERCİYAS, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. DEREK KEITH BAKER, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. DİDEM AKYÜZ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Doç. Dr. DİLEK AKBULUT, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. DİLEK KESKİN, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Prof. Dr. DİLEK FUNDA KURTULUŞ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. DÜRDANE ŞİRİN SARAÇOĞLU, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. EBRU BOYAR, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. EBRU VOYVODA, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. ELA BABALIK, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ELÇİN KENTEL ERDOĞAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ELİF AKBOSTANCI ÖZKAZANÇ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. ELİF UYSAL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. ELVAN ŞAHİN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. EMİNE YETİŞKUL ŞENBİL, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. EMİNE NEVİN SALTIK, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. EMİNEGÜL KARABABA, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Prof. Dr. EMREN NALBANT, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. EMRULLAH GÖRKEM GÜNBAŞ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. ENDER CİĞEROĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ENVER BULUR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. ERAY BARAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ERCAN GÜRSES, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. ERDAL ÇOKÇA, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ERDAL ÖZMEN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. ERDEM CANBAY, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ERDEN ATTİLA AYTEKİN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. ERDİN BOZKURT, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. ERES SÖYLEMEZ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ERHAN İLHAN KONUKSEVEN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ERİK JEPPESEN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. ERKAN ERDİL, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. EROL TAYMAZ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. ERTAN ONUR, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. ESEN KONDAKÇI, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. ESRA KARASAKAL, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. EVANGELİA PİŞKİN, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. FAİKA DİLEK SANİN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Prof. Dr. FARUK GENÇÖZ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. FARUK POLAT, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. FATİH KAMIŞLI, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. FATMA CÂNÂ BİLSEL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. FATMA MERAL ÇİLELİ, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. FATMA UMUT BEŞPINAR AKGÜNER, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Prof. Dr. FATOŞ TUNAY YARMAN VURAL, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. FEHİME NİHAN ÇİÇEKLİ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. FERDA NUR ALPASLAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. FERDAN ERGUT, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. FERİDE PINAR ACAR, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Prof. Dr. FEVZİ GÜMRAH, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Prof. Dr. FEVZİ SUAT KADIOĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. FEYZA ERDEN, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Prof. Dr. FİLİZ BENGÜ DİLEK, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Prof. Dr. FUAT BORA ROJAY, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. G. M. VEDAT TOPRAK, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. GAYE TEKSÖZ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. GÖKNUR BAYRAM, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. GÖNÜL SAYAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. GÖRKEM KÜLAH, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. GÖZDE AKAR, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. GÜL İPEK TUNÇ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. GÜLAY ERTAŞ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. GÜLAY ÖZCENGİZ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. GÜLAY FATMA HASDOĞAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Prof. Dr. GÜLİN ERCAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. GÜLRİZ UYGUR, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. GÜLSÜN GÖKAĞAÇ ARSLAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. GÜRKAN KARAKAŞ, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. GÜRSEVİL TURAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. GÜVEN ARİF SARGIN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. GÜZİN CANDAN GÜLTEKİN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. HAKAN ALTAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. HAKKI OZAN ERUYGUR, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. HALİL KALIPÇILAR, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. HALİL GİRAY BERBEROĞLU, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. HALİL MECİT ÖZTOP, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. HALUK AKGÜN, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. HALUK KÜLAH, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. HALUK SUCUOĞLU, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. HAMDULLAH YÜCEL, Uygulamalı Matematik Enstitüsü, Bilimsel Hesaplama Anabilim Dalı
+
+Prof. Dr. HAMİ ALPAS, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. HANDE TOFFOLİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. HANİFE AKAR, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. HASAN YAZICIGİL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. HASAN NEVZAT ÖZGÜVEN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. HATİCE AYŞE HOŞGÖR, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Prof. Dr. HATİCE ÖZLEM AYDIN ÇİVİ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. HAYDAR ALICI, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. HEDİYE TÜYDEŞ YAMAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. HEDİYE SİBEL KALAYCIOĞLU, Sosyal Bilimler Enstitüsü, Sosyoloji Bölümü
+
+Prof. Dr. HÜSEYİN BAĞCI, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. HÜSEYİN HACIHABİBOĞLU, Enformatik Enstitüsü, Modelleme ve Simülasyon Anabilim Dalı
+
+Prof. Dr. HÜSEYİN AVNİ ÖKTEM, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. HÜSEYİN ÇAĞATAY KESKİNOK, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. HÜSEYİN TARIK ŞENGÜL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. HÜSNÜ DAL, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. HÜSNÜ EMRAH ÜNALAN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. IŞIK KUŞÇU BONNENFANT, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. IŞIK ÖNAL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. IŞIK HAKAN TARMAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. İBRAHİM SEMİH AKÇOMAK, Sosyal Bilimler Enstitüsü, Bilim ve Teknoloji Politikası Çalışmaları Anabilim Dalı
+
+Prof. Dr. İBRAHİM SONER YILDIRIM, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Prof. Dr. İBRAHİM YURDAHAN GÜLER, Uygulamalı Matematik Enstitüsü, Fizik Bölümü
+
+Prof. Dr. İHSAN DURAN DAĞI, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. İHSAN TOLGA MEDENİ, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Prof. Dr. İLHAN TEKELİ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. İLKAY ŞENSOY, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. İLKAY ULUSOY, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. İLKER ÖZKAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. İLKER TARI, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. İNCİ BASA, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. İNCİ BATMAZ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. İPEK GÜRSEL DİNO, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. İPEK İMAMOĞLU, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Prof. Dr. İREM EREL GÖKTEPE, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. İSHAK KARAKAYA, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL AYDIN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL RAFATOV, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. İSMAİL TURAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. İSMAİL YÜCEL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL HAKKI TOROSLU, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL HAKKI TUNCER, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL ÖMER YILMAZ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL ÖZGÜR YAMAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. İSMAİL SENGÖR ALTINGÖVDE, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. JALE ÇAKIROĞLU, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. JALE ADİLE ERZEN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. KAAN SAYIT, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. KAĞAN TUNCAY, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. KAHRAMAN ALBAYRAK, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. KAMİL YAZICIOĞLU, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. KANDASAMY JAYARAMAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. KAYHAN ORBAY, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. KEMAL ÖNDER ÇETİN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. KLAUS VERNER SCHMİDT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. KÜRŞAD ERTUĞRUL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. LALE ÖZGENEL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. LEVENT YILMAZ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. LEVENT KAMİL TOPPARE, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. M. YENER ÖZKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MAHMUT KUZUCUOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MAHMUT PARLAKTUNA, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MARAT AKHMET, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. MARTINA GRACANIN YÜKSEK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. MEHMET PARLAK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. MEHMET SOMEL, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. MEHMET TOMAK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. MEHMET UTKU, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. MEHMET YILMAZ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Prof. Dr. MEHMET ALİ SAHİR ARIKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MEHMET BÜLENT ÖZER, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. MEHMET CEMAL GÖNCÜOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MEHMET CİHAN ECEVİT, Sosyal Bilimler Enstitüsü
+
+Doç. Dr. MEHMET FATİH DANIŞMAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. MEHMET HALİT S. OĞUZTÜZÜN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. MEHMET HALUK AKSEL, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. MEHMET KADRİ AYDINOL, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. MEHMET KEMAL LEBLEBİCİOĞLU, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. MEHMET LÜTFİ SÜZEN, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. MEHMET MELİH PINARCIOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MEHMET METİN YAVUZ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. MEHMET POLAT SAKA, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MEHMET SEMİH YÜCEMEN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MEHMET TEOMAN PAMUKCU, Sosyal Bilimler Enstitüsü, Bilim ve Teknoloji Politikası Çalışmaları Anabilim Dalı
+
+Prof. Dr. MEHMET TEVFİK ZEYREK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. MEHMET VOLKAN ATALAY, Enformatik Enstitüsü, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. MEHMET ZAFER NURLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MEHMET ZEKİ ÇAMUR, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. MEHMETCİK PAMUK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. MELAHAT BİLGE DEMİRKÖZ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. MELİH ERSOY, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. MELİHA ALTUNIŞIK, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. MELİK DÖLEN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. MELTEM SERİN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. MENELAOS GKARTZIOS, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. MERAL AZİZOĞLU, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. MERYEM BEKLİOĞLU, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. MESUT MUYAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. METE KÖKEN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. METİN ZORA, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. METİN S. ARIKAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. MEVLÜDE GÜLBİN DURAL ÜNVER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. MİNE IŞIKSAL BOSTAN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. MOHAMMAD SHİKAKHWA, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MOHAMMAD QAMARUL İSLAM, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. MOHAN LAL BHUPAL, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. MUALLA ERKILIÇ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUHAMMET YAŞAR ÖZDEN, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Prof. Dr. MURAT DİCLELİ, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Prof. Dr. MURAT GÖL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. MURAT GÜLER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. MURAT MANGUOĞLU, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. MURAT ALTUĞ ERBERİK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. MURAT HAYRETTİN YURDAKUL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSA DOĞAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSA ŞAMİL YÜKSEL, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. MUSTAFA KORKMAZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. MUSTAFA SOYKUT, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. MUSTAFA ŞEN, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Prof. Dr. MUSTAFA TÜRKEŞ, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. MUSTAFA YÜCEL, Deniz Bilimleri Enstitüsü, Deniz Jeolojisi ve Jeofiziği Anabilim Dalı
+
+Prof. Dr. MUSTAFA İLHAN GÖKLER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSTAFA KEMAL BAYIRBAĞ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. MUSTAFA KEMAL ÖZGÖREN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSTAFA LEVENT İNCE, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Prof. Dr. MUSTAFA TALAT BİRGÖNÜL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSTAFA TANJU MEHMETOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSTAFA TUĞRUL YILMAZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. MUSTAFA TURGUT ÖNDER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. MUSTAFA ÜMİT ATALAY, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Prof. Dr. MUSTAFA VERŞAN KÖK, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Prof. Dr. MUSTAFA YILMAZ ÜSTÜNER, Sosyal Bilimler Enstitüsü, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. MUTLU MURAT BAÇ, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Prof. Dr. MÜNEVVER TEZER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. MÜRVET VOLKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. NACİ EMRE ALTUN, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Prof. Dr. NAİME ASLI SEZGİ, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. NAZ AYŞE GÜZİDE Z. BÖREKÇİ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Prof. Dr. NAZİFE BAYKAL, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Prof. Dr. NECATİ ÖZKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. NECATİ POLAT, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. NECMİ ERDOĞAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. NERİMAN ŞAHİN GÜÇHAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. NESİM ŞEKER, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. NEVZAT YILDIRIM, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. NEVZAT GÜNERİ GENÇER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. NIZAMI HASANLI, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. NİLGÜN TÜRKAN GÜLEÇ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. NURAY DEMİREL, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Prof. Dr. NURAY SAKALLI, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. NURDAN GÜRBÜZ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. NURETDİN KAYMAKCI, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. NURKAN KARAHANOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. NURTEN BİRLİK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. NÜLÜFER TÜLÜN GÜRAY, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. OĞUZ UZOL, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. OĞUZHAN HASANÇEBİ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. OKAN ESENTÜRK, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. OKTAY FIRAT TANRISEVER, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. OLGU ÇALIŞKAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. ONUR YILDIRIM, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. ORHAN ADALI, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. OSMAN BALABAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. OSMAN YILMAZ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. OWAIN FRANCIS PEDGLEY, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Prof. Dr. OYA GÜNERİ, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. OZAN TEKİNALP, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. ÖMER DELİALİOĞLU, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Prof. Dr. ÖMER GEBAN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. ÖMER KIRCA, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ÖMER KÜÇÜKSAKALLI, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. ÖMER TURAN, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. ÖMÜR BAKIRER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ÖMÜR UĞUR, Uygulamalı Matematik Enstitüsü, Bilimsel Hesaplama Anabilim Dalı
+
+Prof. Dr. ÖRSAN ÖCAL AKBULUT, Sosyal Bilimler Enstitüsü, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. ÖZDEMİR DOĞAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. ÖZGEHAN ŞENYUVA, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. ÖZGÜL PERSİL ÇETİNKOL, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Prof. Dr. ÖZGÜL YILMAZ TÜZÜN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. ÖZGÜL BURCU ÖZDEMİR SARI, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. ÖZGÜR ERDUR BAKER, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. ÖZGÜR KURÇ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. ÖZGÜR SALİH ERGÜL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. ÖZLEM BOZO, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. ÖZLEM İLK, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. ÖZLEM KARAKUL TÜRK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. ÖZLEM ÖZDEMİR YILDIRIM, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Prof. Dr. ÖZLEM TÜR, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. PEKİN ERHAN EREN, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Prof. Dr. PERİHAN SAVAŞ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. PINAR BEDİRHANOĞLU TOKER, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. PINAR ÇALIK, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. PINAR KARAGÖZ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. PINAR KÖKSAL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. PINAR ZEYNEP ÇULFAZ EMECEN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. RAİF ORHAN YILDIRIM, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. RAİF TUNA BALKAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. RAŞİT TURAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. RECEP BOZTEMUR, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Prof. Dr. REFİKA OLGAN, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Prof. Dr. REYHAN BİLGİÇ, Sosyal Bilimler Enstitüsü, Psikoloji Bölümü
+
+Prof. Dr. RIZA GÜRBÜZ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. RİFAT SÖNMEZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. RUKEN ÖZTÜRK, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Prof. Dr. SADETTİN KİRAZCI, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Prof. Dr. SADİ TURGUT, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. SAFURE BULUT, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. SAİM ÖZKAR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. SALAHATTİN ÖZDEMİR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. SAMİ TURGUT TÜMER, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. SANEM SUPHİYE BAYKAL, Sosyal Bilimler Enstitüsü
+
+Prof. Dr. SANİYE TUĞBA TOKEL, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Prof. Dr. SEÇKİN KÜRKCÜOĞLU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. SEHER NUR SÜLKÜ, Enformatik Enstitüsü
+
+Prof. Dr. SEMRA SUNGUR, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. SERAP KAYASÜ, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Prof. Dr. SERDAR GÖKTEPE, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. SERDAR KOCAMAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. SERGEY FİNASHİN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. SERHAN DURAN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. SERHAT AKIN, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Prof. Dr. SERHAT ÇAKIR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. SERKAN DAĞ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. SERKAN KÜÇÜKŞENEL, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. SERKAN ÖZGEN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. SERPİL ŞAHİN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. SERTAÇ ÖNDE, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. SERVET GÜLÜM ŞÜMNÜ, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. SEVDA ZUHAL AKYÜREK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. SEVGİ ÖZKAN YILDIRIM, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Prof. Dr. SEVİNÇ ALTINER, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. SEYİT SENCER KOÇ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. SİBEL KAZAK BERUMENT, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. SİNAN EYİ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. SİNAN GÜREL, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. SİNAN KALKAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. SİNAN TURHAN ERDOĞAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. SONGÜL KAYA MERDAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. SOOFİA TAHİRA ELİAS ÖZKAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. SREEPARNA BANERJEE, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. SULTAN ÇİĞDEM SAĞIN ŞİMŞEK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Prof. Dr. SUNA NAZİYET GÜVEN, Sosyal Bilimler Enstitüsü, Mimarlık Bölümü
+
+Prof. Dr. SÜLEYMAN ÖNAL, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. SÜLEYMAN GÜRDAL TUNCEL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. SÜLEYMAN KÜRŞAT ÇINAR, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Prof. Dr. SYEDA NAZLI WASTİ PAMUKSUZ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Prof. Dr. ŞENAN ECE SCHMİDT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. ŞEREF HALİL TURAN, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Prof. Dr. ŞERİF FARUK ARİNÇ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ŞİMŞEK DEMİR, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. TAHMASIB ALIYEV, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Prof. Dr. TAMER TOPAL, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Prof. Dr. TANSEL TÜRKDOĞAN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Prof. Dr. TAYFUN AKIN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. TAYFUR ÖZTÜRK, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. TEMEL ENGİN TUNCER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. TİMUR DOĞU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. TOLGA ÇİLOĞLU, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. TOLGA ESAT ÖZKURT, Enformatik Enstitüsü, Sağlık Bilişimi Anabilim Dalı
+
+Prof. Dr. TOMRİS ELVAN ALTAN ALTUĞ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. TUBA HANDE BAYRAMOĞLU, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Prof. Dr. TUĞBA TAŞKAYA TEMİZEL, Enformatik Enstitüsü, Veri Bilişimi Anabilim Dalı
+
+Prof. Dr. TUNCAY YALÇINKAYA, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. TUNÇ DURMUŞ MEDENİ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. TURGUT TOKDEMİR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. TÜLİN GENÇÖZ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. TÜLİN YANIK, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Prof. Dr. TÜRKER ÖZKAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Prof. Dr. UĞURHAN AKYÜZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ULAŞ YAMAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ULUÇ SARANLI, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. UMUT ORGUNER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Prof. Dr. ÜLKÜ YETİŞ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. VACİT İMAMOĞLU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. VİLDA PURUTÇUOĞLU, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. YALIN ARICI, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. YAŞAR KONDAKÇI, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. YAŞAR YASEMİN SERİN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. YEŞİM AYDIN SON, Enformatik Enstitüsü, Sağlık Bilişimi Anabilim Dalı
+
+Prof. Dr. YEŞİM ÇAPA AYDIN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. YEŞİM SOYER KÜÇÜKŞENEL, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Prof. Dr. YEZDAN BOZ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Prof. Dr. YILDIRAY OZAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Prof. Dr. YILMAZ AKDİ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Prof. Dr. YİĞİT YAZICIOĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. YUNUS EREN KALAY, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Prof. Dr. YUSUF ÖZYÖRÜK, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Prof. Dr. YUSUF SAHİLLİOĞLU, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Prof. Dr. YUSUF ULUDAĞ, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Prof. Dr. ZAFER BOZKUŞ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ZAFER DURSUNKAYA, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Prof. Dr. ZAFER EVİS, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Prof. Dr. ZAHİDE YILDIRIM, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Prof. Dr. ZAHİT UYSAL, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Prof. Dr. ZANA AYŞE ÇITAK AYTÜRK, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Prof. Dr. ZEHRA NURAY GÜNER, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Prof. Dr. ZEKİ KAYA, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Prof. Dr. ZEYNEP GÜLERCE, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Prof. Dr. ZEYNEP MENNAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Prof. Dr. ZEYNEP SÜMER, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Prof. Dr. ZEYNEP IŞIL KALAYLIOĞLU AKYILDIZ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Prof. Dr. ZEYNEP MÜGE AVŞAR, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. ZEYNEP PELİN BAYINDIR, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Prof. Dr. ZÜBEYDE MÜGE AKKAR ERCAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Dr. Öğr. Üyesi ADİL ORAN, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Doç. Dr. AHMET ACAR, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Doç. Dr. AHMET ÇEVİK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. AHMET BUĞRA KOKU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. AHMET BURAK BÜYÜKCİVELEK, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Doç. Dr. ALİ AKHTAR POUR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. ALİ DOĞANAKSOY, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. ALİ ERCAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. ALİ KARAKUŞ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. ALİ EMRE TURGUT, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. ARSEV UMUR AYDINOĞLU, Sosyal Bilimler Enstitüsü
+
+Doç. Dr. ASLI ÇIRAKMAN DEVECİ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. ASLI KILIÇ ÖZHAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Doç. Dr. ATİLLA ARDA ÖZACAR, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Doç. Dr. AYŞE DUMAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. AYŞE ÇOLPAN KAVUNCU, Sosyal Bilimler Enstitüsü
+
+Doç. Dr. AYŞE MELDA YÜKSEL TURGUT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. AYŞEM BERRİN ÇAKMAKLI, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. AZİZ FEVZİ ZAMBAK, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. BAHAR GÜRSEL, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Doç. Dr. BAHAR İPEK TORUN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. BANU CİNGÖZ ULU, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Doç. Dr. BARBAROS YET, Enformatik Enstitüsü
+
+Doç. Dr. BARIŞ ÇAKMUR, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. BARIŞ PARKAN, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. BAŞAK ŞAHİN ACAR, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Doç. Dr. BATUR ERCAN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Doç. Dr. BAVER OKUTMUŞTUR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. BEKİR ÖZER AY, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. BELGİN KORKMAZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. BERK ANBAROĞLU, Enformatik Enstitüsü
+
+Doç. Dr. BETİL ERÖZ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. BİRTEN ÇELİK, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Doç. Dr. BURCU BURAK BAKIR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. CANAN ASLAN AKMAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. CEREN VARDAR ACAR, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Doç. Dr. CİHANGİR TEZCAN, Enformatik Enstitüsü, Siber Güvenlik Anabilim Dalı
+
+Dr. Öğr. Üyesi CORRY MİCHAEL SHORES, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. ÇAĞATAY DENGİZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. ÇAĞATAY TOPAL, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Doç. Dr. ÇAĞLA AKGÜL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. ÇAĞLAR SINAYUÇ, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Doç. Dr. ÇAĞRI TOPAL, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Doç. Dr. ÇERAĞ DİLEK HACIHABİBOĞLU, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ÇİĞDEM TOPARLI, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Doç. Dr. DERYA GÖÇER, Sosyal Bilimler Enstitüsü, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. DİLEM YILDIRIM KASAP, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. DUYGU SARISOY, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. DUYGUN GÖKTÜRK AĞIN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Doç. Dr. DÜRRİN ALPAKIN MARTINEZ CARO, Sosyal Bilimler Enstitüsü, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. EBRU SOLAK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. EKİN AKOĞLU, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Doç. Dr. ELİF ÇIRAKMAN, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. ELİF ÖZTABAK AVCI, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. ELİF SÜRER, Enformatik Enstitüsü, Modelleme ve Simülasyon Anabilim Dalı
+
+Doç. Dr. ELİF VURAL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. EMRE AKBAŞ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Doç. Dr. EMRE ALP, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Doç. Dr. EMRE BÜKÜŞOĞLU, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. EMRE COŞKUN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. ENDER PEKER, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Doç. Dr. ENDER YILDIRIM, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. ENGİN KARAHAN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Doç. Dr. ERDEM AKAGÜNDÜZ, Enformatik Enstitüsü, Modelleme ve Simülasyon Anabilim Dalı
+
+Doç. Dr. ERDOĞAN YILDIRIM, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Doç. Dr. ERGİN TÖNÜK, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. ERKAN ER, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Doç. Dr. ERKAN KİRİŞ, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Doç. Dr. EROL ŞAHİN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Doç. Dr. ESİN KÖMEZ DAĞLIOĞLU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. ESMA GAYGISIZ LAJUNEN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. EZEL BOYACI, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. FATMA KORKUT, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Doç. Dr. FATMA TOKSOY KÖKSAL, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Doç. Dr. FATMA NECLA ÇIKIGİL, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Doç. Dr. FULDEN İBRAHİMHAKKIOĞLU, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. FULYA GÖKALP YAVUZ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Doç. Dr. FUNDA BAŞ BÜTÜNER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. GÖKÇE GÖKALP, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Doç. Dr. GÖKHAN ÇELİK, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. GÜLŞAH KARAKAYA, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Doç. Dr. HACER ELA ARAL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. HALE IŞIK GÜLER, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. HALİL ERSİN SÖKEN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Doç. Dr. HANDE ALEMDAR, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Doç. Dr. HANDE IŞIK ÖZTÜRK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. HARİKA SENEM KAHVECİ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Doç. Dr. HARUN KOKU, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. HASAN TARIK BAYTEKİN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. HASİBE ÖZLEN DEMİRCAN, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Doç. Dr. HÜLYA YILDIZ BAĞÇE, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. HÜSEYİN EVREN ÇUBUKÇU, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Doç. Dr. IRMAK HÜRMERİÇ ALTUNSÖZ, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Doç. Dr. İBRAHİM ÜNAL, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. İLHAN CAN ÖZEN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. İLKAY ŞENDENİZ YÜNCÜ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Doç. Dr. İNCİ AYRANCI TANSIK, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. İPEK EREN VURAL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. İSMAİL DURGUT, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Doç. Dr. İSMAİL SERDAR BAKAL, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Doç. Dr. KAYA BURAK ÖZTÜRK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. KAZIM SEDAT SİRMEN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. KIVANÇ AZGIN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. KORAY ÖZHAN, Deniz Bilimleri Enstitüsü, Deniz Bilim (Osinografi) Anabilim Dalı
+
+Doç. Dr. KOSTYANTYN ZHELTUKHIN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. LALE ALATAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. LAMİA ZEYNEP ONAY, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Doç. Dr. LEYLA NESRİN KAHYAOĞLU, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Doç. Dr. MAJID DAVOODY BENI, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. MARGARET JEANNE M. SÖNMEZ, Sosyal Bilimler Enstitüsü, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. MEHMET GÜRSOY, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Doç. Dr. MEHMET OKYAYUZ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. MEHMET FATİH TAYFUR, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. MEHMET FIRAT ARIKAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. MEHMET HAKAN AKYÜZ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Doç. Dr. MEHMET HALİS GÜNEL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. MEHMET KORAY PEKERİÇLİ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. MELİN ŞAHİN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Doç. Dr. MERVE ZAYİM KURTAY, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Doç. Dr. MURAT TINAS, Sosyal Bilimler Enstitüsü
+
+Doç. Dr. MURAT PERİT ÇAKIR, Enformatik Enstitüsü, Bilişsel Bilimler Anabilim Dalı
+
+Doç. Dr. MUSTAFA ERKAYAOĞLU, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Doç. Dr. MUSTAFA PERÇİN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Doç. Dr. MUSTAFA SÖĞÜT, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Doç. Dr. MUSTAFA HALUK ZELEF, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. MUSTAFA KEMAL TURAL, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Doç. Dr. MUSTAFA MERT ANKARALI, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. MUSTAFA TOLGA YILMAZ, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Doç. Dr. MÜNİS SEVEN AĞIR YAĞCI, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. MÜRÜVVET İLKNUR BÜYÜKBOYACI HANAY, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. MÜZEYYEN ANIL ŞENYEL KÜRKÇÜOĞLU, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Doç. Dr. NABİ KARTAL TOKER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. NAHİDE DİCLE DÖVENCİOĞLU, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Doç. Dr. NAZAR İLERİ ERCAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. NEJAN HUVAJ SARIHAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. NİHAL TERZİ ÇİZMECİOĞLU, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Doç. Dr. NİL KORKUT NAYKI, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Doç. Dr. NİLAY SEZER UZOL, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Doç. Dr. NİLAY YAVUZ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. NUR ÇAKIR, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Doç. Dr. OĞUZ YAYLA, Uygulamalı Matematik Enstitüsü
+
+Doç. Dr. ONUR GÖLBAŞI, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Doç. Dr. ONUR PEKCAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. ONUR TAYLAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. ORKUN ÖZŞAHİN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. OSMAN GALİP YALMAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. OZAN KEYSAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. OZAN CEM ÇELİK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. ÖMER FARUK ÖZDEMİR, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Doç. Dr. ÖNDER TÜRK, Uygulamalı Matematik Enstitüsü
+
+Doç. Dr. ÖZCAN YAZICI, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. ÖZGEN KARAER, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Doç. Dr. ÖZGÜN ÖZÇAKIR, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. ÖZGÜR BAYER, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. PELİN ANGIN ÜLKÜER, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Doç. Dr. PELİN YONCACI ARSLAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. PERVİN OYA TANERİ, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Doç. Dr. PINAR AYKAÇ LEIDHOLM, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. PINAR DERİN GÜRE, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. RAMAZAN GÖKBERK CİNBİŞ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi REFİK GÜREMEN, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. SALİH ÖZÇUBUKÇU, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. SAMET BAĞÇE, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Doç. Dr. SEÇİL SAVAŞANERİL TÜFEKCİ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Doç. Dr. SELÇUK YERCİ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. SEMRA ÖZTÜRK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. SERAP AŞIK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. SERAP EMİL, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Doç. Dr. SERAP SEVİMLİ ÇELİK, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Doç. Dr. SERHAN TÜRKYILMAZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. SEVİLAY KAHRAMAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. SEVİNÇ FİGEN ÖKTEM SEVEN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. SEZA DANIŞOĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Doç. Dr. SEZAİ EMRE TUNA, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. SEZEN KIŞLAL, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Doç. Dr. SİBEL KAZAK, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Doç. Dr. SİMGE ÇINAR AYGÜN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Doç. Dr. SÜHA OĞUZ ALBAYRAK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. SÜREYYA ÖZCAN KABASAKAL, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. ŞERİF ONUR BAHÇECİK, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. ŞERİFE SEVİNÇ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Doç. Dr. ŞİİR KILKIŞ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Doç. Dr. ŞULE GÜNEŞ, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. ŞÜKRAN GÜL ERDEM, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. TOLGA KARAYAYLA, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi TUĞÇE AKDEMİR, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. TUNCAY İNCESU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Doç. Dr. UFUK SERİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. ULAŞ AVŞAR, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Doç. Dr. YASEMİN DİLŞAD YILMAZEL TOKEL, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Doç. Dr. YEŞİM SERİNAĞAOĞLU DOĞRUSÖZ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. YONCA TOKER GÜLTAŞ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Doç. Dr. YOSUM KURTULMAZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. YUNUS EMRE TÜRKMEN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. YÜCEL CAN SEVERCAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Doç. Dr. ZEHRA ERTUĞRUL, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Doç. Dr. ZERRİN TORUN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Doç. Dr. ZEYNEP TÜZÜN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Dr. Öğr. Üyesi AHMED HAREEDY, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi AHMET KELEŞ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi AHMET CEMAL DURGUN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi AHMET GÜNEŞ YARDIMCI, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi AKTAN ALPSOY, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Doç. Dr. ALEV ATAK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Dr. Öğr. Üyesi ALİ İMER, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ALTUĞ ÖZÇELİKKALE, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ANIL AKPINAR, Deniz Bilimleri Enstitüsü
+
+Doç. Dr. ARZU KARAHAN, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Dr. Öğr. Üyesi ASIM MUSTAFA MANTIKCI, Deniz Bilimleri Enstitüsü
+
+Dr. Öğr. Üyesi ASLI AKÇAMETE GÜNGÖR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Doç. Dr. ASLIHAN İSTANBULLU, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Doç. Dr. ASUMAN GÖKSEL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Dr. Öğr. Üyesi AYBAR CAN ACAR, Enformatik Enstitüsü, Sağlık Bilişimi Anabilim Dalı
+
+Dr. Öğr. Üyesi BANU BAYYURT KOCABAŞ, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. Öğr. Üyesi BARIŞ MÜCEN, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Doç. Dr. BARIŞ NAKİBOĞLU, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. BAŞAK KALE, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Dr. Öğr. Üyesi BENAN KURT YILMAZ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Dr. Öğr. Üyesi BESİM CAN ZIRH, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Dr. Öğr. Üyesi BETÜL YILDIRIM, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi BEYAZIT BESTAMİ AYDIN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi BUKET ÖZKAYA, Uygulamalı Matematik Enstitüsü, Kriptografi Anabilim Dalı
+
+Dr. Öğr. Üyesi BURAK KAYA, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi BURAK VELİ KABASAKAL, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. Öğr. Üyesi BURÇAK OTLU SARITAŞ, Enformatik Enstitüsü
+
+Dr. Öğr. Üyesi BÜKRE YILDIRIM KÜLEKCİ, Uygulamalı Matematik Enstitüsü, Aktüerya Bilimleri Anabilim Dalı
+
+Doç. Dr. BÜLENT ÇETİNKAYA, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Dr. Öğr. Üyesi BÜŞRA ZEYNEP TEMOÇİN, Uygulamalı Matematik Enstitüsü
+
+Dr. Öğr. Üyesi CEREN GÜRDERE, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Dr. Öğr. Üyesi CEYDA DURMUŞ, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Doç. Dr. CÜNEYT BAYKAL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ÇAĞRI TORAMAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ÇINLA AKDERE, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Dr. Öğr. Üyesi DAMLA TÖNÜK KRUITHOF, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Dr. Öğr. Üyesi DEMET ASİL ALPTEKİN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Dr. Öğr. Üyesi DENİZ ÖZKAN GÖKTÜRK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Dr. Öğr. Üyesi DEVRİM TEZCAN, Deniz Bilimleri Enstitüsü, Deniz Jeolojisi ve Jeofiziği Anabilim Dalı
+
+Dr. Öğr. Üyesi DİDEM AMBARLI, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Yrd. Doç. Dr. DİLAY ZEYNEP KARADÖLLER ASTARLIOĞLU, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Dr. Öğr. Üyesi DİLBER KOÇAK BENLİ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi DİLEK TÜFEKÇİ CAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Dr. Öğr. Üyesi DOĞA VESKE, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi DONGKYU NA, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Dr. Öğr. Üyesi DORA SAYMAN-ALMASSY, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Dr. Öğr. Üyesi DUYGU CİHANGER MEDEIROS RIBEIRO, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Dr. Öğr. Üyesi EKİN PİNAR, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Doç. Dr. ELİF BULDU, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Dr. Öğr. Üyesi ELİF ÖZTÜRK, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Dr. Öğr. Üyesi ELİF TUĞÇE CERAN ARSLAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. ELVAN EDA IŞIK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Dr. Öğr. Üyesi EMİNE ERTEKİN YILDIZCAN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. Öğr. Üyesi EMRE AKSOY, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. Öğr. Üyesi EMRİYE ÖZLEM ŞEKER, Sosyal Bilimler Enstitüsü
+
+Doç. Dr. ERDEM ÇOLAK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Dr. Öğr. Üyesi EREN GÜRER, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Dr. Öğr. Üyesi EROL SERBEST, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi EROL YILDIRIM, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Doç. Dr. GAMZE AŞÇIOĞLU ÖZ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Doç. Dr. GİZEM DENİZ GÜNERİ SÖĞÜT, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Dr. Öğr. Üyesi GÖKHAN GÖNÜL, Enformatik Enstitüsü
+
+Dr. Öğr. Üyesi GÖKHAN KARAOSMANOĞLU, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Dr. Öğr. Üyesi GÖKHAN ÖZTÜRK, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Dr. Öğr. Üyesi GÖKHAN MUZAFFER GÜVENSEN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Doç. Dr. GÖKNUR KAPLAN, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Dr. Öğr. Üyesi GÖRKEM EĞEMEN GÜLOĞLU, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi GÜLER MANİSALI DARMAN, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Dr. Öğr. Üyesi GÜLİZAR ÖZYURT TARAKCIOĞLU, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi GÜNEŞ ARKADAŞ AŞIK ERPEK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Doç. Dr. GÜZİDE ATASOY ÖZCAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi GÜZİN ŞEN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Dr. Öğr. Üyesi HAKAN ÇALIŞKAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Doç. Dr. HAKAN ERCAN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Dr. Öğr. Üyesi HAKAN YILDIZ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi HANDE AYAYDIN HACIÖMEROĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. HASAN ÇİFCİ, Enformatik Enstitüsü
+
+Yrd. Doç. Dr. HASAN ULUŞAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi HASAN GÖKHAN GÜLER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi HİLAL ARSLAN TÜRKOĞLU, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Yrd. Doç. Dr. HÜSEYİN AYDIN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi IHOR PAVLOV, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi IRMAK SARGIN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi IŞIL İŞLER BAYKAL, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Dr. Öğr. Üyesi İHSAN METİNNAM, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Dr. Öğr. Üyesi İLKER DALĞAR, Sosyal Bilimler Enstitüsü, Psikoloji Bölümü
+
+Dr. Öğr. Üyesi İPEK BAYRAM, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi İREM NUR GAMZE ÖZBİLGİN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi İSMAİL YÜKSEL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Dr. Öğr. Üyesi JAMES EDMOND CARR GRIFFITH, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Dr. Öğr. Üyesi JOSE DUARTE MEDEIROS RIBEIRO, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Dr. Öğr. Üyesi KADRİ İLKER BERKTAV, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Doç. Dr. KADRİYE FUNDA BARUTÇU YILDIRIM, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Dr. Öğr. Üyesi KENAN AHISKA, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi KEYVAN FİRUZİ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi KIYMET GİZEM GÜL ERTUNÇ, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Doç. Dr. KORHAN ÖZKAN, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Dr. Öğr. Üyesi KUTAY EMRE KARADENİZ, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Doç. Dr. LEMAN KORKMAZ KARAOĞLU, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Dr. Öğr. Üyesi MEHMET KARACA, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi MEHMET BARIŞ KUYMULU, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Dr. Öğr. Üyesi MEHMET EFE TİRYAKİ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi MEHMET ONUR DOĞAN, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Doç. Dr. MELTEM ŞENOL BALABAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Doç. Dr. MERVE SARIKAYA ŞEN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Araştırmacı MUHAMMED MİRAÇ SERİM, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Doç. Dr. MUHSİNE BİLGE İMER, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi MURAT BÜYÜK, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Dr. Öğr. Üyesi MURAT TEMİZ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi MURAT ULUBAY, Enformatik Enstitüsü
+
+Doç. Dr. MUSTAFA GÖKHAN BENLİ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi MÜGE GÜNDÜZ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Dr. Öğr. Üyesi NADER GHAFFARINASAB, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi NALAN YAZICIOĞLU, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi NECİP BERKER ÜNER, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi NİL İPEK ŞİRİKÇİ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Dr. Öğr. Üyesi NÜVİT BERKAY BAŞDURAK, Deniz Bilimleri Enstitüsü
+
+Dr. Öğr. Üyesi OĞUZ ŞAVK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Yrd. Doç. Dr. ONUR ALİŞAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Dr. Öğr. Üyesi ONUR ERPUL, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. ORHAN DEMİR, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Dr. Öğr. Üyesi OSMAN BARIŞ MALCIOĞLU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi OZAN ARI, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi OZAN TUĞLUK, Uygulamalı Matematik Enstitüsü, Bilimsel Hesaplama Anabilim Dalı
+
+Dr. Öğr. Üyesi ÖNAY BURAK DOĞAN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Doç. Dr. ÖZDEN ÖZCAN TOP, Enformatik Enstitüsü
+
+Dr. Öğr. Üyesi ÖZGE BAŞKAN PERÇİN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ÖZGÜR AVCI, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Dr. Öğr. Üyesi ÖZGÜR UĞRAŞ BARAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi RAHMİ UYAR, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi RAHŞAN İNAL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Dr. Öğr. Üyesi REŞİDE ÖMÜR BİRLER, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Dr. Öğr. Üyesi RİCHARD DİETRİCH, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Dr. Öğr. Üyesi SAKİNE BATUN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi SARA NUR ARSLAN, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Dr. Öğr. Üyesi SATI ASLI GÜNDOĞAR, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi SATOMİ FUKUTOMİ, Sosyal Bilimler Enstitüsü
+
+Dr. Öğr. Üyesi SEBAHAT YASEMİN TEZGİDEN CAKCAK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Dr. Öğr. Üyesi SEÇKİN EROĞLU, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. Öğr. Üyesi SELÇUK DURSUN, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Dr. Öğr. Üyesi SELÇUK EROL, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi SEMA SEVİNÇ ŞENGÖR, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Doç. Dr. SEMRA PAMUK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi SERDAR YILMAZ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Öğr. Gör. SİNEM KOZPINAR, Uygulamalı Matematik Enstitüsü, Finansal Matematik Anabilim Dalı
+
+Dr. Öğr. Üyesi SONER ALBAYRAK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi SÜLEYMAN YILDIRIM, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi SÜLEYMAN KAĞAN SAMURKAŞ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Dr. Öğr. Üyesi ŞAKİR KARAKAYA, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ŞEFİKA AKİLE ZORLU DURUKAN, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Dr. Öğr. Üyesi ŞENİZ UÇAR, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Doç. Dr. ŞEYDA ERTEKİN BOLELLİ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi UĞUR AYTUN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Dr. Öğr. Üyesi UĞUR KARBAN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Öğr. Gör. ULAŞ KARAAĞAÇ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ULAŞ ÜSTÜN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Dr. Öğr. Üyesi UMUT ÖZGE, Enformatik Enstitüsü, Bilişsel Bilimler Anabilim Dalı
+
+Doç. Dr. VOLKAN ŞAHİN, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Dr. Öğr. Üyesi YELDA ERDEN TOPAL, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Dr. Öğr. Üyesi YUSUF KELEŞTEMUR, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ZEYNEP ÖZCAN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Dr. Öğr. Üyesi ZEYNEP MÜBERRA SUATA, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Öğr. Gör. ABDULVAHİT TORUN, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Öğr. Gör. ABDURRAHMAN SELÇUK SİPAHİOĞLU, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. AĞCA MERVE ÇERÇİ, Rektörlük
+
+Doç. Dr. AHMET BEYAZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Öğr. Gör. AHMET KÖSEOĞLU, Rektörlük
+
+Öğr. Gör. AHMET YALDIZ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. AHMET ERGÜN MENGEN, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Öğr. Gör. AHMET HİLMİ GÜVEN, Meslek Yüksek Okulu, Meslek Yüksek Okulu
+
+Öğr. Gör. AHMET KEMAL BEHLÜLGİL, Rektörlük
+
+Öğr. Gör. AHMET TAŞKIN TAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AHMET ÜMİT EROĞLU, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. Dr. AKÇA OKAN YÜKSEL, Rektörlük
+
+Öğr. Gör. AKİF ŞAFAKLI, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Öğr. Gör. ALESSANDRA NICOLOSI DÖNMEZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ALEV YAZICI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ALEV EMİNE İNCE, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Öğr. Gör. Dr. ALİ BAYRAMOĞLU
+
+Öğr. Gör. ALİ GÜZEL, Rektörlük
+
+Öğr. Gör. ALİ MOTAMENİ, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Öğr. Gör. ALİ CANER ALKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. ALİ HAYDAR ALPTEKİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. ALİME BEGÜMŞEN ERGENEKON, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. ALİYE EVİN YÖRÜDÜ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ALİYE HALE BİNGÖL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ALPARSLAN BAYRAKTAR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. Dr. ALPER ALİOĞLU, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Öğr. Gör. Dr. ALPER KARADOĞANER, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. ALPER TOLGA KOCATAŞ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. ALPEREN SÖZMEN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. ALPKAĞAN TAÇOY, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. ARDA ARCASOY, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Öğr. Gör. ARİFE ZENGİNER YILMAZ, Deniz Bilimleri Enstitüsü, Deniz Biyolojisi ve Balıkçılık Anabilim Dalı
+
+Öğr. Gör. ARZU FIRAT, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ARZU GANİOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ASLI GÜLENER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ASLI ODABAŞI KUŞGÖZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ASLIHAN AYBÜKE KOCADAĞ, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. ATA SELÇUK, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. ATAY MAÇ, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Öğr. Gör. ATİYE BUDANIR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AUSTIN CHARLES MORGAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYCAN SANCAR, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. Dr. AYÇA İREM YILMAZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYGÜL KURT, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYLİN KALKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYLİN TURGUT ECEVİT, Rektörlük
+
+Öğr. Gör. Dr. AYLİN SELİN DEWAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYNUR KÜÇÜK, Rektörlük
+
+Öğr. Gör. Dr. AYSEL KIZILTAY, Rektörlük
+
+Öğr. Gör. AYSEL MERVE BOZER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. AYSUN GÜNEŞ DURMUŞ
+
+Öğr. Gör. AYŞE BANU ERGÜN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞE BUYÇE TARHAN, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. AYŞE ESRA İYİDOĞAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞE EZGİ İLHAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. AYŞE GÜL KARAMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞE TUBA OKÇU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞEM ŞEBNEM ÖTKÜR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞEN İNCEKARA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞEN YILMAZER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AYŞENAZ ÖZTÜRK, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Öğr. Gör. AYŞENUR ULUSOY ÜNLÜ, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Araştırmacı AYTEK SONER ALPAN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. AYYÜCE SALMAN KÜLÇE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. AZER ÖZLEM YAŞAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BAHAR OĞUZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BAILEY HUGH WEBSTER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BAKIŞ KUTLU KURTULUŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BANU AKSEL GÜRÜN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. Dr. BANU BAŞER, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. Dr. BARIŞ YAZICI, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. BAŞAK ATASOY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BAŞAK KÖSEREİSOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BATUHAN BARDAK, Meslek Yüksek Okulu
+
+Öğr. Gör. BEKİR BAYTAŞ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. BENGÜ TAŞKESEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BERFİN ANŞİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BERİL SAVRAN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. BERK DOĞAN, Meslek Yüksek Okulu
+
+Öğr. Gör. BERNA ARSLAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BERNA SÖKEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BERNA TANRIVERDİ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. BERNA YILDIZ AKDAĞ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. BERNİS ÜNAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. BERRAK ERDAL SUNE, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. Dr. BETÜL KOÇ, Rektörlük
+
+Öğr. Gör. BİLGE MUSAAĞAOĞLU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. BİLGE TOSUN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BİLGİN CANAZ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. BİNNUR ÖZKAN, Rektörlük
+
+Öğr. Gör. BİRŞEN GÖÇMEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BUKET ESRA TARAKÇIOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BURAK ÖZDÖVER, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. BURAK ŞENDAĞ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. BURAK YEDİERLER, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. BURAK YEMENİCİ, Rektörlük
+
+Öğr. Gör. BURCU AKPINAR, Rektörlük
+
+Öğr. Gör. BURCU ALGAN, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. BURCU BAŞARAN
+
+Öğr. Gör. BURCU KALEOĞLU UÇANER, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Öğr. Gör. BURCU ŞENER TEKAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BURCU TARHAN ÇATAROĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. BURCU YÜKSEL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BURÇAK ÖZOĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. BURÇİN HASANBAŞOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. BURÇİN KAĞITCI YILDIZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. BURÇİN SAPAZ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. BÜLENT TEKİN, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. CAN URAZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. CANAN DUZAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. CANAN ÖZKAN, Rektörlük
+
+Öğr. Gör. CANDAN SAYRAM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. CANER BATIGÜN, Rektörlük
+
+Öğr. Gör. CANER ÜNAL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. CANKUT KAAN BOLAT, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. CANSU YÜKSEL YILDIZ, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Öğr. Gör. CEM BAŞ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Dr. Öğr. Üyesi CEM DEVECİ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Öğr. Gör. CEM ÖZCAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. CEMİL ULU, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+İd. Per. CEMRE SU KAVALALI, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. CENAN ÖZKAYA, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Öğr. Gör. CENGİZ SOYLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. CENGİZ TEBEROĞLU
+
+Öğr. Gör. CEREN NUR BİLER, Rektörlük
+
+Öğr. Gör. Dr. CEVAT ŞENER, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. CEYDA KARAGÖZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. CEYDA PEKŞEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. CEYHUN GÜNEŞ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. CİHAN YILDIRIM YÜCEL
+
+Öğr. Gör. ÇAĞIL KOLAT, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Öğr. Gör. ÇAĞLAR KÖK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÇELEBİ AKDAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÇETİN TURGAY GÜNAL, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. ÇİĞDEM MEKİK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÇİĞDEM ÖZEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DALE ALLEN ROSS, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. DALSU ÖZGEN KOÇYILDIRIM, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. DEFNE AKINCI MİDAS, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DEFNE SAKARYA KAFADAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DEĞER ÇETİN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Öğr. Gör. DELAL KASIMOĞLU DEMİR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. DENİZ ATEŞ, Rektörlük
+
+Öğr. Gör. DENİZ ÇALIŞ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. DENİZ ÇELİKEL, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Öğr. Gör. Dr. DENİZ ÇOPUR, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Öğr. Gör. DENİZ DÖNMEZ, Rektörlük
+
+Öğr. Gör. DENİZ KESER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DENİZ SAYDAM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DENİZ UZUN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DENİZ YILDIZOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DENİZ CANAN ATASOY, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. Dr. DENİZ CANSEN KAHRAMAN, Enformatik Enstitüsü
+
+Öğr. Gör. Dr. DEREM ÇANGA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DERYA ILGIN YAŞAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DESEN YALIM YAMAN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Öğr. Gör. DİDEM ARDANUÇ
+
+Öğr. Gör. DİDEM AYAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DİLAN CAN YILDIRIM ÇATALTEPE, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. DİLARA SUTCLIFFE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DİLARA YAMAÇ KARA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DİLARA YETKİN ŞENTUNA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DİLEK KAYA BAKAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. DİLRUBA OĞUR, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. DORUK HASDOĞAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. DURSUN ALTINOK, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+İd. Per. DUYGU ERGENÇ CABANAS RODRİGUEZ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. DUYGU KUZYAKA, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. DUYGU SAVAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. DUYGU ŞAKİROĞLU YÜKSEL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. DUYGU TAŞER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EBRU PESEK KUTSAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ECE YALIM, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. ECE İDİL REŞA, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. ECE SEDA ZABUNOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ECE SELVA KÜÇÜKOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ECEM KUMBASAR, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. EDA ATA OFLU, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Öğr. Gör. EDA ÇALIŞKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. EDA TUNA ÖZTÜRK, Rektörlük
+
+Öğr. Gör. EKİN BİRDİR STEWART, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+İd. Per. EKİN EKİNCİ AK, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. ELÇİN ERTAŞ, Rektörlük
+
+Öğr. Gör. ELÇİN OLUROĞULLARI
+
+Öğr. Gör. Dr. ELÇİN DENİZ ÖZDAMAR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Öğr. Gör. ELİF ANAÇOĞLU, Rektörlük
+
+Öğr. Gör. ELİF ÇİÇEK DİKMEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF DENİZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF DERVİŞ ÖZTÜRK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF GÖY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF KANBERTAY CANLI, Rektörlük
+
+Öğr. Gör. ELİF ÖNAL ÇELİK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF ÖZGÜVENÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF POLAT
+
+Öğr. Gör. Dr. ELİF SIRT ÇIPLAK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Dr. Öğr. Üyesi ELİF TARHAN BOR, Rektörlük
+
+Öğr. Gör. ELİF TOPUZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELİF ASUMAN KORKUSUZ ÜLGEN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. ELİF BAŞAK AKSOY, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Öğr. Gör. ELİF CEYDA ÖZDEN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Öğr. Gör. ELİT AYDIN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ELVAN HAZAL TÜRKYILMAZ BİLGİÇ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. EMEL BAŞ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. EMEL TURGUT, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EMİNE YETGİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+İd. Per. EMİNE ÇİĞDEM ASRAV, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. EMİNE İLKE MANKALYALI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EMİNE YASEMİN TALU, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Öğr. Gör. EMRE KAYHAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Öğr. Gör. ENDER ŞENKAYA, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. ENGİN KARAESMEN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. ENGİN KÖSE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ENGİN YAŞAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ENİS OĞUZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ENSAR TEMİZEL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. ERALD VARAKU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. Dr. ERDEM CEYDİLEK
+
+Öğr. Gör. ERDİNÇ ŞENTÜRK, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+İd. Per. EREN YÜNCÜ, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Öğr. Gör. ERKAN İNAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. ERKAN UYSAL, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. Dr. ERSİN KARA, Rektörlük
+
+Öğr. Gör. ESİN DÜZAKIN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. ESİN SAVUL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ESMA TOPRAK ÇELEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ESRA AKSOY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ESRA ALTUNBAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. ESRA DARICI, Rektörlük, Türk Dili Bölümü
+
+Doç. Dr. ESRA ERET EROĞLU, Rektörlük
+
+Öğr. Gör. ESRAGÜL TORUN ERDOĞAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EVA BERTA IDA BORHAU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EVİN KOÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EVREN AKAR, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. EVRİM KALKAN TEZCAN, Deniz Bilimleri Enstitüsü
+
+Öğr. Gör. Dr. EYLEM GÜL ATEŞ, Rektörlük
+
+Öğr. Gör. EYLEM BİLGE YAZICIOĞLU ÇIPLAK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. EYLEM ELİF MAVİŞ
+
+Öğr. Gör. EYLÜL AKYILDIZ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. EYLÜL ARSLAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. EZGİ ORBAY AKCENGİZ, Rektörlük
+
+Öğr. Gör. EZGİ ŞAHİN YÜCEL, Deniz Bilimleri Enstitüsü, Deniz Bilim (Osinografi) Anabilim Dalı
+
+Araştırmacı EZGİ ÜNAL İMER, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Öğr. Gör. EZGİ BİRCAN BAHÇE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FADİME EKİNCİ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Dr. Öğr. Üyesi FARUK TOKDEMİR, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. FATİH ÖĞMEN, Enformatik Enstitüsü
+
+Öğr. Gör. Dr. FATİH ÖMRÜUZUN, Enformatik Enstitüsü
+
+Öğr. Gör. FATMA BAHÇE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FATMA GÜL, Rektörlük
+
+Öğr. Gör. FATMA GÜLDEREN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FATMA GÜLHAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. FATMA TANRIVERDİ KÖKSAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FATMA İREM TOKER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FATMA NUR AKIN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Doç. Dr. FATMA SEDEF MERAL, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Öğr. Gör. Dr. FERHAT ÜNAL
+
+Öğr. Gör. FERHAT ÜSTÜBAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FERRUH ÇİĞDEM TURASAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FETHİ GÜNÇER, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. FEYZA SEVİLMİŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FİGEN IŞIK, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. FİGEN İYİDOĞAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FİLİZ BAŞARAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. FİLİZ DİRİ AKYILDIZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. FİLİZ BÜŞRA HAŞİMOĞLU, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. FİLİZ NİLÜFER HENDEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FİRDEVS YALÇIN
+
+Öğr. Gör. FUAT GÖKCE, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. FULYA ARPACI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FUNDA KELAHMETOĞLU TUNÇER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FUNDA OKAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. FUNDA ÖZKAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. FÜSUN ŞAHİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. FÜSUN YÖNDEM MAKASCIOĞLU, Meslek Yüksek Okulu, Meslek Yüksek Okulu
+
+Öğr. Gör. GAMZE CİLBİR MUSAYEV, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GAMZE DEMİRAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. GAMZE KARBİ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GEZİN BURÇAK GÖNENÇ ÖZKAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. GİZEM ALTINKAYA KURTULMUŞ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. GİZEM YILMAZEL ÜNSAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. GONCA DEMİR
+
+Öğr. Gör. GONCA GÜLEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GONCA SAK KIYMAZASLAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÖKBANU SEZİ COŞKUNER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÖKÇE ALTINKAYNAK, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Öğr. Gör. GÖKÇE ERKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÖKÇE SERT, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. GÖKÇE YİĞİT CEYDİLEK
+
+Öğr. Gör. GÖKÇEN BAŞKAN GÜLŞEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÖKÇEN ÖZBEK, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Öğr. Gör. GÖKÇİÇEK CİHAN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. GÖKHAN ORHAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. GÖKHAN TAKAN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. Öğr. Üyesi GÖKHAN OSMAN ÖZGEN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Öğr. Gör. GÖNÜL ARSLAN
+
+Dr. GÖNÜL HIZALAN ÖZSOY, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Öğr. Gör. GÜÇLÜ ONGUN, Enformatik Enstitüsü
+
+Dr. Öğr. Üyesi GÜÇLÜ TÜLÜVELİ, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Öğr. Gör. Dr. GÜHER GÜLÇEHRE ÖZBEY
+
+Öğr. Gör. GÜL YAPRAK GÜLEÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÜLCAN TÜRKARSLAN YAPICI, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. GÜLCE ARMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. GÜLÇİN DALKIÇ MELEK, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. GÜLÇİN MERGEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÜLDEN ÖZTEKİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÜLER BAYRAKLI, Rektörlük
+
+GÜLEYSE KANSU DAĞLI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÜLHAN AYYILDIZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. GÜLLÜZAR UYSAL, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. GÜLSEVİ ESRA BAL, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. GÜLŞEN TUNÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Doç. Dr. GÜRER KARAGEDİKLİ, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Öğr. Gör. GÜVEN FİDAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. HABİB TOLGA BİLGE, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. HACER ÖZEN
+
+Öğr. Gör. HAFİZE EYLEM ASLAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. HAKAN GENÇ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. HAKAN GÜRSOY, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. Dr. HAKKI POLAT, Rektörlük
+
+Öğr. Gör. Dr. HALE GÜNEY, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Öğr. Gör. HALE ÖYKEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. HALE HATİCE KIZILCIK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HALİL KIPÇAK
+
+Öğr. Gör. HALİME FEYZA SÜTCÜ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HALUK ÇERİBAŞI, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Öğr. Gör. HAMİDE NUR ÜNAL YILMAZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Doç. Dr. HASAN CÖMERT, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. Dr. HASAN ESER, Rektörlük
+
+Öğr. Gör. Dr. HASAN ÖREK, Deniz Bilimleri Enstitüsü
+
+Öğr. Gör. HASAN NEJAT UTKUCU, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Öğr. Gör. HASAN OKAN ÇETİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. HASAN SELÇUK TÜRKMEN, Rektörlük
+
+Öğr. Gör. HATİCE DAYIOĞLU, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. HATİCE KAÇAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HATİCE GÜLÇİN ÖZLÜ ERTAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+İd. Per. HATİCE SİNEM AYHAN ÖZDEN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. HAZAN FUNDA ÖZBAŞOĞLU KUTLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HEDİYE ÇİĞDEM AYTEPE, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. HİLAL SEVİNÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HİLAL YILDIRIM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HÜLYA PEKER, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Öğr. Gör. HÜLYA ŞEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HÜRANA AYDIN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. HÜSEYİN SAYIN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. HÜSEYİN EMRECAN ÇUBUKÇU, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. HÜSNÜ YILDIZ, Rektörlük
+
+Öğr. Gör. IŞIKHAN GÜLER, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. IŞIL ARICA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. IŞIL TİPİOĞLU, Rektörlük
+
+Öğr. Gör. IŞIL GÜNSELİ KAÇAR, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Öğr. Gör. ITIR GÜNGÖR BONCUKÇU, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. İBRAHİM TAŞYURT, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. Dr. İBRAHİM YORGUN, Rektörlük
+
+Öğr. Gör. İBRAHİM BÜLENT YILMAZER, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Öğr. Gör. İDİL AKER
+
+Öğr. Gör. İDİL EJDER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İDİL ÖZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. İHSAN CİHAN AYANOĞLU, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Öğr. Gör. İLAYDA NAZLI, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Öğr. Gör. Dr. İLHAMİ BUĞDAYCI, Rektörlük
+
+Öğr. Gör. İLHAN KURAL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. İLKER ŞAHİN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. Dr. İLKER YILDIZ, Rektörlük
+
+Öğr. Gör. İLKİM MERVE KARA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İLKNUR KUNTASAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İPEK ÇELİK GENÇER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İPEK KARAMERCAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İPEK NALBANTOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İPEK SARALAR, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Öğr. Gör. İPEK BEREN LOPEZ SANTAMARİA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İREM KARABIYIK SEVİNÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İREM YILMAZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. İSMAİL LÜTFÜ EROL, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. JASON MATTHEW STEINBERG, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. JEREMY JAMES PRETTYMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. JOSEF KUBİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. KADİR DENİZ, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. KADİR EKMEKCİ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. KADİR KOÇ, Rektörlük
+
+Öğr. Gör. Dr. KADİR CENK ALPAY, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. KADRİ ÖZCAN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. KAMİL ALPER ATEŞ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. KAMURAN ÖZLEM ÜZER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. KANGJİNG WANG, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. KAZIM YALÇINOĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. KEMAL AÇIKGÖZ, Rektörlük
+
+Öğr. Gör. KEMAL CEM DUZAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. KENNET ARDON, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. KEREM KÖKSAL
+
+Öğr. Gör. Dr. KERİM SERT, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. KERİMAN KIRKICI ÜNER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. KORAY ÇANDIR, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. Dr. KÜBRA ERDEN, Rektörlük
+
+Öğr. Gör. KÜBRA YAZGI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. KÜRŞAT GÜLTEKİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. LALE TÜRKKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. LEVENT BAYRAM
+
+Öğr. Gör. LEVENT ÇARKACIOĞLU, Enformatik Enstitüsü
+
+Öğr. Gör. LEVENT TOSUN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. MAHMUT TEKER
+
+Öğr. Gör. MAKBULE FİLİZ ÇELİK YEŞİLDORUK, Enformatik Enstitüsü
+
+Öğr. Gör. MEDİHA TORAMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Doç. Dr. MEHMET DÖNMEZ, Rektörlük, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Öğr. Gör. MEHMET KARADENİZ, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Öğr. Gör. MEHMET TANSAL, Rektörlük
+
+Öğr. Gör. MEHMET UZUN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Öğr. Gör. MEHMET UZUNKAYA, Uygulamalı Matematik Enstitüsü
+
+Öğr. Gör. Dr. MEHMET ALİ YILIK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Dr. Öğr. Üyesi MEHMET ATA ÖZTÜRK, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Doç. Dr. MEHMET ATAKAN GÜRKAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. MEHMET FERİDUN DUYGULUER, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. MEHMET HAKAN KARAALİOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. MEHMET İZZET ÖZAYDIN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Öğr. Gör. MEHMET SEYFİ GÖL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. MEHMET TURHAN KAYASÜ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. Dr. MEHTAP ÖZTÜRK ŞENGÜL, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. MEHTAP US BAŞARSLAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. MEHTAP YALÇIN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MELEK ALTUN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Doç. Dr. MELEK ÖZDEMİR, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Öğr. Gör. MELEK TÜRKMEN DAĞLI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MELEK YAZICIOĞLU
+
+Öğr. Gör. MELİKE DEMİR BEKTAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MELİKE KUŞ, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. MELİKE AYŞE TÜRKMENOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MELTEM AKTAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. MELTEM ERDİL BÖLÜKBAŞI, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. Dr. MELTEM OK, Deniz Bilimleri Enstitüsü
+
+Öğr. Gör. MELTEM SUBAŞI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MELTEM DENİZ MORAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. MELTEM ÖZGE ÖZCANLI BOZKURT, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. MERAL ÖZDENGİZ BAŞAK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Okutman MERİÇ GÜLCÜ KURÇ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MERİH AYŞE SARAÇOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MERT BİLGİN, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Öğr. Gör. MERVE AYDIN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. MERVE AYTEKİN BİRCAN, Rektörlük
+
+Öğr. Gör. MERVE DİZELİ, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. MERVE HIRÇIN ÇOBAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MERVE ÖZDEMİR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MERVE ŞANAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MESUT SOYLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. METİN ÖZDEMİR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MEVLÜDE DİLEK RENDECİ
+
+Öğr. Gör. MINGMING XIE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. MİHRAÇ BANU GÜNDOĞAN, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Öğr. Gör. MİHRİBAN ÇETİNKAYA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MİHRİCAN AÇIKGÖZ, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Öğr. Gör. Dr. MİNE BİCAN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. MİNE HOŞGÜN SOYLU, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. Dr. MUHİDDİN UĞUZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Öğr. Gör. Dr. MUHTAR URAL ULUER, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Öğr. Gör. MUKADDES YILDIRIM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MURAT AYDIN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MURAT DUMAN
+
+Öğr. Gör. MURAT İNCİ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MURAT CAN OCAKTAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. MURAT TOLGA ERTÜRK, Rektörlük
+
+Öğr. Gör. MUSA BERKAN BAŞOĞLU
+
+Öğr. Gör. MUSTAFA BAHADIR, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Öğr. Gör. Dr. MUSTAFA DEĞERLİ, Enformatik Enstitüsü
+
+Öğr. Gör. MUSTAFA HAFIZOĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. MUSTAFA ÖZBAKAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. Dr. MUSTAFA ŞAHİN, Rektörlük
+
+Öğr. Gör. MUSTAFA YAMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. MUSTAFA RAŞİT ŞAHİN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. MUTLU ÇALIŞKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. MÜGE KRUŞA YEMİŞCİOĞLU, Rektörlük
+
+Öğr. Gör. MÜGE NİMET GÖKÇE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MÜJDAT KADRİ ATABAŞ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. MÜMTAZ TURFAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. Dr. MÜMTAZ MUTLU UMAROĞLU, Rektörlük
+
+Öğr. Gör. MÜNİRE VECDİ ÖZBİLEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. MÜŞERREF KÜÇÜKBAYRAK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. NACİYE ATALAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NAHİDE IŞIK DEMİRAKIN, Sosyal Bilimler Enstitüsü, Mimarlık Bölümü
+
+Öğr. Gör. NAİLE TALİB, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. NARİN IŞIK, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. NAZIM ÖZGÜR SİPAHİOĞLU, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. Dr. NAZİF KUTAY ERDEN, Rektörlük
+
+Öğr. Gör. NAZİFE DUYGU BAĞCI OZAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NAZLI İREM SOYUER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NAZMİ BOŞÇA, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. NECMETTİN ANIL ALBAĞLAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NEGAH HANDAN UÇAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NERGİS ÜNAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. NERİS SAADET PARLAK TEMİZEL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. NERMİN FENMEN, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Öğr. Gör. NEŞE SAHİLLİOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NEVAL BOZKURT KAVCI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NEVİDE BİÇER, Rektörlük
+
+Öğr. Gör. NİHAL SELÇUK YÜCE
+
+Öğr. Gör. NİHAN SOYCAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Öğr. Gör. NİL MISIR OSMANOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NİL ZELAL ŞEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. NİLAY CANBOLAT, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NİLAY KÖSE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NİLGÜN NİGAR SUNGURTEKİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NİMET ÖZGÖNÜL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. NİYAZİ ERSAN GÜRKAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Öğr. Gör. NUR NİLGÜN DEMİROK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. NUR SEDA TEMUR ÇÖREKCİOĞLU, Rektörlük
+
+Öğr. Gör. NURAN ÖZKAM, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. Dr. NURAY YILDIRIM, Rektörlük
+
+Öğr. Gör. Dr. NURBANU AKSOY
+
+Öğr. Gör. NURDAN ATALAN ÇAYIREZMEZ, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. NURSEVİNÇ KARAKUŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. NÜLÜFER KALE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. O. TUNCAY BAŞKAYA, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Öğr. Gör. OĞUZ SAĞDIÇ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. OĞUZHAN AKYENER, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Öğr. Gör. OKAN TAKTAK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. OKTAY BAŞ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. ONUR KARA, Sosyal Bilimler Enstitüsü, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Öğr. Gör. ONUR KOŞAR
+
+Öğr. Gör. ONUR ÖZMEN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Öğr. Gör. ONUR ÖZMEN, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. ONUR ÜNLÜ, Rektörlük
+
+Öğr. Gör. ONUR CAN CANSU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. ONUR OZAN KOÇAK
+
+Öğr. Gör. Dr. ONUR TOLGA ŞEHİTOĞLU, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. Dr. ORHAN ASLAN, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Öğr. Gör. ORHAN ULUDAĞ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. OSMAN CEVDET ÖZTİN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Öğr. Gör. OYA GÜNENDİ, Enformatik Enstitüsü
+
+Öğr. Gör. OZAN ADIGÜZEL, Yabancı Diller Yüksek Okulu
+
+Öğr. Gör. OZAN YAVUZ, Rektörlük
+
+Doç. Dr. ÖDÜL IŞITMAN, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. ÖMER EKMEKCİ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. ÖMER IŞIKMAN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Öğr. Gör. ÖMER REİS, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Dr. Öğr. Üyesi ÖMER KAĞAN PARMAKSIZ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. ÖNDER ÇAĞLAR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. ÖZAY AFACAN ERDOĞDU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. ÖZGE ERDEM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZGÜR KAYA, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. Dr. ÖZGÜR KÖSE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZHAN ÖKSÜZ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Öğr. Gör. ÖZKAN DEMİRDAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM ALBAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM BİLİR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM BOZATLI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM DURAN ATAALP, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM ÖNAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. ÖZLEM ÖZBAKIŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM POLAT, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÖZLEM MAVİ SALTIK, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. Dr. ÖZNUR ALVER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PELİN AKALAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PELİN DENİZ, Rektörlük
+
+Öğr. Gör. PELİN ERDOĞAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Öğr. Gör. Dr. PELİN PAŞABEYOĞLU, Rektörlük
+
+Öğr. Gör. Dr. PELİN DUYGU AKSU SEMERCİOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PEMBE FÜSUN KONYALI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PETEK ERTEKİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PINAR BÖKE, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PINAR EKİNCİ, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. PINAR FİLİZLİ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PINAR GACAN ERTUĞRUL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PINAR KURTOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PINAR SAĞIR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. PINAR VARDAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. QING LI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. QİUFAN REN, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. RABİA KARATAŞ
+
+Öğr. Gör. RABİA SENA YILDIRIM KAPTAN, Rektörlük, Türk Dili Bölümü
+
+Doç. Dr. RAHMAN NURDUN, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. RANA ÇAVUŞOĞLU, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. RECEP ÖZKAN, Rektörlük
+
+Araştırmacı RECEP ÖZGÜR TAŞKENT, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Öğr. Gör. RECEP RUHİ TARKAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. REYHAN ATASEVER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. RIZA ÇİMEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. RUHAN GÜLİZ KENKÜL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. S.FUNDA ATAYLAR (İĞDİR), Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. SAADET GÜLRU YILDIZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. SABA ÖZ
+
+Öğr. Gör. SADİYE LALLI UNCU, Rektörlük
+
+Öğr. Gör. SAFİYE DOĞAN, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. SALİH BEKTAŞ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. Dr. SALİM AZAK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. SAMİ CAN TANDOĞDU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. SAMİM FATİH YAZICI, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. SARA BANU AKKAŞ, Rektörlük
+
+Öğr. Gör. SARTUK KARASOY, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Öğr. Gör. SATI BURHANLI, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. SEÇİL OKKALI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEÇİL ŞENGÖZ DELİBAŞ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEDAT ACAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEDAT CANLI, Rektörlük
+
+Öğr. Gör. SEDEF ÇAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEDEF KÖKSAL, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. SEDEF ŞENER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEFA SADIK AYTEKİN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. SEHER BALBAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SELÇUK ASLAN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Öğr. Gör. SELÇUK BİLMİŞ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. SELDA EKİCİ
+
+Öğr. Gör. SELEN ANDIÇ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. SELİME TABANLIOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SELİN KARACA
+
+Dr. SELİN ÖZOKCU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. Dr. SELİN SÜER, Rektörlük
+
+Öğr. Gör. Dr. SELİN UÇAR ÖZSOY, Rektörlük
+
+Öğr. Gör. SEMA ABAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEMA MUHTAR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SEMA ÜSTER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SEMİH KAYGISIZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEMİHA ÜNSAL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. SENA BALBAN KINIK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SENEM AHISKAL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SENEM KAYAHAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Dr. Öğr. Üyesi SENİH GÜRSES, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Öğr. Gör. SERAP KAYA, Rektörlük
+
+Öğr. Gör. SERAP KIZILIRMAK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SERAY BİLGİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SERDAR YILDIRIM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Doç. Dr. SERHAT KÖKSAL, Rektörlük
+
+Öğr. Gör. SERHAT ADEM KÖRKUYU, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. SERKAN ALGAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SERKAN KAYGIN, Enformatik Enstitüsü
+
+Öğr. Gör. SERKAN YILDIZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SERKAN YILMAZ, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Öğr. Gör. Dr. SERPİL TEKİR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SERVET IŞIK, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. SEVAL ARZU İZ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. SEVCAN MUTLU KAYA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEVDA AKMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEVDE YAZICI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SEVİL ONARAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Öğr. Gör. SEVİM GÖZCÜ, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. SEVİM SARIHAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEVİNÇ BIÇAK HASSO, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEVİNÇ ÇELİK ÖZTÜRK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SEVTAÇ BÜLBÜL, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Öğr. Gör. SEYHAN GÜNEŞER GÖÇMEN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEYİTHAN KAYA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SEZEN KORKMAZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SILA ÖZDEMİR, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. SILA UMULU, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. SİBEL DOĞAN, Rektörlük, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Öğr. Gör. Dr. SİBEL ÖZDEMİR ÇAĞATAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SİBEL YILMAZ, Rektörlük, Türk Dili Bölümü
+
+Doç. Dr. SİNAN KAAN YERLİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. SİNEM BÜR, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SİNEM GÜNBAY, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SİNEM ŞAHİN YEŞİL, Rektörlük
+
+Öğr. Gör. SONER OSMAN ACAR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. STEPHEN BRADLEY KUNTZ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SUAT NEJAT İDİL, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. SUMRU ALPTOĞAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. SÜHA TİRKEŞ, Rektörlük
+
+Öğr. Gör. SÜHEYDE ÇAPUTCU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SÜLEYMAN DEMİREL, Rektörlük
+
+Öğr. Gör. SÜLEYMAN TURAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. SÜMEYYE GÜLLÜ ASLAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ŞAHİN YAMAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. ŞEBNEM KIYAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ŞELALE ŞENTÜRK, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. ŞEMSA OLŞEN GÜZELDERE
+
+Öğr. Gör. ŞENİZ BİLGİ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. ŞENOL BAKAY, Rektörlük
+
+Öğr. Gör. ŞEVVAL ÇÖLOĞLU, Rektörlük
+
+Öğr. Gör. ŞULE AKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. ŞÜKRAN SAYGI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ŞÜKRAN EDA MARANGOZ YEMENİCİ, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ŞÜKRAN GİZEM GÜZEL, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. TABİAT TAN YILDIZ, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Öğr. Gör. TAMAY ERGÜVEN ORHAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Uzman Dr. TAMAY ŞEKER, Rektörlük
+
+Öğr. Gör. TAMER ÖZALP, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. TANER ZORBAY, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Öğr. Gör. TANGÖR ERTAŞ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. TANSU TOPÇU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Doç. Dr. TARKAN GÜRBÜZ, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Öğr. Gör. TAYFUN ASKER
+
+Öğr. Gör. TAYFUN SANSA, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. TAYLAN ERCAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Arş. Gör. TEKİN BAYKIZ
+
+Öğr. Gör. TEVFİK KEMAL TÜRELİ, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. TIANXI WU, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. TINA MICHELLE TANRIKULU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. TİMUÇİN HERGÜL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. TİMUR BİLİNÇ BATUR, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. TOLGA TÜFEKÇİ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Öğr. Gör. TUBAGÜL ÜLKER, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. TUĞBA AYAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. TUĞBA AYHAN, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. TUĞBA BOSTANCI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. TUĞBA DOĞAN, Rektörlük
+
+Öğr. Gör. Dr. TUĞBA ENDOĞAN TANIR, Rektörlük
+
+Öğr. Gör. TUĞBA ISIK KONGUR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Öğr. Gör. TUĞÇE AKBAŞ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Öğr. Gör. TUĞÇE BÖLÜKBAŞI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. TUĞÇE PAKSOY, Rektörlük
+
+Öğr. Gör. TUĞRUL ATASOY, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Öğr. Gör. TUĞRUL ÇOMU, Rektörlük
+
+Öğr. Gör. Dr. TUNAY DİK, Meslek Yüksek Okulu, Meslek Yüksek Okulu
+
+Öğr. Gör. TUNCAY DOĞU, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. TUNCAY KÜÇÜKPEHLİVAN, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. TÜLAY ROJAY, Mühendislik Fakültesi
+
+Doç. Dr. UFUK AYDEMİR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. UFUK POYRAZ, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. Dr. UFUK YILDIRIM, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. UĞUR BALCI, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Öğr. Gör. UĞUR GÖĞÜŞ, Meslek Yüksek Okulu, Meslek Yüksek Okulu
+
+Öğr. Gör. UĞUR KÖROĞLU, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. UĞUR GÜRŞAD YALÇINER, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. UĞUR SİYAMİ ZEYDANLI, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. ULAŞ SEMİH YETİK, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. ULVİYE BETÜL SÖYLER, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Öğr. Gör. UMMAN TÜMKAYA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. UMUT ALAGÖZ, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. UMUT BİLGİÇ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. UMUT KAHRAMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. UMUT UFKU YAMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÜLKÜ KÜÇÜKAKIN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÜLKÜ ÖNDER, Rektörlük
+
+Öğr. Gör. ÜMMÜGÜLSÜM ACI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ÜMMÜHAN YÖRÜK, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. ÜMMÜHAN NERKİS KURAL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. ÜSTÜN BERK SEZGİN
+
+Öğr. Gör. ÜVEYİK BAŞAK AKAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. VİLDAN ŞAHİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. VİLDAN ŞAHİN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. WEN YU, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. YAHYA ÖZ, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Öğr. Gör. YALÇIN DEMİRTAŞ, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Öğr. Gör. YANKI ÇENDİK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. YAPRAK ÇAKIN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Öğr. Gör. YASEMİN ENER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. YASEMİN SARIASLAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. YASEMİN TEBEROĞLU
+
+Öğr. Gör. YAVUZ BAVER BARUT, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. YELİZ AKEL, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. YEŞİM ÇAPLI, Rektörlük
+
+Öğr. Gör. YEŞİM SOMUNCUOĞLU, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. YILDIRIM AHMET DİCLE, Sosyal Bilimler Enstitüsü
+
+Öğr. Gör. YİNG WANG, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. Dr. YUNUS ALKIŞ
+
+Öğr. Gör. YUNUS ASLAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Öğr. Gör. Dr. YUNUS BIYIK, Rektörlük
+
+Öğr. Gör. YURDAGÜL AYDINYER, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Öğr. Gör. YURDAGÜL ÖZTÜRK
+
+Öğr. Gör. YURDANUR ÖZKAN, Yabancı Diller Yüksek Okulu, Modern Diller Bölümü
+
+Öğr. Gör. Dr. YURDUSEV YAKUP AKAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Öğr. Gör. YUSUF İPEKOĞLU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Öğr. Gör. YUSUF KENAN PAKYARDIM, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. Dr. YUSUF ZİYA ÇİÇEK, Rektörlük
+
+Öğr. Gör. YÜCEL ÜNLÜ AYDIN, Rektörlük, Türk Dili Bölümü
+
+Öğr. Gör. YÜKSEL ZUHAL SAYMAN, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZAFER ARTVİN, Rektörlük
+
+Öğr. Gör. ZAFER FİLİZ, Rektörlük
+
+Öğr. Gör. ZAFER GERDANLI, Rektörlük, Müzik ve Güzel Sanatlar Bölümü
+
+Öğr. Gör. ZEHRA ARZU ULUOCAK, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZEHRA PINAR UYGURER, Deniz Bilimleri Enstitüsü
+
+Öğr. Gör. ZEYNEP BAYRAMOĞLU ERÜNLÜ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Öğr. Gör. ZEYNEP BÜYÜKTUNA, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZEYNEP ORAKCI, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZEYNEP ÜNLÜER ÖZER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZEYNEP ELİF YILDIZEL, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Öğr. Gör. ZEYNEP NUR İŞLER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZIJENA ÇALGAM, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Öğr. Gör. ZİNET AYTANGA ÖKMEN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. ZUHAL ACAR METİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Öğr. Gör. ZÜHRE ELİF ER, Yabancı Diller Yüksek Okulu, Yabancı Diller Bölümü
+
+Arş. Gör. ABDURRAHİM MURATOĞLU, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ABİDDİN BERHAN MELEK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ACAR ŞENOL, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. AÇELYA KÜÇÜKKURT, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. ADEM UTKU ATASAYAR, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ADNAN ERDEM ÇAPA, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ADNAN HARUN DOĞAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ADVİYE HAZAL GÜZEL, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. AHMET ATAKAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. AHMET BODUR, Enformatik Enstitüsü
+
+Arş. Gör. AHMET ÇEVİK, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. AHMET ÇUHACIOĞLU, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. AHMET YILDIRIM
+
+Arş. Gör. Dr. AHMET BAHADDİN ERSÖZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. AHMET BERKAY ŞİMŞEK, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. AHMET FURKAN ÇALIKOĞLU, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. AHMET KÜRŞAD ŞAŞMAZ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. AHMET TARIK KÜÇÜK, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. AHMET YETKİN ALICI, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. AKIN ÇİL, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. ALAZ AYDIN, Enformatik Enstitüsü
+
+Arş. Gör. ALİ EKMEKÇİ
+
+Arş. Gör. ALİ OZAN, Enformatik Enstitüsü
+
+Arş. Gör. ALİ ÖZALP, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. ALİ ARDA KARALAR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. ALİ BERK UZUNDİKME, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ALİ BERKAY TOKEL, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. ALİ CEMİL ŞEN, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. ALİ EREN ÇETİNTAŞ, Enformatik Enstitüsü
+
+Arş. Gör. ALMILA ÇINAR, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. ALP GÜRSOY, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ALPAY KARAGÖZ, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Arş. Gör. ALPER KESİCİ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. ALPEREN DEMİRTAŞ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ALPEREN ŞENOCAK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ALTUĞ ELPE, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ANDAÇ BARAN ÖZCAN, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. ANIL ERSÖZ, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. ANIL GÜLBEDEN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ANIL KAPLAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. ANIL KURT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ANIL ÖĞDÜL, Enformatik Enstitüsü
+
+Araştırmacı ANIL BERKCAN TÜRKER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. ANİŞ BÜŞRA BARAN SARAÇ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. ARCA SAN, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. ARDA DÖNMEZ, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. ARDA ESKİN, Enformatik Enstitüsü
+
+Arş. Gör. ARDA HASAR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ARİF ÇAĞATAY UYSAL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ARİF GÖRKEM ÖZER, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ARİF HİKMET CİVALEK, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. ARİF OZAN KIZILDAĞ, Enformatik Enstitüsü
+
+Arş. Gör. ASLI GÜRTUNCA, Sosyal Bilimler Enstitüsü, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. ASLI ONURSAL, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. ASLI ULUSOY TASAR, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. ASLI BAŞAK CİVEK, Enformatik Enstitüsü
+
+Arş. Gör. ASLI UMAY ÖZTÜRK, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ASLIHAN KAHRAMAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. ASLINUR ÇOLAK, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. ASUMAN ŞİMŞEK TONTUŞ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. ATABERK ÇETİNKAYA, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. ATAKAN AYGÜN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ATAKAN DURMAZ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ATAKAN GARİPLER, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ATASEV DOĞUKAN TAŞBAŞI, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ATİLLA KILIÇ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. AYBERK AYDIN, Enformatik Enstitüsü
+
+Arş. Gör. AYBORA KÖKSAL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. AYBÜKE BALAHUN ÇOBAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. AYÇA KÜRKÇÜ, Enformatik Enstitüsü
+
+Arş. Gör. AYÇA NİLÜFER ÇALIKUŞU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. AYDIN TAVLAYAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. AYSU ALKIŞ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. AYSU ARIK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. AYŞE LAÇİN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. AYŞE BEYHAN TÜRKYILMAZ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. AYŞE ELİF KİRDECİLER, Rektörlük
+
+Arş. Gör. Dr. AYŞE NİHAN ŞATGELDİ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. AYŞE NUR DÖĞME, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. AYŞEGÜL SARI, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. AYŞEGÜL İDİL KAYAN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. AYŞENUR ALKAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. AYŞENUR BİÇER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. AYŞENUR İRFANOĞLU, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. AYŞENUR MUMCUOĞLU, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. AYŞENUR YÜCEFAYDALI, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. AYTAÇ SEKMEN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. AYTEN CEYDA KÖSEÖMÜR, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. AYTÖRE ARIKAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. BAHAR EVREN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. BAHAR PINAR DİKEN, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. BAKİ AYKUT BİLGİNER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. BARIŞ AKIŞ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. BARIŞ DUMAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. BARIŞ MUTLU, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. BARIŞ SÖZERİ
+
+Arş. Gör. BARIŞ TİRYAKİ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. BARIŞ ÇAĞRI TOSUN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. BARIŞ UFUK ŞENTÜRK, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. BARKIN BAYRAM, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. BARTU BİLGEN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. BAŞAK GÜNDOĞAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. Dr. BAŞAK ÖZTÜRK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. BAŞAK TÜKENMEZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. BAŞAK DÜŞÜN KOCAKAYA, Enformatik Enstitüsü
+
+Arş. Gör. BEDRETTİN ÇETİNKAYA, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. BEGÜM ÖZMUSUL, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. BEGÜM ECE TOHUMCU, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. BENGİSU BARIŞ, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. BENGİSU DEREBAŞI, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. BERAT GEVEN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. BERAT CAN CENGİZ, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. BERİL KIYAK YILMAZ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. BERK ÖZCAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. BERK TÜRK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. BERK YAYLIM, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. BERK CAN İÇTEN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. BERKAN ANILIR, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. BERKAN ATMAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. Dr. BERKAN SÖYLEMEZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. BERKAY AKÇÖREN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. BERKCAN KÖSE, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. Dr. BERNA NİSA YILMAZ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. BERRE YAŞAR, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. BERRİN AYYILDIZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. BESTE AVCI, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. BESTE FAKIOĞLU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. BESTE ÖZÇAKMAK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. BETÜL AKTAŞ SULAYICI, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. BETÜL BİTİR SOYLU, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. BETÜL EYMUR DÖNMEZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. BETÜL FATMA YILDIRIM, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. BEYZA AVAN, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. BİLGE DURGUT, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. Dr. BİLGE ŞENTÜRK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. Dr. BİLGE ALP GÜNEY, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. BİLGE ECE GÜN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. BİLGE İREM YAPAN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. BİLGİN COŞKUN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. BORA YALÇINER, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. BUĞRA ÖZTÜRK, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. BUĞRAHAN ORUÇ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. BUKET TUBA BARIŞ, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Arş. Gör. BURAK KARAKUŞ, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. BURAK FERİT AKTAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. BURCU BOSTANCI, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. BURCU ÇINAR, Enformatik Enstitüsü
+
+Arş. Gör. BURCU DURUKAN İPEK, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. BURCU KOCA GÜLER, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. BURCU ÖZCAN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. BURCU ECEM KARAKAŞ, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. BUSE AKKAYA, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. BUSE CANTİMUR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. BUSE AYŞEN DÜNDAR ÖZDOĞAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. BUSE BERFİN KART, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. Dr. BÜŞRA AKKÖKLER KARATEKELİ, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. BÜŞRA BINARCI, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. BÜŞRA DEDEOĞLU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. BÜŞRA KATIRCIOĞLU, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. BÜŞRA KULAKOĞLU, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. BÜŞRA ÖZCAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. CAN AKICI, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. CAN ERDOĞAN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. CAN EVCİMEN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. CAN DENİZ TURNA, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. CANAN PEKER, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. CANAY ÖZ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. CANER ARIKBOĞA, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. CANSEN ŞİRİN ÖZBUDAK, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. CANSU POLAT, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. CANSU YILDIZ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. CANSU BAŞAK UYGUN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. CAVİT DENİZ PALA, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. CEM TÜRKEŞ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. CEM YAVRUM, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. CEMAL DİNÇ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. CEMİLE PEHLİVAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. CEREN BAŞER KANBAK, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. CEREN DEMİR ERDOĞAN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. Dr. CEREN SOYSAL FİLAZİOĞLU, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. CEREN ŞAHİN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. CEREN USTA, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. CEREN YAZIGÜLÜ TURAL, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. CEYDA BAŞARAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. CİHAD TEKİNBAŞ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. COŞKUN AYKUT, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. ÇAĞATAY CAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. Dr. ÇAĞATAY KEREM DÖNMEZ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ÇAĞDAŞ ULUS AĞCA, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ÇAĞLA ALMİNA ÇINAR, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. ÇAĞRI İMAMOĞLU, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. ÇAĞRI UTKU AKPAK, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ÇİYA AYDOĞAN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. DAMLA DEMİRKAYA, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. DAMLA SEZGİ, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. DEFNE AKKUŞ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. DEFNE ODABAŞI, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. DELFİN BENGİSU GÜRKAN, Enformatik Enstitüsü
+
+Arş. Gör. DEMET DOĞANAY, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. DEMET SÖNMEZLER, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. DENİZ AK, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. DENİZ ARIK, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. DENİZ CAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. DENİZ ÇABUK, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. DENİZ ÇELİK, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. DENİZ DEMİRCİOĞLU, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. Dr. DENİZ ERDEM, Rektörlük
+
+Arş. Gör. DENİZ ÖZTÜRKER, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. DENİZ SALTIK, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. DENİZ ORHUN BOZTEMUR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. DERSU SEZGİNMERT, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. DERYA TÖRİYEN, Rektörlük
+
+Arş. Gör. DEVİN AYKASIM, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. DİLA BİLGEN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. DİLAN BATUR AYDIN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. DİLAN ÇETİNKAYA, Sosyal Bilimler Enstitüsü
+
+Arş. Gör. DİLAN YILDIRIM, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. DİLARA GÜNDOĞDU, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. DİLARA GÜNEY, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. DİLARA YARAŞ ER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. DOĞA DOĞANAY, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. DOĞACAN İSMET, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. DOĞAN CAN ERTAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. DOĞU ERKAN ARKADAŞ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. DOĞUHAN COŞAR, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. DOĞUKAN ÖZBAYRAK, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. DOĞUKAN TAHA YAMAÇ, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. DURSUN ECE GÖKÇAY, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. DUYGU ÇELİK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. DUYGU İNCE, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. DUYGU TANIK, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. Dr. DUYGU TÜFEKÇİ ENGİNAR, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. DUYGU YALVAÇ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. EBRAR ÇAKMAK, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. EBRU EVİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. EBRU GÜLŞAH AK, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. ECE ALTUNDAĞ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. ECE ÇAĞLAYAN, Enformatik Enstitüsü, Sağlık Bilişimi Anabilim Dalı
+
+Arş. Gör. ECE AYÇA ERDOĞAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ECEM KUTLAY, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. ECENUR ÇAĞIRICI DOĞAN, Enformatik Enstitüsü
+
+Arş. Gör. EDA MAT, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. EDA ÖZKAYNAR, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. EDA YILDIZ, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. EDA BAHAR SARIBEL, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. EGE DAĞISTAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. EGE ÖDEN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. EKİN BAL, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. EKİN VARLI, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. EKİNSU GÜRSÖZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. EKMEL SAYIL, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. ELÇİN ERBASAN, Rektörlük
+
+Arş. Gör. ELİF DEMİR ARABACI, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ELİF GÜVELİOĞLU, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. Dr. ELİF KAYMAZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. ELİF TOPALOĞLU, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ELİF YILMAZOĞLU, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. ELİF BİLGE ÇELİK, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ELİF MİRAY KISAER KOCA, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. ELİF NADİDE GÜR AKALIN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. ELİF SEREL YILMAZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ELİF YAREN ÖZEN ÇETİN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. ELİFE ÇAKIR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ELVAN BAĞÇIVAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ELVİN GÜLTEKİNOĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. EMİNE ÇATMAN AKSOY, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. EMİNE EZGİ ALPTEKİN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. EMRE ANT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. EMRE AŞKAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. EMRE DOĞAN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. Dr. EMRE HASPOLAT, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. EMRE KÜLAH, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. EMRE TAŞTÜNER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. ENES ARSLAN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ENES KANDEMİR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ENES ATA ÜNSAL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ENFAL ÇABUK, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ERAY ERCAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. Dr. ERAY ŞENTÜRK, Rektörlük
+
+Arş. Gör. ERDEM BOY, Rektörlük
+
+Arş. Gör. ERDOĞAN GÜNEŞ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ERKUNT KARABULUT
+
+Arş. Gör. ERSEL HENGİRMEN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ERTAN HOŞAFCI, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. ERTAN SİNAN ŞAHİN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ERVA DİLARA TOPRAK, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. ESİN YANDIMATA, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. ESMANUR İLHAN ŞEN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. ESRA AKGÜL, Rektörlük
+
+Arş. Gör. ESRA ÇENGEL EVLİYA, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. Dr. ESRA DÜNDAR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ESRA KORKMAZ YURTOĞLU, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. Dr. ESRA NALBAT, Enformatik Enstitüsü
+
+Arş. Gör. ESRA ÖZTÜRK, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. Dr. EVRİM AKMAN KADIOĞLU
+
+Arş. Gör. EYLEM BAHADIR, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. EYLÜL KEÇECİOĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. EYÜP ENSAR DAL, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. EZGİ BAYER KÖMÜŞDOĞAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. Dr. EZGİ BUDAK ÇÖTEL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. EZGİ ÇAVUŞ, Enformatik Enstitüsü
+
+Arş. Gör. EZGİ ÖZKÜRKÇÜ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. Dr. EZGİ ÖZTEN KOYUNCU, Sosyal Bilimler Enstitüsü
+
+Doç. Dr. EZGİ PEHLİVANLI YAZICI, Rektörlük
+
+Arş. Gör. EZGİ SEVİMLİ, Sosyal Bilimler Enstitüsü
+
+Arş. Gör. FADİME URAL, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. FATİH ERDEN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. Dr. FATİH TOPAK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. FATMA DEMİRCİ, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. FATMA BETÜL BÜK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. FATMA ECE DEMİRER, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. FATMA NUR ÖZTÜRK SAÇKAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. FATMA SAADET GÜVEN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. FATMA YAĞMUR ÖZGÜR, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. FATMA ZEHRA ERDOĞAN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. FERİHA SARTAŞ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. FEYZA TOPÇUOĞLU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. FIRAT AĞIŞ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. FİKRET AÇAR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. FİLİZ YENİKÖYLÜ, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. FİRDEVS EZGİ GÜNOK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. FİSUN GÜVEN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. FUAT ÇIKAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. FURKAN AL, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. FURKAN ERDEM, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. Dr. FURKAN GÖKMEN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. FURKAN MURAT, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. FURKAN KERİM ÇABAŞ, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. GALİP BALDEMİR, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. GAMZE MURATOĞLU TEMİZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. GAMZE TANIK, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. Dr. GİZEM AKKUŞ LÖK, Deniz Bilimleri Enstitüsü, Deniz Bilim (Osinografi) Anabilim Dalı
+
+Arş. Gör. GİZEM MAHMURİYE ÇİFTÇİ, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. GİZEM NUR AYDEMİR, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. GÖKALP DOĞUKAN DEMİRBAŞ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. GÖKCEM TONYALI KARSLI, Rektörlük
+
+Arş. Gör. GÖKÇE NİHAN DEMİREL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. GÖKHAN OKUMUŞ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. GÖKHAN SEVİNÇ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. GÖKSUN YILDIRIM, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. GÖRKEM KILIÇ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. GÖZDE ATALAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. Dr. GÖZDE KAPLAN CAN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. GÖZDE KIRMIZI, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. GÖZDE ŞENSOY MURT, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. GÖZDE CENNET BAYRAKTAR, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. GÜLCE TUZCU, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. GÜLÇEHRE DUYGU YÜKSEL, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. GÜLÇİN BOZKURT YILMAZ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. GÜLİZ KORKMAZ, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. Dr. GÜLİZAR KARAHAN BALYA, Rektörlük
+
+Arş. Gör. GÜN GÜNAL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. GÜNCEL VARA, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. GÜNEŞ SUCU, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. GÜNEŞ EZGİ DEMİRCİ, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. GÜNSELİ ÇETİN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. GÜNSU DAĞISTANLI ÇALLI, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. GÜRALP AYDEMİR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. GÜRKAN DOĞUKAN KARAKURT, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. HAKAN ÇAKMAK, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. Dr. HAKAN TAŞ, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Arş. Gör. HAKAN YETER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. HAKAN BORA OKAY, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. HAKTAN SARITEPE, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. HALE UYSAL
+
+Arş. Gör. HALİL CANDAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. HALİL ONUR ALTAY, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+HALİME GÜL DEMİRER ERDOĞAN, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. HAMİDE MERVE DOĞANÇAY, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. HAMİT İZGİ, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. HANDAN İLHAN YÜKSEL, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. HANDE BALABAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. HANDE ÇETİN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. HANDE GÜLER ÇELİK, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. HANDE VURAL, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. Dr. HASAN SULUYER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. HASAN HALİL KARAKAŞ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. HASAN HÜSEYİN ENGÜÇLÜ, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. HASAN HÜSEYİN YILDIRIM, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. Dr. HATİCE KILIÇ GERMEÇ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. Dr. HATİCE GONCA BULUR, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. HAVVA BİLGE KOYUN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. HAVVA GİZEM GÜNER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. HAZAL MOĞULTAY ÖZCAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. Dr. HAZAR EGE GÜRSOY ERDENAY, Rektörlük
+
+Arş. Gör. HEYYEM HÜRRİYETOĞLU GÜL, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. HİLAL ERSOY, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. Dr. HİLAL TERZİ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. HİLAL YILMAZ, Rektörlük
+
+Arş. Gör. HİLAL CEMRE TAŞKINER, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. HİLMİ ERİKLİOĞLU, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. HULUSİ EREN EFEOĞLU, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. HÜLYA SAÇIN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. HÜLYA GİZEM URLU, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. HÜRRİYET SARIDEMİR, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. HÜSEYİN POLAT, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. HÜSEYİN CAHİT BURDUROĞLU, Enformatik Enstitüsü
+
+Arş. Gör. HÜSEYİN METİN ERİKLİ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ILGIN ÇOLAK, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. IŞIK EMİR ALTUNKOL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. IŞIL IRMAK KUYUCU, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. IŞILAY MAŞEROĞLU, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. İBRAHİM ARDA, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. İBRAHİM AYDIN, Rektörlük
+
+Arş. Gör. Dr. İBRAHİM ÖZGÜL, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. İBRAHİM TARAKCI, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. İBRAHİM BURAK ŞEN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. İBRAHİM KAAN ÖZGENCİL, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. İBRAHİM ÖZGÜR ERİŞEN, Rektörlük
+
+Arş. Gör. İDİL AKTAŞ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. İDİL AYBARS, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. İDİL BİLİCİ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. İLAY GÜVENÇ PELİT, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. Dr. İLKER KOÇ, Rektörlük
+
+Arş. Gör. İLKİM CANLI AKYOL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. İLKYAZ ASLANÖZ, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. İNANÇ ALPTUĞ HIDIROĞLU, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. İPEK DENGİZ, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. İPEK GENÇER, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. İREM BAYRAM, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. İREM ERTEN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. İREM GEZER, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. İREM KOLAY, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. İREM TANRIVERDİ, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. İREM TOPSAKAL, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. İREM YÜCEL, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. İREM BERNA GÜVENÇ ERDOĞAN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. İREM DUYGU TİRYAKİ KESLER, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. İREM YEŞİM SAVAŞ, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. İREMNAZ YÜCEL, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. İSMAİL BEDBAHT, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. İSMAİL MACİT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. İSMAİL ÖZÇİL, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. İSMAİL ÖMER TOPRAK, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. İZZET ERKİN ÜNSAL, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. KAAN AKYÜZ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. KADİR MERT DURNA, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. KAMİL EMİR GÜL, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. KARDELEN KARAGENÇ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. Dr. KARDEN BÜYÜKTANIR AKTAR, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. KARYA İLKİM EKİZ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. KAYA EMRE GÖNENÇEN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. KEMAL PARLAKTUNA, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. KENDAL DENİZ KARA, Enformatik Enstitüsü
+
+Arş. Gör. KEREM NAZLIEL, Enformatik Enstitüsü
+
+Arş. Gör. KEREM ZENGİN, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. Dr. KERİM DEMİREL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. KORAY MELİH YATAĞAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. KÖKSAL YÜCESOY
+
+Arş. Gör. KUMSAL İPEK OKER, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. KURTULUŞ KEREM ŞAHİN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. Dr. KÜBRA KAYTANCI, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. KÜBRA YILMAZ, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. KÜBRA NESRİN ERDOĞAN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. LEVENT SARI, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. LEYLA ALKAN, Eğitim Fakültesi, Beden Eğitimi ve Spor Bölümü
+
+Arş. Gör. MAHMUT ŞEVKET KÖKER, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. MEDİHA DİLARA CILIZOĞLU, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. MEHMET GİR
+
+Arş. Gör. MEHMET İMİR, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. MEHMET SOYLU, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. MEHMET ALİ ERKAN, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. MEHMET CEM ŞAHİNER, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. MEHMET ENES UZUN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. Dr. MEHMET ERDİ ÖZGÜRLÜK, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. MEHMET GÖRKEM OCAK, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. MEHMET İLBEY ÇOBAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. MEHMET İLTERİŞ BOZKURT, Enformatik Enstitüsü
+
+Arş. Gör. Dr. MEHMET MUSTAFA KAYAKÖKÜ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MEHMET OLCAY AYDEMİR, Rektörlük
+
+Arş. Gör. MEHMET ORÇUN BAKİ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MEHMET SENCER ZENGİN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+MEHMET TAYLAN CÜYAZ, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. MEHMET UĞUR CEM ÜNAL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. MELEK BASMACI TOP
+
+Arş. Gör. MELİH KAPLAN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. MELİKE ÇAKIR, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. MELİKE ÇAKMAK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MELİKE GÜNEŞ YAŞAR, Enformatik Enstitüsü, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. MELİNA ZARİF SÜRMELİ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. Dr. MELİS ASLAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MELİS BORAN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. MELİS ÇETİN KARASU, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. MELİS DURSUN UĞRAŞ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. MELİS ERDEM, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. MELİS SAYIN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. MELİS BERÇİN YILMAZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MELİS ECE TATAR, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. MELİS VUSLAT TUNÇ, Enformatik Enstitüsü
+
+Arş. Gör. MELTEM ÇETİNER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. MERAL ŞİMŞEK, Uygulamalı Matematik Enstitüsü, Aktüerya Bilimleri Anabilim Dalı
+
+Arş. Gör. MERİÇ MANKA, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. MERİÇ PINAR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. MERT DOĞAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. MERT ERBAŞ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. MERT GÜLEÇ, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. Dr. MERT KULAKSIZ, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. MERT CAN DEMİRKAY, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. MERT MİRAÇ DÜNDAR, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. MERT NEDİM MERCAN, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. MERTHAN ÖZDEMİR, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. Dr. MERVE AKKULAK, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. MERVE BAHADIR TÜRK, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. MERVE EŞDUR, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. MERVE ÖZTÜRK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. MERVE TAPLI, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. MERVE BİNNUR ATALAY ATAR
+
+Arş. Gör. MERVE NUR ŞAHİN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. MERYEM DİLAN İNCE, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. METEHAN AKKUŞ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. METEHAN ATCI, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. MİHRİŞAH ARPACIK, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. MİNE TANRISEVDİ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. MUHAMMED AYDOĞDU, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. Dr. MUHAMMED BERAT YÜKSEL, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. MUHAMMED DOĞUŞCAN DÖNMEZ, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. MUHAMMED ERKAM ÖZDEMİR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MUHAMMED FURKAN KART, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. MUHAMMED RASİM GÜL, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. MUHAMMET MUSTAFA ÇODUR, Fen Bilimleri Enstitüsü, Fen Bilimleri Enstitüsü
+
+Arş. Gör. MURAT YEĞİN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. MURAT KENAN ŞENTÜRK, Mimarlık Fakültesi
+
+Arş. Gör. MUSTAFA ADIGÜZEL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. MUSTAFA DUYMUŞ, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. MUSTAFA KÜTÜK, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. MUSTAFA TÜRKMEN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MUSTAFA YILDIRIM, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. MUSTAFA BERKAY KEBABCI, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. MUSTAFA EFE ÖZKARA, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. MUSTAFA EREN BÜK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. MUSTAFA EROLCAN ER, Enformatik Enstitüsü
+
+Arş. Gör. MUSTAFA KEMAL TURAK, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MUSTAFA KURTULUŞ BEDİ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. MUSTAFA SEYYİD ÇETİN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MUSTAFA YAVUZ KARA, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. MUSTAFA YİĞİT DEMİR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. MUSTAFA YİĞİT GÖRGÜN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. MUZAFFER ATA ÖZBİLEN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. MÜCAHİT ÖZALP, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. NACİ BARIŞ YARADANAKUL, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. NADİRE ATICI, Rektörlük
+
+Arş. Gör. NAGİHAN BEKÇİ GÖKÇEOĞLU, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. NAİM YAĞIZ DEMİR, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. NAZ MENGİ ÇAMUR, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. NAZMİ OYAR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. NEFİDE DİNDAR, İktisadi ve İdari Bilimler Fakültesi, İşletme Bölümü
+
+Arş. Gör. NERİMAN EZGİ ÇİFTE, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. NESLİHAN GÖK AYYILDIZ, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. NESRİN BUDAK, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. NİDA ALTIPARMAK, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. NİL ERDOĞAN, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. NİLSU MERCAN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. Dr. NİLÜFER KIZILKAYA ÖKSÜZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. NİMET ALIMLI, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. NİSAN YILDIZ, Enformatik Enstitüsü
+
+Arş. Gör. NURİ KAFALI, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. NURULLAH GÜLMÜŞ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. OGÜN ALTUN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. OĞUZ CİHANER, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Arş. Gör. OĞUZ KOÇ, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. OĞUZ ULAŞ YAMAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. OĞUZCAN TANEROĞLU, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. OĞUZHAN ALTUNTAŞ, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. OĞUZHAN ÇELİK, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. OĞUZHAN DOĞAN, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. OKAN GÜNEL, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. OKTAY AKKURT, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Arş. Gör. OLGU ÇAĞAN ÖZONUK, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. ONUR AKBULUT, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. ONUR ATA, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ONUR BALOĞLU, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. ONUR DEMİRCİOĞLU, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. ONUR UÇANOK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ONUR AYBERK ÇAKMAK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ONUR CAN BEGENTAŞ, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. ONUR DOĞAN TAŞCI, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. ORCAN KOLANKAYA, Rektörlük
+
+Arş. Gör. ORÇUN SENA SARACOĞLU, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. ORHAN KARAMAN, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. ORHUN BULUT, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ORHUN KOÇ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ORHUN BUĞRA BARAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. OSMAN KARAMAN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. OSMAN OHTAROĞLU, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. OYA BAŞAK SEYİSOĞLU, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. OZAN BİLGE, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. OZAN TAŞ, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. OZAN TEKİN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. OZAN ÜNVER, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. OZAN YETKİN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. OZAN EKİN DERİN, Sosyal Bilimler Enstitüsü
+
+Arş. Gör. OZAN ÖZGÜR KAYNAR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ÖMER SÜER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. ÖMER BURAK AKGÜN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ÖMER FARUK DALASLAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ÖMER FARUK KÜRKLÜ, Enformatik Enstitüsü
+
+Arş. Gör. ÖMER TURAN ŞAHİNASLAN, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. Dr. ÖMÜR ŞANS YILDIRIM, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. Dr. ÖNCÜ ÖZALP, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. ÖZCAN DİLARA KAPLAN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. Dr. ÖZDEN BAŞAR BALBAŞI, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ÖZENÇ MURAT MERT, Uygulamalı Matematik Enstitüsü, Finansal Matematik Anabilim Dalı
+
+Arş. Gör. ÖZGE AKOĞLU, Rektörlük
+
+Arş. Gör. ÖZGE ÖZDEMİR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ÖZGÜN ÖZAKAY, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. ÖZGÜN ŞENER, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Arş. Gör. ÖZGÜR DEMİRKAP KARAKAYA, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ÖZGÜR GÜLSUNA, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ÖZGÜR PAŞAOĞLU, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. ÖZGÜR ÜNVERDİ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. ÖZGÜR ÜREY, Mimarlık Fakültesi
+
+Arş. Gör. ÖZGÜR DİYAR BAĞUÇ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ÖZGÜR DİYAR KOZAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ÖZGÜR SALİH KAYA, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. ÖZGÜR UMUT BAZ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. ÖZGÜRCAN ALKAN, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. Dr. ÖZNUR AKCALI YILMAZ, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. Dr. ÖZNUR KAVAK, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. PELİN ERKAYA, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. PELİN NUR ÇAĞLAYAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. PERİM UYAR, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Arş. Gör. PETEK AYDEMİR AYDIN, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. PINAR ARIKOĞLU, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. PINAR ÖZPALA, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. PINAR TURAN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. PINAR CEMRE YAZICI, Enformatik Enstitüsü
+
+Arş. Gör. RABİA OĞUZ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. RABİA GÜLŞAH UYSAL, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. RAFET ÇEVİK, Rektörlük
+
+Arş. Gör. RANA DURMUŞ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. RASİM YILMAZ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. RECEP DURNA, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. RENGİN MERYEM AYHAN, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. RIFAT BARAN TANSEL
+
+Arş. Gör. RIZA UĞUR AKBULUT, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. ROZERİN MEDYA SANCAR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. RUŞEN KARTAL, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. RÜMEYSA RANA ARSLAN, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. SABİHA ÜZÜM, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. SAFA ÇELİK, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. SAİM SUNEL, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. SAMET CAN KAÇAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. SARP ÇELEBİ, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. SEÇKİN ÖZTÜRK, Rektörlük
+
+Arş. Gör. Dr. SEDA CENGİZ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. SEDA KILIÇASLAN ÖZÇAKIR, Sosyal Bilimler Enstitüsü
+
+Arş. Gör. SEDA MERVE ŞAHİN, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. SEFER İDACI, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. SELAHATTİN KAAN KIRGEÇ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. SELAY TEKGÜL, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. Dr. SELÇUK KILINÇ, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. SELEN ELTAN ÇILDIR, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. Dr. SELEN GÜNER ŞAN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Arş. Gör. SELEN KARADOĞAN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. SELEN TUĞRUL, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. Dr. SELİM ERCİHAN TOKTAŞ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. SELİN GÖKALP, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Arş. Gör. SELİN İLTER, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. SELİN KARAHAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. SELİN ŞİPAL, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. SELİN TOSUN, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. SELMA AYDIN BAYRAM, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. SEMİH DURMAZ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. SEMİH SOLAK, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. SEMRA SARI FERAH, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. SENA ÖZ, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. SERAL BUSE ATAK, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. SERAY YAŞAR, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. SERDA BUKET EROL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. SERDAR GÖRKEM ATASOY, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. SERENAY ÇAKAR, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. Dr. SERKAN GÖKMENER, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. Dr. SERKAN ÖZDEMİR, Enformatik Enstitüsü
+
+Arş. Gör. SERVİN ÇAĞIL ULUSAY, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. SEVENBÜGE ARSLAN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. SEYİT BARAN ÇETİN, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. SEZER MUTLU, Mühendislik Fakültesi, Mühendislik Bilimleri Bölümü
+
+Arş. Gör. SEZER OSMANAĞA, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. SEZİN SARICA, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. SİMAY KÖKSALAN, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. SİMAY CANSU EKİCİ ÜNER, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. SİNAN ÇELİK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. SİNAN SAVAŞKAN, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. Dr. SİNAN CEM KIZIL, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. SİNAN FIRAT DAL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. SİNEM ARSLAN ÖLÇER, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. SİNEM ORUÇ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Arş. Gör. SOYKAN SANDIKÇIOĞLU, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. SUDE NİL TOPAL, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. SÜLEYMAN TUNCEL, Mühendislik Fakültesi, Petrol ve Doğal Gaz Mühendisliği Bölümü
+
+Dr. SÜLEYMAN EREN DURSUN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. SÜMEYYE ŞİMŞEKLER, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. ŞAFAK TEKİR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. Dr. ŞAHİN KÜREKCİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ŞAHİN ALP TAŞKAYA, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. ŞAHİN FURKAN ŞAHİNER, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. ŞAKİR AKYOL, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ŞAMİL HÜSEYİN GÜNGÖR, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ŞEBNEM PAŞAOĞLU, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. ŞENER YILMAZ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. ŞEREF BARIŞ ÇAĞLIYAN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. ŞERİFE ZEYNEP ÖZCAN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. ŞEVKET EGE YEŞİLYURT, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ŞEVKİ AKTÜRK, Eğitim Fakültesi, Bilgisayar ve Öğretim Teknolojileri Eğitimi Bölümü
+
+Arş. Gör. ŞEYMA ERKEN, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. ŞEYMA ŞİMŞEK, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Arş. Gör. TAHA ALPER YOĞURT, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. TAN ÇAĞATAY ACAR, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. TANER TEKİN, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. TARIK DİNÇ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. TEGRİD FETTUH, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. TERCAN ÇATAKLI, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Arş. Gör. TOLGA KARABAŞ, Mühendislik Fakültesi, Endüstri Mühendisliği Bölümü
+
+Arş. Gör. TOLGA ŞAHİN, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. Dr. TOYGUN KARAHASANOĞLU, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. TUĞÇE HALICI, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Arş. Gör. Dr. TUĞÇE KALELİ ALAY, Rektörlük
+
+Arş. Gör. TUNAHAN YILDIZ, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. TUNAHAN YILMAZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. TUNCAY ERDİL, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. Dr. TURGAY AKYAR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. UBEYD AKCEVİZ, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. UFUK CAN ÇELİK, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. UĞUR ADIYAMAN
+
+Arş. Gör. UĞUR SÖKMEN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. UĞUR BERKAY SARAÇ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ULAŞ YAPRAK, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. UMAY BEGÜM KÜLEKÇİ, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. UMUT GÜÇLÜ, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. UMUT GÜLCAN, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Arş. Gör. Dr. UMUT ŞENER, Enformatik Enstitüsü, Bilişim Sistemleri Anabilim Dalı
+
+Arş. Gör. UMUT TANYERİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. UTKU İŞBİLİR, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. UTKU ŞÜKRÜ ÇÖLAŞAN, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. UTKUCAN DOĞAN, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. ÜMİT SÖNMEZ, İktisadi ve İdari Bilimler Fakültesi, Siyaset Bilimi ve Kamu Yönetimi Bölümü
+
+Arş. Gör. ÜMİT MERT ÇAĞLAR, Enformatik Enstitüsü
+
+Arş. Gör. ÜMMÜGÜL ERÖZBEK GÜNGÖR, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. VOLGA SEZEN, Enformatik Enstitüsü
+
+Arş. Gör. VOLKAN AHISKALI, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. VOLKAN DOLGUN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. YAĞMUR BUDAK, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. YAĞMUR GÜREL, Uygulamalı Matematik Enstitüsü
+
+Arş. Gör. YAĞMUR KARA, Enformatik Enstitüsü
+
+Arş. Gör. Dr. YAĞMUR SAKLI DEMİRBAŞ, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. YAĞMUR MERVE ARIK, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. YAKUP BETUS, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Arş. Gör. YANKI YOLSEVER, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. YANKI DORUK DOĞANAY, Fen Edebiyat Fakültesi, Sosyoloji Bölümü
+
+Arş. Gör. YAREN KÜÇÜKKÖR, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. YAVER CANSIZ
+
+Arş. Gör. YAVUZ KİPDEMİR, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Arş. Gör. YAVUZ YILDIZ, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. YAVUZ SELİM ÖZKAYA, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. YAZ ERCİYAS, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. YİĞİT AĞANOĞLU, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. YİĞİT SEVER, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. YİĞİT URHAN, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. YİĞİTHAN TUFAN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Arş. Gör. YUNUS BULUT TOPUZ, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. YUNUS FARUK AĞAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. YUSUF UYAR, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Arş. Gör. YUSUF BASRİ YILMAZ, Mühendislik Fakültesi, Elektrik ve Elektronik Mühendisliği Bölümü
+
+Arş. Gör. YUSUF BERA BİLİCİ, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Dr. YUSUF MUCAHİT ÇETİNKAYA, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Arş. Gör. YUSUF SAMET AYTEKİN, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ZEHRA GÖKÇE ŞENOL, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. ZEHRA SENA KİBAR, Fen Edebiyat Fakültesi, İstatistik Bölümü
+
+Arş. Gör. ZEKİ OĞULCAN ŞENGÜL, İktisadi ve İdari Bilimler Fakültesi, İktisat Bölümü
+
+Arş. Gör. ZELİHA DEMİRCİ ÜNAL, Eğitim Fakültesi, Temel Eğitim Bölümü
+
+Arş. Gör. ZELİHA DİDEM YANPAR UZUN, Mimarlık Fakültesi, Endüstriyel Tasarım Bölümü
+
+Arş. Gör. ZERAY AYRAL GÜLMEZ, Deniz Bilimleri Enstitüsü
+
+Arş. Gör. ZEYNEP BEKTAŞ, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Arş. Gör. ZEYNEP NAS, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Arş. Gör. ZEYNEP RAHIM
+
+Arş. Gör. ZEYNEP TUNCER UÇAR, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. ZEYNEP BİRCE REYHAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Arş. Gör. ZEYNEP BUKET ÜSTÜN KURT, Mimarlık Fakültesi, Şehir ve Bölge Planlama Bölümü
+
+Arş. Gör. ZEYNEP IŞIL DEMİRCİOĞLU, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Arş. Gör. ZEYNEP ŞEYMA ANILGAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Arş. Gör. ZOZAN SARI, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Arş. Gör. ZÜHTÜCAN SOYSAL, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Öğr. Gör. AÇELYA ECEM YILDIZ, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Araştırmacı AMR MOHAMMED HASSAN ELLİTHY, Sosyal Bilimler Enstitüsü
+
+Araştırmacı BABÜR ERDEM, Rektörlük
+
+Dr. Öğr. Üyesi BARIŞ POLAT, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Araştırmacı BEHRANG HOSSEINIAGHDAM, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Arş. Gör. BURCU SARI NACAR, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Araştırmacı BURHAN BEYCAN, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Araştırmacı CAN CANDAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Araştırmacı CEYHAN ÖZTÜRK, Sosyal Bilimler Enstitüsü, İktisat Bölümü
+
+Araştırmacı CIHELIO ALVES AMORIM, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Araştırmacı ÇAĞDAŞ SAĞIR, Mühendislik Fakültesi, Jeoloji Mühendisliği Bölümü
+
+Dr. DİLEK KADIOĞLU, Enformatik Enstitüsü, Felsefe Bölümü
+
+Araştırmacı DUYGU ATAMAN, Enformatik Enstitüsü
+
+Araştırmacı DUYGU CEVHER, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+İd. Per. DUYGU DENİZ KAZANCI, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Arş. Gör. ELİF SENA UZUNPINAR, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Araştırmacı EMRAH AKKOYUN, Enformatik Enstitüsü
+
+Doç. Dr. EMRE COŞKUN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Araştırmacı ERCAN MEVLİYAOĞULLARI, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Dr. ESİN GÜLCE SEZA, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Dr. ESRA EROĞLU, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Dr. Öğr. Üyesi FAHİME SERHATTİ, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Araştırmacı FARNAZ KİMYA, Mimarlık Fakültesi, Mimarlık Bölümü
+
+Araştırmacı FATMA NESLİHAN ÖZDEMİR, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Öğr. Gör. GÜLBAHAR ERİM, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Araştırmacı HALİT LEVENT HOŞGÜN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Doç. Dr. HAMİD TOOPCHİ-NEZHAD, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Dr. HİLAL SEDA KUTLUATA, Mühendislik Fakültesi, Metalurji ve Malzeme Mühendisliği Bölümü
+
+Araştırmacı IMRAN KHAN, Mühendislik Fakültesi, Kimya Mühendisliği Bölümü
+
+Araştırmacı İLKE UĞUR MARION, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Öğr. Gör. Dr. İSMAİL GÜZEL, Uygulamalı Matematik Enstitüsü
+
+Araştırmacı KAMAL HAJIAN, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+İd. Per. KANAT GÜRÜN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Araştırmacı KHALİL DADASHİ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Araştırmacı LEYLA GİZEM EREN, Sosyal Bilimler Enstitüsü
+
+Araştırmacı LİU SHUHAN, İktisadi ve İdari Bilimler Fakültesi, Uluslararası İlişkiler Bölümü
+
+Araştırmacı MARLEN ALONSO CASTANO, Eğitim Fakültesi, Matematik ve Fen Bilimleri Eğitimi Bölümü
+
+Arş. Gör. Dr. MEHMET EMİN ŞAHİN, Mühendislik Fakültesi, Bilgisayar Mühendisliği Bölümü
+
+Araştırmacı MURAT DİRİCAN, Mühendislik Fakültesi, Maden Mühendisliği Bölümü
+
+Araştırmacı MUSTAFA ÖZKAN, Fen Edebiyat Fakültesi, Biyolojik Bilimler Bölümü
+
+Araştırmacı MÜGE ÖÇAL DEMİRTAŞ, Enformatik Enstitüsü
+
+Araştırmacı NASİRE ULUÇ, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Araştırmacı NATHAN YOUNG, Sosyal Bilimler Enstitüsü
+
+Araştırmacı NAZLI AKAY, Fen Edebiyat Fakültesi, Psikoloji Bölümü
+
+Araştırmacı NESİL AYTEMİR GENÇAY, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Araştırmacı NURİ ERKİN ÖÇER, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Uzman Dr. OĞUZ AKÇELİK, Fen Edebiyat Fakültesi, Felsefe Bölümü
+
+Araştırmacı OKAN CAN ARSLAN, Rektörlük
+
+Öğr. Gör. ÖZLEM GEZİCİ KOÇ, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Araştırmacı ÖZLEM ÖZCAN, Mühendislik Fakültesi, Çevre Mühendisliği Bölümü
+
+Araştırmacı PELİN POÇAN, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+İd. Per. RABİA İZOL, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+İd. Per. RAMONA DAVOUDNEZHAD, Mühendislik Fakültesi, Makina Mühendisliği Bölümü
+
+Araştırmacı SAFFET GÖKUÇ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Araştırmacı SAMİNDOKHT RONAGHZADEH ŞAHİN, Eğitim Fakültesi, Yabancı Diller Eğitimi Bölümü
+
+Araştırmacı SEPEHR SEYEDIAN CHOUBI, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Araştırmacı SEVGİ KAYA KAŞIKCI, Eğitim Fakültesi, Eğitim Bilimleri Bölümü
+
+Araştırmacı ŞEYMA ÜNSAL BEYGE, Fen Edebiyat Fakültesi, Kimya Bölümü
+
+Araştırmacı TALİP SERKAN KASIRGA, Fen Edebiyat Fakültesi, Fizik Bölümü
+
+Araştırmacı TUĞBA DURSUN USAL, Enformatik Enstitüsü
+
+Araştırmacı TÜLİN ALTUNÖZ, Fen Edebiyat Fakültesi, Matematik Bölümü
+
+Öğr. Gör. Dr. UMUT YILDIZ, Mühendislik Fakültesi, Havacılık ve Uzay Mühendisliği Bölümü
+
+Doç. Dr. ÜMİT IŞLAK, Uygulamalı Matematik Enstitüsü
+
+Araştırmacı XİNYUE LİU, Fen Edebiyat Fakültesi, Tarih Bölümü
+
+Arş. Gör. YUNUS IŞIKLI, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+Uzman Dr. ZAHRA NAJAFİ, Mühendislik Fakültesi, Gıda Mühendisliği Bölümü
+
+Öğr. Gör. ZEYNEP ÇEKİNMEZ BAYRAM, Mühendislik Fakültesi, İnşaat Mühendisliği Bölümü
+
+İd. Per. DİLEK UNGAN, Rektörlük
+
+Ana Sayfa |  AVESİS Hakkında |  İletişim
+İletişim Bilgileri
+
+Orta Doğu Teknik Üniversitesi
+Üniversiteler Mahallesi,Dumlupınar Bulvarı No:1 06800
+Çankaya Ankara/TÜRKİYE
+avesis@metu.edu.tr
+Akademik Veri Yönetim Sistemi
+Abis Teknoloji © 2026
+---
+
+

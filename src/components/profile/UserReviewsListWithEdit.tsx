@@ -230,7 +230,7 @@ export function UserReviewsListWithEdit({
                     {review.type === "course" ? (
                       <>
                         <Link
-                          href={`/dersler/${review.course.code}`}
+                          href={`/courses/${review.course.code}`}
                           className="font-semibold hover:text-primary transition-colors"
                         >
                           {review.course.code} - {review.course.name}
@@ -246,7 +246,7 @@ export function UserReviewsListWithEdit({
                     ) : (
                       <>
                         <Link
-                          href={`/hocalar/${review.professor.id}`}
+                          href={`/professors/${review.professor.id}`}
                           className="font-semibold hover:text-primary transition-colors"
                         >
                           {titleLabels[review.professor.title]}{" "}

@@ -1,0 +1,22 @@
+{
+  "name": "ODTU Pusula",
+  "short_name": "Pusula",
+  "description": "ODTU ogrencileri icin ders ve hoca degerlendirme platformu",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#ffffff",
+  "theme_color": "#8B0000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-icon",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

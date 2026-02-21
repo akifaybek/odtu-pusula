@@ -1,7 +1,7 @@
 "use client";
 
-import { useState } from "react";
-import { X, Loader2, Send, Eye, EyeOff } from "lucide-react";
+import { useRef, useState } from "react";
+import { X, Loader2, Send, Eye, EyeOff, ThumbsUp, ThumbsDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import {
@@ -20,6 +20,7 @@ import RatingSlider, {
 } from "./RatingSlider";
 import StarRating from "./StarRating";
 import { cn } from "@/lib/utils";
+import { findFirstErrorField, mapReviewSubmitErrorToForm } from "@/lib/review-form-errors";
 
 interface CourseReviewFormProps {
   courseCode: string;
@@ -36,6 +37,7 @@ export interface CourseReviewData {
   workload: number;
   usefulness: number;
   overall: number;
+  wouldRecommend?: boolean;
   grade?: string;
   comment: string;
   anonymous: boolean;
@@ -66,7 +68,7 @@ const grades = [
   { value: "S", label: "S (Devam ediyor)" },
 ];
 
-const MIN_COMMENT_LENGTH = 50;
+const MIN_COMMENT_LENGTH = 15;
 
 export default function CourseReviewForm({
   courseCode,
@@ -80,9 +82,42 @@ export default function CourseReviewForm({
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [errors, setErrors] = useState<Record<string, string>>({});
+  const [canRetry, setCanRetry] = useState(false);
+  const [liveMessage, setLiveMessage] = useState("");
+
+  const formRef = useRef<HTMLFormElement | null>(null);
+  const professorTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const semesterTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const commentRef = useRef<HTMLTextAreaElement | null>(null);
+  const submitRef = useRef<HTMLButtonElement | null>(null);
 
   const commentLength = formData.comment?.length || 0;
   const isCommentValid = commentLength >= MIN_COMMENT_LENGTH;
+
+  const focusField = (field: string) => {
+    const fieldRefs: Record<string, HTMLElement | null> = {
+      professorId: professorTriggerRef.current,
+      semester: semesterTriggerRef.current,
+      comment: commentRef.current,
+      submit: submitRef.current,
+    };
+
+    fieldRefs[field]?.focus();
+  };
+
+  const clearFieldError = (field: string) => {
+    if (!errors[field] && !errors.submit) {
+      return;
+    }
+
+    setErrors((prev) => {
+      const next = { ...prev };
+      delete next[field];
+      delete next.submit;
+      return next;
+    });
+    setLiveMessage("");
+  };
 
   const validateForm = (): boolean => {
     const newErrors: Record<string, string> = {};
@@ -110,6 +145,23 @@ export default function CourseReviewForm({
     }
 
     setErrors(newErrors);
+    setCanRetry(false);
+
+    const firstField = findFirstErrorField(newErrors, [
+      "professorId",
+      "semester",
+      "difficulty",
+      "workload",
+      "usefulness",
+      "overall",
+      "comment",
+    ]);
+
+    if (firstField) {
+      setLiveMessage("Formda düzeltilmesi gereken alanlar var.");
+      requestAnimationFrame(() => focusField(firstField));
+    }
+
     return Object.keys(newErrors).length === 0;
   };
 
@@ -119,10 +171,35 @@ export default function CourseReviewForm({
     if (!validateForm()) return;
 
     setIsSubmitting(true);
+    setCanRetry(false);
+    setLiveMessage("");
+
     try {
       await onSubmit(formData as CourseReviewData);
-    } catch {
-      setErrors({ submit: "Bir hata oluştu. Tekrar dene." });
+    } catch (error) {
+      const mapped = mapReviewSubmitErrorToForm(error, "course");
+      const nextErrors = {
+        ...mapped.fieldErrors,
+        submit: mapped.submitMessage,
+      };
+      setErrors(nextErrors);
+      setCanRetry(mapped.retryable);
+      setLiveMessage(mapped.submitMessage);
+
+      const firstField = findFirstErrorField(nextErrors, [
+        "professorId",
+        "semester",
+        "difficulty",
+        "workload",
+        "usefulness",
+        "overall",
+        "comment",
+        "submit",
+      ]);
+
+      if (firstField) {
+        requestAnimationFrame(() => focusField(firstField));
+      }
     } finally {
       setIsSubmitting(false);
     }
@@ -143,14 +220,15 @@ export default function CourseReviewForm({
           </div>
           <button
             onClick={onClose}
-            className="p-2 rounded-full hover:bg-muted/50 transition-colors"
+            disabled={isSubmitting}
+            className="p-2 rounded-full hover:bg-muted/50 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
           >
             <X className="h-5 w-5 text-muted-foreground" />
           </button>
         </div>
 
         {/* Form */}
-        <form onSubmit={handleSubmit} className="flex-1 overflow-y-auto p-6">
+        <form ref={formRef} onSubmit={handleSubmit} className="flex-1 overflow-y-auto p-6">
           <div className="space-y-6">
             {/* Hoca ve Dönem */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -161,15 +239,18 @@ export default function CourseReviewForm({
                 </Label>
                 <Select
                   value={formData.professorId}
-                  onValueChange={(value) =>
-                    setFormData({ ...formData, professorId: value })
-                  }
+                  onValueChange={(value) => {
+                    setFormData({ ...formData, professorId: value });
+                    clearFieldError("professorId");
+                  }}
                 >
                   <SelectTrigger
+                    ref={professorTriggerRef}
                     className={cn(
                       "bg-background",
                       errors.professorId && "border-destructive"
                     )}
+                    aria-invalid={Boolean(errors.professorId)}
                   >
                     <SelectValue placeholder="Hoca seç..." />
                   </SelectTrigger>
@@ -193,15 +274,18 @@ export default function CourseReviewForm({
                 </Label>
                 <Select
                   value={formData.semester}
-                  onValueChange={(value) =>
-                    setFormData({ ...formData, semester: value })
-                  }
+                  onValueChange={(value) => {
+                    setFormData({ ...formData, semester: value });
+                    clearFieldError("semester");
+                  }}
                 >
                   <SelectTrigger
+                    ref={semesterTriggerRef}
                     className={cn(
                       "bg-background",
                       errors.semester && "border-destructive"
                     )}
+                    aria-invalid={Boolean(errors.semester)}
                   >
                     <SelectValue placeholder="Dönem seç..." />
                   </SelectTrigger>
@@ -225,9 +309,10 @@ export default function CourseReviewForm({
                 label="Zorluk nasıldı?"
                 options={difficultyOptions}
                 value={formData.difficulty || null}
-                onChange={(value) =>
-                  setFormData({ ...formData, difficulty: value })
-                }
+                onChange={(value) => {
+                  setFormData({ ...formData, difficulty: value });
+                  clearFieldError("difficulty");
+                }}
                 required
               />
               {errors.difficulty && (
@@ -241,9 +326,10 @@ export default function CourseReviewForm({
                 label="İş yükü nasıldı?"
                 options={workloadOptions}
                 value={formData.workload || null}
-                onChange={(value) =>
-                  setFormData({ ...formData, workload: value })
-                }
+                onChange={(value) => {
+                  setFormData({ ...formData, workload: value });
+                  clearFieldError("workload");
+                }}
                 required
               />
               {errors.workload && (
@@ -257,9 +343,10 @@ export default function CourseReviewForm({
                 label="Faydalı mıydı?"
                 options={usefulnessOptions}
                 value={formData.usefulness || null}
-                onChange={(value) =>
-                  setFormData({ ...formData, usefulness: value })
-                }
+                onChange={(value) => {
+                  setFormData({ ...formData, usefulness: value });
+                  clearFieldError("usefulness");
+                }}
                 required
               />
               {errors.usefulness && (
@@ -272,15 +359,51 @@ export default function CourseReviewForm({
               <StarRating
                 label="Genel puanın?"
                 value={formData.overall || 0}
-                onChange={(value) =>
-                  setFormData({ ...formData, overall: value })
-                }
+                onChange={(value) => {
+                  setFormData({ ...formData, overall: value });
+                  clearFieldError("overall");
+                }}
                 size="xl"
                 required
               />
               {errors.overall && (
                 <p className="text-xs text-destructive mt-2">{errors.overall}</p>
               )}
+            </div>
+
+            {/* Tavsiye Eder misin? */}
+            <div className="space-y-2">
+              <Label>
+                Bu dersi arkadaşlarına tavsiye eder misin?
+              </Label>
+              <div className="flex gap-3">
+                <button
+                  type="button"
+                  onClick={() => setFormData({ ...formData, wouldRecommend: true })}
+                  className={cn(
+                    "flex-1 flex items-center justify-center gap-2 p-3 rounded-xl border-2 transition-all",
+                    formData.wouldRecommend === true
+                      ? "border-emerald-500 bg-emerald-50 dark:bg-emerald-500/20 text-emerald-700 dark:text-emerald-400"
+                      : "border-border bg-background hover:border-emerald-300 text-muted-foreground"
+                  )}
+                >
+                  <ThumbsUp className="h-5 w-5" />
+                  <span className="font-medium">Evet</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setFormData({ ...formData, wouldRecommend: false })}
+                  className={cn(
+                    "flex-1 flex items-center justify-center gap-2 p-3 rounded-xl border-2 transition-all",
+                    formData.wouldRecommend === false
+                      ? "border-red-500 bg-red-50 dark:bg-red-500/20 text-red-700 dark:text-red-400"
+                      : "border-border bg-background hover:border-red-300 text-muted-foreground"
+                  )}
+                >
+                  <ThumbsDown className="h-5 w-5" />
+                  <span className="font-medium">Hayır</span>
+                </button>
+              </div>
             </div>
 
             {/* Not (Opsiyonel) */}
@@ -314,27 +437,31 @@ export default function CourseReviewForm({
                 <span className="text-primary ml-1">*</span>
               </Label>
               <Textarea
-                placeholder="Dersi düşünenlere ne söylemek istersin? En az 50 karakter..."
+                placeholder="Dersi düşünenlere ne söylemek istersin?"
                 value={formData.comment || ""}
-                onChange={(e) =>
-                  setFormData({ ...formData, comment: e.target.value })
-                }
+                onChange={(e) => {
+                  setFormData({ ...formData, comment: e.target.value });
+                  clearFieldError("comment");
+                }}
+                ref={commentRef}
                 className={cn(
                   "min-h-[120px] bg-background resize-none",
                   errors.comment && "border-destructive"
                 )}
+                aria-invalid={Boolean(errors.comment)}
+                aria-describedby={errors.comment ? "course-comment-error" : undefined}
               />
               <div className="flex items-center justify-between">
                 {errors.comment && (
-                  <p className="text-xs text-destructive">{errors.comment}</p>
+                  <p id="course-comment-error" className="text-xs text-destructive">{errors.comment}</p>
                 )}
                 <span
                   className={cn(
                     "text-xs ml-auto",
-                    isCommentValid ? "text-muted-foreground" : "text-destructive"
+                    isCommentValid ? "text-emerald-600" : "text-muted-foreground"
                   )}
                 >
-                  {commentLength}/{MIN_COMMENT_LENGTH}
+                  {commentLength} karakter {!isCommentValid && `(min ${MIN_COMMENT_LENGTH})`}
                 </span>
               </div>
             </div>
@@ -356,22 +483,42 @@ export default function CourseReviewForm({
                   {formData.anonymous ? (
                     <EyeOff className="h-4 w-4 text-muted-foreground" />
                   ) : (
-                    <Eye className="h-4 w-4 text-muted-foreground" />
+                    <Eye className="h-4 w-4 text-primary" />
                   )}
-                  Anonim paylaş
+                  {formData.anonymous ? "Anonim paylaş" : "İsmimle paylaş"}
                 </Label>
                 <p className="text-xs text-muted-foreground">
-                  İsmin görünmez ama ODTÜ&apos;lü olduğun belli olur
+                  {formData.anonymous
+                    ? "İsmin gizli kalır, \"Anonim Yolcu\" olarak görünürsün"
+                    : "İsmin değerlendirmede görünür, diğer öğrenciler seni tanıyabilir"}
                 </p>
               </div>
             </div>
 
             {/* Submit Error */}
             {errors.submit && (
-              <div className="p-3 bg-destructive/10 rounded-lg text-sm text-destructive">
-                {errors.submit}
+              <div
+                id="course-submit-error"
+                role="alert"
+                aria-live="assertive"
+                className="p-3 bg-destructive/10 rounded-lg text-sm text-destructive"
+              >
+                <p>{errors.submit}</p>
+                {canRetry && (
+                  <Button
+                    type="button"
+                    variant="outline"
+                    size="sm"
+                    className="mt-3"
+                    onClick={() => formRef.current?.requestSubmit()}
+                    disabled={isSubmitting}
+                  >
+                    Tekrar Dene
+                  </Button>
+                )}
               </div>
             )}
+            <p aria-live="polite" className="sr-only">{liveMessage}</p>
           </div>
         </form>
 
@@ -382,8 +529,10 @@ export default function CourseReviewForm({
               Vazgeç
             </Button>
             <Button
+              ref={submitRef}
               onClick={handleSubmit}
               disabled={isSubmitting}
+              aria-busy={isSubmitting}
               className="bg-primary hover:bg-primary/90"
             >
               {isSubmitting ? (

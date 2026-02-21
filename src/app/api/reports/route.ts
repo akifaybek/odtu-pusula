@@ -3,6 +3,14 @@ import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import prisma from "@/lib/prisma";
 import { z } from "zod";
+import { sendAdminNotification, getAdminEmails } from "@/lib/email";
+
+const reasonLabels: Record<string, string> = {
+  spam: "Spam",
+  hakaret: "Hakaret/Küfür",
+  yanlis_bilgi: "Yanlış Bilgi",
+  diger: "Diğer",
+};
 
 const reportSchema = z.object({
   reviewId: z.string(),
@@ -86,6 +94,30 @@ export async function POST(request: NextRequest) {
           description,
         },
       });
+    }
+
+    // Send notification to admins about new report
+    try {
+      const adminEmails = await getAdminEmails();
+      const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
+
+      if (adminEmails.length > 0) {
+        await sendAdminNotification({
+          adminEmails,
+          subject: "Yeni İçerik Raporu",
+          title: "Yeni Bir İçerik Raporlandı",
+          message: `
+            Tür: ${reviewType === "course" ? "Ders Değerlendirmesi" : "Hoca Değerlendirmesi"}<br>
+            Sebep: ${reasonLabels[reason] || reason}<br>
+            ${description ? `Açıklama: ${description}` : ""}
+          `,
+          actionUrl: `${appUrl}/admin/reports`,
+          actionText: "Raporları İncele",
+        });
+      }
+    } catch (notificationError) {
+      // Don't fail the request if notification fails
+      console.error("Admin notification failed:", notificationError);
     }
 
     return NextResponse.json({ success: true, message: "Rapor gönderildi" });

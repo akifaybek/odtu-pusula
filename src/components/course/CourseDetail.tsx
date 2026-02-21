@@ -1,8 +1,9 @@
 "use client";
 
-import { Compass, Mountain, Weight, Target, ChevronRight } from "lucide-react";
+import { Compass, BarChart3, Clock, BookOpen, ChevronRight, Star, ThumbsUp } from "lucide-react";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
+import GradeDistribution from "./GradeDistribution";
 
 interface ScoreCardProps {
   icon: React.ElementType;
@@ -50,7 +51,7 @@ interface ProfessorCardProps {
 
 function ProfessorCard({ id, name, title, rating, reviewCount }: ProfessorCardProps) {
   return (
-    <Link href={`/hocalar/${id}`}>
+    <Link href={`/professors/${id}`}>
       <div className="min-w-[200px] bg-card border border-border/50 rounded-xl p-4 hover:border-primary/30 hover:shadow-lg transition-all cursor-pointer group">
         <div className="flex items-center gap-3 mb-3">
           <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -93,7 +94,9 @@ interface CourseDetailProps {
     workload: number;
     usefulness: number;
     reviewCount: number;
+    recommendPercent?: number;
   };
+  gradeDistribution?: Record<string, number>;
   professors: Array<{
     id: string;
     name: string;
@@ -103,42 +106,73 @@ interface CourseDetailProps {
   }>;
 }
 
-export default function CourseDetail({ course, stats, professors }: CourseDetailProps) {
+export default function CourseDetail({ course, stats, gradeDistribution, professors }: CourseDetailProps) {
   const scoreCards = [
     {
-      icon: Mountain,
-      label: "Tırmanış Zorluğu",
+      icon: BarChart3,
+      label: "Zorluk Seviyesi",
       score: stats.difficulty,
       color: "bg-red-500/10 text-red-500",
     },
     {
-      icon: Weight,
-      label: "Yük Miktarı",
+      icon: Clock,
+      label: "İş Yükü",
       score: stats.workload,
       color: "bg-amber-500/10 text-amber-500",
     },
     {
-      icon: Target,
-      label: "Hedefe Katkısı",
+      icon: BookOpen,
+      label: "Fayda Düzeyi",
       score: stats.usefulness,
       color: "bg-emerald-500/10 text-emerald-500",
     },
     {
-      icon: Compass,
-      label: "Genel Değer",
+      icon: Star,
+      label: "Genel Puan",
       score: stats.overall,
       color: "bg-primary/10 text-primary",
     },
   ];
 
+  // Grade distribution için grades array oluştur
+  const gradesArray: string[] = [];
+  if (gradeDistribution) {
+    Object.entries(gradeDistribution).forEach(([grade, count]) => {
+      for (let i = 0; i < count; i++) {
+        gradesArray.push(grade);
+      }
+    });
+  }
+
   return (
     <div className="space-y-8">
+      <h2 className="sr-only">{course.code} - {course.name}</h2>
+      {/* Tavsiye Oranı */}
+      {stats.recommendPercent !== undefined && stats.recommendPercent > 0 && (
+        <div className="flex items-center gap-3 p-4 bg-emerald-50 dark:bg-emerald-500/10 rounded-xl border border-emerald-200 dark:border-emerald-500/20">
+          <div className="p-2 rounded-lg bg-emerald-500/20">
+            <ThumbsUp className="h-5 w-5 text-emerald-600 dark:text-emerald-400" />
+          </div>
+          <div>
+            <span className="text-2xl font-bold text-emerald-600 dark:text-emerald-400">
+              %{stats.recommendPercent}
+            </span>
+            <span className="text-sm text-muted-foreground ml-2">
+              öğrenci bu dersi tavsiye ediyor
+            </span>
+          </div>
+        </div>
+      )}
+
       {/* Puan Kartları */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {scoreCards.map((card) => (
           <ScoreCard key={card.label} {...card} />
         ))}
       </div>
+
+      {/* Not Dağılımı */}
+      {gradesArray.length > 0 && <GradeDistribution grades={gradesArray} />}
 
       {/* Bu Dersi Verenler */}
       {professors.length > 0 && (

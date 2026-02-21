@@ -10,6 +10,13 @@ export async function GET(
     const { token } = await params;
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
 
+    // Validate token format (64 hex characters)
+    if (!token || !/^[a-f0-9]{64}$/i.test(token)) {
+      return NextResponse.redirect(
+        `${appUrl}/login?error=invalid_token`
+      );
+    }
+
     // Token'ı bul
     const verificationToken = await prisma.emailVerificationToken.findUnique({
       where: { token },
@@ -18,9 +25,7 @@ export async function GET(
     if (!verificationToken) {
       // Geçersiz token - hata sayfasına yönlendir
       return NextResponse.redirect(
-        `${appUrl}/giris?error=invalid_token&message=${encodeURIComponent(
-          "Geçersiz veya süresi dolmuş doğrulama linki."
-        )}`
+        `${appUrl}/login?error=invalid_token`
       );
     }
 
@@ -32,9 +37,7 @@ export async function GET(
       });
 
       return NextResponse.redirect(
-        `${appUrl}/giris?error=expired_token&message=${encodeURIComponent(
-          "Doğrulama linkinin süresi dolmuş. Lütfen yeni link talep edin."
-        )}`
+        `${appUrl}/login?error=expired_token`
       );
     }
 
@@ -45,9 +48,7 @@ export async function GET(
 
     if (!user) {
       return NextResponse.redirect(
-        `${appUrl}/giris?error=user_not_found&message=${encodeURIComponent(
-          "Kullanıcı bulunamadı."
-        )}`
+        `${appUrl}/login?error=user_not_found`
       );
     }
 
@@ -62,19 +63,15 @@ export async function GET(
       }),
     ]);
 
-    // Başarılı - anasayfaya yönlendir
+    // Başarılı - login sayfasına yönlendir
     return NextResponse.redirect(
-      `${appUrl}/anasayfa?verified=true&message=${encodeURIComponent(
-        "Email adresiniz başarıyla doğrulandı!"
-      )}`
+      `${appUrl}/login?verified=true`
     );
   } catch (error) {
     console.error("Verify email error:", error);
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
     return NextResponse.redirect(
-      `${appUrl}/giris?error=verification_failed&message=${encodeURIComponent(
-        "Doğrulama sırasında bir hata oluştu."
-      )}`
+      `${appUrl}/login?error=verification_failed`
     );
   }
 }

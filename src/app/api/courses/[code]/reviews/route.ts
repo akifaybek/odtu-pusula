@@ -4,8 +4,8 @@ import { authOptions } from "@/lib/auth";
 import prisma from "@/lib/prisma";
 import { z } from "zod";
 import { Grade } from "@prisma/client";
+import { errorResponse } from "@/lib/api-response";
 
-// Validation schema
 const courseReviewSchema = z.object({
   professorId: z.string().min(1, "Hoca seçimi zorunludur"),
   semester: z.string().min(1, "Dönem seçimi zorunludur"),
@@ -13,10 +13,11 @@ const courseReviewSchema = z.object({
   workloadRating: z.number().int().min(1).max(5, "İş yükü puanı 1-5 arasında olmalıdır"),
   usefulnessRating: z.number().int().min(1).max(5, "Fayda puanı 1-5 arasında olmalıdır"),
   overallRating: z.number().int().min(1).max(5, "Genel puan 1-5 arasında olmalıdır"),
+  wouldRecommend: z.boolean().optional().nullable(),
   grade: z.enum(["AA", "BA", "BB", "CB", "CC", "DC", "DD", "FD", "FF", "NA"]).optional().nullable(),
   comment: z
     .string()
-    .min(50, "Yorum en az 50 karakter olmalıdır")
+    .min(15, "Yorum en az 15 karakter olmalıdır")
     .max(2000, "Yorum en fazla 2000 karakter olabilir"),
   isAnonymous: z.boolean().default(true),
 });
@@ -30,32 +31,49 @@ export async function POST(
     const session = await getServerSession(authOptions);
 
     if (!session?.user?.id) {
-      return NextResponse.json(
-        { error: "Değerlendirme yapmak için giriş yapmalısınız" },
-        { status: 401 }
-      );
+      return errorResponse(401, "UNAUTHORIZED", "Değerlendirme yapmak için giriş yapmalısınız", {
+        endpoint: "/api/courses/[code]/reviews",
+      });
     }
 
-    const { code } = await params;
-    const body = await request.json();
 
-    // Validation
+    const { code } = await params;
+    if (!code?.trim()) {
+      return errorResponse(400, "BAD_REQUEST", "Ders kodu zorunludur", {
+        endpoint: "/api/courses/[code]/reviews",
+      });
+    }
+
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return errorResponse(400, "BAD_REQUEST", "Geçersiz JSON body", {
+        endpoint: "/api/courses/[code]/reviews",
+      });
+    }
+
     const validationResult = courseReviewSchema.safeParse(body);
 
     if (!validationResult.success) {
       const errors = validationResult.error.issues.map((e) => e.message).join(", ");
-      return NextResponse.json(
-        { error: errors },
-        { status: 400 }
-      );
+      const fieldErrors = validationResult.error.issues.reduce<Record<string, string>>((acc, issue) => {
+        const field = issue.path[0];
+        if (typeof field === "string" && !acc[field]) {
+          acc[field] = issue.message;
+        }
+        return acc;
+      }, {});
+
+      return errorResponse(400, "VALIDATION_ERROR", errors, {
+        endpoint: "/api/courses/[code]/reviews",
+        fieldErrors,
+      });
     }
 
     const data = validationResult.data;
-
-    // Ders kodunu normalize et
     const normalizedCode = code.replace(/-/g, "").toUpperCase();
 
-    // Dersi bul
     const course = await prisma.course.findFirst({
       where: {
         OR: [
@@ -64,28 +82,28 @@ export async function POST(
           { code: { contains: normalizedCode, mode: "insensitive" } },
         ],
       },
+      select: { id: true },
     });
 
     if (!course) {
-      return NextResponse.json(
-        { error: "Ders bulunamadı" },
-        { status: 404 }
-      );
+      return errorResponse(404, "NOT_FOUND", "Ders bulunamadı", {
+        endpoint: "/api/courses/[code]/reviews",
+        code,
+      });
     }
 
-    // Hocayı kontrol et
     const professor = await prisma.professor.findUnique({
       where: { id: data.professorId },
+      select: { id: true },
     });
 
     if (!professor) {
-      return NextResponse.json(
-        { error: "Hoca bulunamadı" },
-        { status: 404 }
-      );
+      return errorResponse(404, "NOT_FOUND", "Hoca bulunamadı", {
+        endpoint: "/api/courses/[code]/reviews",
+        professorId: data.professorId,
+      });
     }
 
-    // Aynı kullanıcı + aynı ders + aynı dönem kontrolü
     const existingReview = await prisma.courseReview.findUnique({
       where: {
         userId_courseId_semester: {
@@ -94,16 +112,22 @@ export async function POST(
           semester: data.semester,
         },
       },
+      select: { id: true },
     });
 
     if (existingReview) {
-      return NextResponse.json(
-        { error: "Bu ders için bu dönemde zaten bir değerlendirme yapmışsınız" },
-        { status: 400 }
+      return errorResponse(
+        409,
+        "CONFLICT",
+        "Bu ders için bu dönemde zaten bir değerlendirme yapmışsınız",
+        {
+          endpoint: "/api/courses/[code]/reviews",
+          courseId: course.id,
+          semester: data.semester,
+        }
       );
     }
 
-    // Değerlendirme oluştur
     const review = await prisma.courseReview.create({
       data: {
         userId: session.user.id,
@@ -114,11 +138,22 @@ export async function POST(
         workloadRating: data.workloadRating,
         usefulnessRating: data.usefulnessRating,
         overallRating: data.overallRating,
+        wouldRecommend: data.wouldRecommend ?? null,
         grade: data.grade ? (data.grade as Grade) : null,
         comment: data.comment,
         isAnonymous: data.isAnonymous,
       },
-      include: {
+      select: {
+        id: true,
+        semester: true,
+        difficultyRating: true,
+        workloadRating: true,
+        usefulnessRating: true,
+        overallRating: true,
+        grade: true,
+        comment: true,
+        isAnonymous: true,
+        createdAt: true,
         professor: {
           select: {
             id: true,
@@ -150,9 +185,13 @@ export async function POST(
     );
   } catch (error) {
     console.error("Course review POST error:", error);
-    return NextResponse.json(
-      { error: "Değerlendirme kaydedilirken bir hata oluştu" },
-      { status: 500 }
+    return errorResponse(
+      500,
+      "INTERNAL_ERROR",
+      "Değerlendirme kaydedilirken bir hata oluştu",
+      {
+        endpoint: "/api/courses/[code]/reviews",
+      }
     );
   }
 }

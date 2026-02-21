@@ -1,20 +1,20 @@
-import { NextResponse } from "next/server";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
+import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
+import { requireAdmin } from "@/lib/admin-auth";
+import {
+  classifyThrownError,
+  completeRequestTrace,
+  startRequestTrace,
+} from "@/lib/observability";
 
-export async function GET() {
+export async function GET(request: NextRequest) {
+  const trace = startRequestTrace(request, "/api/admin/stats");
+
   try {
-    const session = await getServerSession(authOptions);
-
-    if (!session) {
-      return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
+    const { error } = await requireAdmin();
+    if (error) {
+      return completeRequestTrace(trace, error, { errorClass: "auth" });
     }
-
-    // Geçici olarak role kontrolü devre dışı
-    // if (session.user.role !== "ADMIN" && session.user.role !== "MODERATOR") {
-    //   return NextResponse.json({ error: "Yetkisiz erişim" }, { status: 403 });
-    // }
 
     // Get current date info
     const today = new Date();
@@ -128,15 +128,14 @@ export async function GET() {
       date.setDate(date.getDate() - i);
       const dateStr = date.toISOString().split("T")[0];
 
-      const userCount = weeklyUserStats.find(
-        (s) => s.date.toISOString().split("T")[0] === dateStr
-      )?.count || 0;
-      const courseReviewCount = weeklyCourseReviewStats.find(
-        (s) => s.date.toISOString().split("T")[0] === dateStr
-      )?.count || 0;
-      const professorReviewCount = weeklyProfessorReviewStats.find(
-        (s) => s.date.toISOString().split("T")[0] === dateStr
-      )?.count || 0;
+      const userCount =
+        weeklyUserStats.find((s) => s.date.toISOString().split("T")[0] === dateStr)?.count || 0;
+      const courseReviewCount =
+        weeklyCourseReviewStats.find((s) => s.date.toISOString().split("T")[0] === dateStr)
+          ?.count || 0;
+      const professorReviewCount =
+        weeklyProfessorReviewStats.find((s) => s.date.toISOString().split("T")[0] === dateStr)
+          ?.count || 0;
 
       weeklyStats.push({
         date: dateStr,
@@ -145,21 +144,27 @@ export async function GET() {
       });
     }
 
-    return NextResponse.json({
-      totalUsers,
-      totalCourses,
-      totalProfessors,
-      totalCourseReviews,
-      totalProfessorReviews,
-      pendingReports,
-      newUsersToday,
-      newReviewsToday: newCourseReviewsToday + newProfessorReviewsToday,
-      recentActivity,
-      weeklyStats,
-    });
+    return completeRequestTrace(
+      trace,
+      NextResponse.json({
+        totalUsers,
+        totalCourses,
+        totalProfessors,
+        totalCourseReviews,
+        totalProfessorReviews,
+        pendingReports,
+        newUsersToday,
+        newReviewsToday: newCourseReviewsToday + newProfessorReviewsToday,
+        recentActivity,
+        weeklyStats,
+      })
+    );
   } catch (error) {
-    console.error("Admin stats error:", error);
-    return NextResponse.json({ error: "Sunucu hatası" }, { status: 500 });
+    const response = NextResponse.json({ error: "Sunucu hatası" }, { status: 500 });
+    return completeRequestTrace(trace, response, {
+      error,
+      errorClass: classifyThrownError(error),
+    });
   }
 }
 

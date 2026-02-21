@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
+import { generateSearchVariations } from "@/lib/search-utils";
 
 // Title mapping
 const titleMap: Record<string, string> = {
@@ -45,14 +46,17 @@ export async function GET(request: NextRequest) {
       professors: [],
     };
 
+    // Generate variations for robust matching
+    const variations = generateSearchVariations(query);
+
     // Ders arama
     if (type === "all" || type === "courses") {
       const courses = await prisma.course.findMany({
         where: {
-          OR: [
-            { code: { contains: query, mode: "insensitive" } },
-            { name: { contains: query, mode: "insensitive" } },
-          ],
+          OR: variations.flatMap((v: string) => [
+            { code: { contains: v, mode: "insensitive" } },
+            { name: { contains: v, mode: "insensitive" } },
+          ]),
         },
         include: {
           department: {
@@ -69,7 +73,7 @@ export async function GET(request: NextRequest) {
         const avgRating =
           course.reviews.length > 0
             ? course.reviews.reduce((sum, r) => sum + r.overallRating, 0) /
-              course.reviews.length
+            course.reviews.length
             : 0;
 
         return {
@@ -85,7 +89,7 @@ export async function GET(request: NextRequest) {
     if (type === "all" || type === "professors") {
       const professors = await prisma.professor.findMany({
         where: {
-          name: { contains: query, mode: "insensitive" },
+          OR: variations.map((v: string) => ({ name: { contains: v, mode: "insensitive" } })),
         },
         include: {
           department: {
@@ -102,7 +106,7 @@ export async function GET(request: NextRequest) {
         const avgRating =
           professor.reviews.length > 0
             ? professor.reviews.reduce((sum, r) => sum + r.overallRating, 0) /
-              professor.reviews.length
+            professor.reviews.length
             : 0;
 
         return {

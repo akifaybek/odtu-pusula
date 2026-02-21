@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Heart, Calendar, User, GraduationCap, Flag, MoreHorizontal } from "lucide-react";
+import { Heart, Calendar, User, GraduationCap, Flag, MoreHorizontal, ThumbsUp, ThumbsDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import {
@@ -52,6 +52,7 @@ interface ReviewCardProps {
   workload: number;
   usefulness: number;
   overall: number;
+  wouldRecommend?: boolean | null;
   grade?: string;
   comment: string;
   createdAt: string;
@@ -69,6 +70,7 @@ export default function ReviewCard({
   workload,
   usefulness,
   overall,
+  wouldRecommend,
   grade,
   comment,
   createdAt,
@@ -251,6 +253,25 @@ export default function ReviewCard({
               </span>
             </div>
           ))}
+          {wouldRecommend !== null && wouldRecommend !== undefined && (
+            <div
+              className={cn(
+                "flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs",
+                wouldRecommend
+                  ? "bg-emerald-500/20 text-emerald-400"
+                  : "bg-red-500/20 text-red-400"
+              )}
+            >
+              {wouldRecommend ? (
+                <ThumbsUp className="h-3 w-3" />
+              ) : (
+                <ThumbsDown className="h-3 w-3" />
+              )}
+              <span className="font-semibold">
+                {wouldRecommend ? "Tavsiye" : "Tavsiye Etmez"}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Yorum metni */}

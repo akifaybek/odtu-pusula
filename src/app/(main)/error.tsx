@@ -30,7 +30,7 @@ export default function MainError({
             <RefreshCw className="h-4 w-4" />
             Tekrar Dene
           </Button>
-          <Link href="/anasayfa">
+          <Link href="/home">
             <Button variant="outline" className="gap-2">
               <ArrowLeft className="h-4 w-4" />
               Ana Sayfa

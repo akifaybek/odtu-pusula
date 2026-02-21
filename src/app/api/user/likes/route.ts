@@ -43,7 +43,7 @@ export async function GET(request: NextRequest) {
       });
     }
 
-    // Tüm beğenileri getir
+    // Tüm beğenileri detaylı getir
     const where: { userId: string; reviewType?: string } = {
       userId: session.user.id,
     };
@@ -57,8 +57,44 @@ export async function GET(request: NextRequest) {
       orderBy: { createdAt: "desc" },
     });
 
+    // Beğenilen course review'ları getir
+    const courseLikeIds = likes
+      .filter((l) => l.reviewType === "course")
+      .map((l) => l.reviewId);
+
+    const likedCourseReviews = await prisma.courseReview.findMany({
+      where: { id: { in: courseLikeIds } },
+      include: {
+        course: { select: { id: true, code: true, name: true } },
+        professor: { select: { id: true, name: true, title: true } },
+      },
+    });
+
+    // Beğenilen professor review'ları getir
+    const professorLikeIds = likes
+      .filter((l) => l.reviewType === "professor")
+      .map((l) => l.reviewId);
+
+    const likedProfessorReviews = await prisma.professorReview.findMany({
+      where: { id: { in: professorLikeIds } },
+      include: {
+        professor: { select: { id: true, name: true, title: true } },
+        course: { select: { id: true, code: true, name: true } },
+      },
+    });
+
     return NextResponse.json({
       likes,
+      likedCourseReviews: likedCourseReviews.map((r) => ({
+        ...r,
+        type: "course",
+        likedAt: likes.find((l) => l.reviewId === r.id)?.createdAt,
+      })),
+      likedProfessorReviews: likedProfessorReviews.map((r) => ({
+        ...r,
+        type: "professor",
+        likedAt: likes.find((l) => l.reviewId === r.id)?.createdAt,
+      })),
       total: likes.length,
     });
   } catch (error) {

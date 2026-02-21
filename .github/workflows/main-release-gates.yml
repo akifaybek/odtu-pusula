@@ -1,0 +1,115 @@
+name: Main Release Gates
+
+on:
+  push:
+    branches: [main]
+
+env:
+  NODE_VERSION: "20"
+  DATABASE_URL: "postgresql://postgres:postgres@localhost:5432/odtu_pusula_main"
+  DIRECT_URL: "postgresql://postgres:postgres@localhost:5432/odtu_pusula_main"
+  NEXTAUTH_URL: "http://localhost:3000"
+  NEXTAUTH_SECRET: "ci-local-secret-32-chars-minimum"
+  CI: "true"
+
+concurrency:
+  group: "main-release-${{ github.ref }}"
+  cancel-in-progress: true
+
+jobs:
+  build-smoke-migration:
+    name: build-smoke-migration
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: odtu_pusula_main
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd="pg_isready -U postgres -d odtu_pusula_main"
+          --health-interval=10s
+          --health-timeout=5s
+          --health-retries=5
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ env.NODE_VERSION }}
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Wait for Postgres
+        run: |
+          for i in {1..30}; do
+            if nc -z localhost 5432; then
+              echo "Postgres is ready"
+              exit 0
+            fi
+            sleep 1
+          done
+          echo "Postgres did not become ready in time"
+          exit 1
+
+      - name: Prisma generate
+        run: npx prisma generate
+
+      - name: Migration safety check
+        run: |
+          set -o pipefail
+          npx prisma validate 2>&1 | tee migration-validate.log
+          npx prisma migrate status 2>&1 | tee migration-status.log
+          npx prisma migrate deploy 2>&1 | tee migration-deploy.log
+
+      - name: Build
+        run: |
+          set -o pipefail
+          npm run build 2>&1 | tee build.log
+        env:
+          SKIP_ENV_VALIDATION: true
+
+      - name: Start app for smoke test
+        run: |
+          npm run start > app.log 2>&1 &
+          echo $! > app.pid
+
+      - name: Smoke test
+        run: |
+          set -e
+          for i in {1..30}; do
+            if curl -fsS http://127.0.0.1:3000/api/departments > /dev/null; then
+              echo "Smoke test passed"
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Smoke test failed: /api/departments did not become healthy"
+          exit 1
+
+      - name: Stop app
+        if: always()
+        run: |
+          if [ -f app.pid ]; then
+            kill "$(cat app.pid)" || true
+          fi
+
+      - name: Upload diagnostics (always)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: main-release-artifacts
+          path: |
+            *.log
+            app.log
+          retention-days: 14

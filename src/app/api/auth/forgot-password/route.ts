@@ -3,43 +3,23 @@ import prisma from "@/lib/prisma";
 import { sendPasswordResetEmail } from "@/lib/email";
 import { z } from "zod";
 import crypto from "crypto";
+import { buildRateLimitHeaders, checkRateLimitByPolicy, getClientIp } from "@/lib/rate-limit";
 
 // Validation schema
 const forgotPasswordSchema = z.object({
   email: z
     .string()
-    .email("Geçerli bir email adresi giriniz")
+    .email("Geçerli bir email adresi girin")
     .refine(
       (email) => email.endsWith("@metu.edu.tr"),
-      "Sadece @metu.edu.tr mail adresleri kabul edilir"
+      "Sadece @metu.edu.tr uzantılı email adresleri kabul edilmektedir"
     ),
 });
-
-// Rate limiting - basit in-memory store (production'da Redis kullanılmalı)
-const rateLimitStore = new Map<string, { count: number; resetAt: number }>();
-const RATE_LIMIT_MAX = 3;
-const RATE_LIMIT_WINDOW = 15 * 60 * 1000; // 15 dakika
-
-function checkRateLimit(email: string): boolean {
-  const now = Date.now();
-  const record = rateLimitStore.get(email);
-
-  if (!record || now > record.resetAt) {
-    rateLimitStore.set(email, { count: 1, resetAt: now + RATE_LIMIT_WINDOW });
-    return true;
-  }
-
-  if (record.count >= RATE_LIMIT_MAX) {
-    return false;
-  }
-
-  record.count++;
-  return true;
-}
 
 // POST /api/auth/forgot-password
 export async function POST(request: NextRequest) {
   try {
+    const ip = getClientIp(request);
     const body = await request.json();
 
     // Validation
@@ -53,64 +33,73 @@ export async function POST(request: NextRequest) {
     }
 
     const { email } = validationResult.data;
+    const normalizedEmail = email.toLowerCase().trim();
 
-    // Rate limiting
-    if (!checkRateLimit(email)) {
+    // Rate limiting - hem IP hem email bazında
+    const rateLimitResult = await checkRateLimitByPolicy("email", `forgot-password:${ip}:${normalizedEmail}`);
+
+    if (!rateLimitResult.success) {
       return NextResponse.json(
-        { error: "Çok fazla deneme yaptınız. 15 dakika sonra tekrar deneyin." },
-        { status: 429 }
+        { error: "Çok fazla deneme. Lütfen daha sonra tekrar deneyin." },
+        {
+          status: 429,
+          headers: buildRateLimitHeaders(rateLimitResult),
+        }
       );
     }
 
-    // Kullanıcıyı kontrol et
+    // Check if user exists - now we inform the user if not registered
     const user = await prisma.user.findUnique({
-      where: { email },
+      where: { email: normalizedEmail },
     });
 
-    // Güvenlik: Kullanıcı olup olmadığını açıklamıyoruz
-    // Her durumda aynı mesajı döneriz
     if (!user) {
-      // Yine de başarılı mesajı dön (güvenlik için)
-      return NextResponse.json({
-        message: "Eğer bu email kayıtlıysa, şifre sıfırlama linki gönderildi.",
-      });
+      return NextResponse.json(
+        { error: "Bu email adresi ile kayıtlı bir hesap bulunamadı." },
+        { status: 404 }
+      );
     }
 
-    // Önceki token'ları sil
+    // Delete previous tokens
     await prisma.passwordResetToken.deleteMany({
-      where: { email },
+      where: { email: normalizedEmail },
     });
 
-    // Yeni token oluştur (UUID + timestamp için ekstra güvenlik)
+    // Create new token (UUID + timestamp for extra security)
     const token = crypto.randomBytes(32).toString("hex");
-    const expires = new Date(Date.now() + 60 * 60 * 1000); // 1 saat
+    const expires = new Date(Date.now() + 60 * 60 * 1000); // 1 hour
 
-    // Token'ı kaydet
+    // Save token
     await prisma.passwordResetToken.create({
       data: {
-        email,
+        email: normalizedEmail,
         token,
         expires,
       },
     });
 
-    // Reset linki oluştur
+    // Create reset link
     const appUrl = process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000";
-    const resetLink = `${appUrl}/sifre-sifirla/${token}`;
+    const resetLink = `${appUrl}/reset-password/${token}`;
 
-    // Email gönder
+    // Send email
     const emailResult = await sendPasswordResetEmail({
-      email,
+      email: normalizedEmail,
       resetLink,
     });
 
     if (!emailResult.success) {
       console.error("Email send failed:", emailResult.error);
-      // Yine de başarılı mesajı dön (güvenlik için)
+      return NextResponse.json(
+        { error: "Email gönderilemedi. Lütfen daha sonra tekrar deneyin." },
+        { status: 500 }
+      );
     }
 
+    console.log(`✅ Password reset email sent to ${normalizedEmail}`);
+
     return NextResponse.json({
-      message: "Eğer bu email kayıtlıysa, şifre sıfırlama linki gönderildi.",
+      message: "Şifre sıfırlama linki email adresinize gönderildi.",
     });
   } catch (error) {
     console.error("Forgot password error:", error);

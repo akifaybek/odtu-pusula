@@ -69,7 +69,7 @@ interface MiniCourseCardProps {
 
 function MiniCourseCard({ code, name, rating }: MiniCourseCardProps) {
   return (
-    <Link href={`/dersler/${code.replace(" ", "-")}`}>
+    <Link href={`/courses/${code.replace(" ", "-")}`}>
       <div className="min-w-[180px] bg-card border border-border/50 rounded-xl p-4 hover:border-primary/30 hover:shadow-lg transition-all cursor-pointer group">
         <div className="font-semibold text-foreground group-hover:text-primary transition-colors mb-1">
           {code}

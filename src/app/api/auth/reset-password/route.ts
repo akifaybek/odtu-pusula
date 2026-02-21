@@ -1,26 +1,12 @@
 import { NextRequest, NextResponse } from "next/server";
 import prisma from "@/lib/prisma";
 import bcrypt from "bcryptjs";
-import { z } from "zod";
-
-// Validation schema
-const resetPasswordSchema = z
-  .object({
-    token: z.string().min(1, "Token gereklidir"),
-    newPassword: z
-      .string()
-      .min(6, "Şifre en az 6 karakter olmalıdır")
-      .max(100, "Şifre çok uzun"),
-    confirmPassword: z.string(),
-  })
-  .refine((data) => data.newPassword === data.confirmPassword, {
-    message: "Şifreler eşleşmiyor",
-    path: ["confirmPassword"],
-  });
+import { resetPasswordSchema } from "@/lib/validation";
 
 // POST /api/auth/reset-password
 export async function POST(request: NextRequest) {
   try {
+
     const body = await request.json();
 
     // Validation
@@ -34,6 +20,14 @@ export async function POST(request: NextRequest) {
     }
 
     const { token, newPassword } = validationResult.data;
+
+    // Validate token format (64 hex characters)
+    if (!token || !/^[a-f0-9]{64}$/i.test(token)) {
+      return NextResponse.json(
+        { error: "Geçersiz token formatı" },
+        { status: 400 }
+      );
+    }
 
     // Token'ı bul
     const resetToken = await prisma.passwordResetToken.findUnique({
@@ -72,8 +66,8 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    // Yeni şifreyi hashle
-    const hashedPassword = await bcrypt.hash(newPassword, 10);
+    // Yeni şifreyi hashle (consistent salt rounds)
+    const hashedPassword = await bcrypt.hash(newPassword, 12);
 
     // Transaction ile şifreyi güncelle ve token'ı sil
     await prisma.$transaction([

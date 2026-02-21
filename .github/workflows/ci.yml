@@ -1,0 +1,13 @@
+name: Legacy CI (Manual Only)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: CI workflows moved
+        run: |
+          echo "Use .github/workflows/pr-quality-gates.yml for PR checks"
+          echo "Use .github/workflows/main-release-gates.yml for main branch gates"

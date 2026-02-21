@@ -2,6 +2,7 @@
 
 import { cn } from "@/lib/utils";
 import { Compass, Mountain, TrendingUp } from "lucide-react";
+import { useTranslation } from "@/contexts/LanguageContext";
 
 type DifficultyLevel = "easy" | "medium" | "hard";
 
@@ -12,29 +13,33 @@ interface DifficultyBadgeProps {
   size?: "sm" | "md" | "lg";
 }
 
-const difficultyConfig = {
-  easy: {
-    label: "Kolay Rota",
-    color: "text-emerald-500",
-    bg: "bg-emerald-500/10",
-    border: "border-emerald-500/20",
-    icon: TrendingUp,
-  },
-  medium: {
-    label: "Orta Rota",
-    color: "text-amber-500",
-    bg: "bg-amber-500/10",
-    border: "border-amber-500/20",
-    icon: Compass,
-  },
-  hard: {
-    label: "Zorlu Rota",
-    color: "text-red-500",
-    bg: "bg-red-500/10",
-    border: "border-red-500/20",
-    icon: Mountain,
-  },
-};
+function useDifficultyConfig() {
+  const { t } = useTranslation();
+
+  return {
+    easy: {
+      label: t("difficulty.easy"),
+      color: "text-emerald-500",
+      bg: "bg-emerald-500/10",
+      border: "border-emerald-500/20",
+      icon: TrendingUp,
+    },
+    medium: {
+      label: t("difficulty.medium"),
+      color: "text-amber-500",
+      bg: "bg-amber-500/10",
+      border: "border-amber-500/20",
+      icon: Compass,
+    },
+    hard: {
+      label: t("difficulty.hard"),
+      color: "text-red-500",
+      bg: "bg-red-500/10",
+      border: "border-red-500/20",
+      icon: Mountain,
+    },
+  };
+}
 
 export function getDifficultyFromScore(score: number): DifficultyLevel {
   if (score <= 2.5) return "easy";
@@ -48,6 +53,7 @@ export default function DifficultyBadge({
   showLabel = true,
   size = "md",
 }: DifficultyBadgeProps) {
+  const difficultyConfig = useDifficultyConfig();
   const config = difficultyConfig[level];
   const Icon = config.icon;
 
